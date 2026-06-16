@@ -3,14 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PDS Flows Video Stage</title>
+  <title>PDS Flows Review Stage</title>
   <style>
     *{box-sizing:border-box}
     html{scroll-snap-type:y proximity;background:#05070a}
     body{margin:0;background:#05070a;color:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     main{min-height:100svh}
+    .stage-label{max-width:880px;margin:0 auto 16px;color:#94a3b8;font-size:12px;line-height:1.35;text-transform:uppercase;letter-spacing:.08em}
     .stage-item{position:relative;min-height:100svh;display:grid;place-items:center;padding:0;scroll-snap-align:start}
     .stage-item video{width:min(100vw,calc(100svh * 9 / 16));height:min(100svh,calc(100vw * 16 / 9));max-width:100vw;max-height:100svh;aspect-ratio:9/16;object-fit:contain;background:#000}
+    .video-review{background:#05070a;border-top:1px solid #1f2937}
+    .video-review h1{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
     .waiting{min-height:32svh;display:grid;place-items:center;text-align:center;padding:40px 18px;color:#cbd5e1;border-top:1px solid #111827}
     .waiting span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
     .waiting strong{display:block;margin-top:6px;font-size:20px;color:#f8fafc}
@@ -31,48 +34,8 @@
 </head>
 <body>
   <main>
-    
-<section class="stage-item" id="S1">
-  <video controls playsinline preload="metadata" poster="s1-cam-a-okay-seriously-cleanpass-20260616-1455-video-poster.jpg" src="s1-cam-a-okay-seriously-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S2">
-  <video controls playsinline preload="metadata" poster="s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video-poster.jpg" src="s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S3">
-  <video controls playsinline preload="metadata" poster="s3-cam-a-wait-really-cleanpass-20260616-1455-video-poster.jpg" src="s3-cam-a-wait-really-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S4">
-  <video controls playsinline preload="metadata" poster="s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video-poster.jpg" src="s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S5">
-  <video controls playsinline preload="metadata" poster="s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video-poster.jpg" src="s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S6">
-  <video controls playsinline preload="metadata" poster="s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video-poster.jpg" src="s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S7">
-  <video controls playsinline preload="metadata" poster="s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video-poster.jpg" src="s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S8">
-  <video controls playsinline preload="metadata" poster="s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video-poster.jpg" src="s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="S9">
-  <video controls playsinline preload="metadata" poster="s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video-poster.jpg" src="s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video.mp4"></video>
-</section>
-
-<section class="stage-item" id="END">
-  <video controls playsinline preload="metadata" poster="end-card-meal-prep-screenshot-cta-hold-20260616-video-poster.jpg" src="end-card-meal-prep-screenshot-cta-hold-20260616-video.mp4"></video>
-</section>
-    
     <section class="shot-review" aria-label="Candid camera direction board">
+      <div class="stage-label">Current review stage · newest generated media</div>
       <h1>Candid Camera Direction Board</h1>
       
 <section class="shot-card">
@@ -130,6 +93,50 @@
     <p>Recommended CTA treatment: keep the real screenshot as the visual and place Character B&#39;s CTA audio over it, instead of showing her performing the CTA to camera.</p>
   </div>
 </section>
+    </section>
+    <section class="video-review" aria-label="Existing video reference strip">
+      <h1>Existing Video Reference Strip</h1>
+      
+<section class="stage-item" id="S1">
+  <video controls playsinline preload="metadata" poster="s1-cam-a-okay-seriously-cleanpass-20260616-1455-video-poster.jpg" src="s1-cam-a-okay-seriously-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S2">
+  <video controls playsinline preload="metadata" poster="s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video-poster.jpg" src="s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S3">
+  <video controls playsinline preload="metadata" poster="s3-cam-a-wait-really-cleanpass-20260616-1455-video-poster.jpg" src="s3-cam-a-wait-really-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S4">
+  <video controls playsinline preload="metadata" poster="s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video-poster.jpg" src="s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S5">
+  <video controls playsinline preload="metadata" poster="s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video-poster.jpg" src="s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S6">
+  <video controls playsinline preload="metadata" poster="s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video-poster.jpg" src="s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S7">
+  <video controls playsinline preload="metadata" poster="s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video-poster.jpg" src="s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S8">
+  <video controls playsinline preload="metadata" poster="s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video-poster.jpg" src="s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="S9">
+  <video controls playsinline preload="metadata" poster="s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video-poster.jpg" src="s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video.mp4"></video>
+</section>
+
+<section class="stage-item" id="END">
+  <video controls playsinline preload="metadata" poster="end-card-meal-prep-screenshot-cta-hold-20260616-video-poster.jpg" src="end-card-meal-prep-screenshot-cta-hold-20260616-video.mp4"></video>
+</section>
+      
     </section>
     <section class="audio-review" aria-label="Audio beds for approval">
       <h1>Audio Beds For Approval</h1>

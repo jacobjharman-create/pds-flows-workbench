@@ -126,14 +126,17 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PDS Flows Video Stage</title>
+  <title>PDS Flows Review Stage</title>
   <style>
     *{box-sizing:border-box}
     html{scroll-snap-type:y proximity;background:#05070a}
     body{margin:0;background:#05070a;color:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     main{min-height:100svh}
+    .stage-label{max-width:880px;margin:0 auto 16px;color:#94a3b8;font-size:12px;line-height:1.35;text-transform:uppercase;letter-spacing:.08em}
     .stage-item{position:relative;min-height:100svh;display:grid;place-items:center;padding:0;scroll-snap-align:start}
     .stage-item video{width:min(100vw,calc(100svh * 9 / 16));height:min(100svh,calc(100vw * 16 / 9));max-width:100vw;max-height:100svh;aspect-ratio:9/16;object-fit:contain;background:#000}
+    .video-review{background:#05070a;border-top:1px solid #1f2937}
+    .video-review h1{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
     .waiting{min-height:32svh;display:grid;place-items:center;text-align:center;padding:40px 18px;color:#cbd5e1;border-top:1px solid #111827}
     .waiting span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
     .waiting strong{display:block;margin-top:6px;font-size:20px;color:#f8fafc}
@@ -154,12 +157,16 @@ const html = `<!doctype html>
 </head>
 <body>
   <main>
-    ${available.map(renderVideo).join("\n")}
-    ${waitingMarkup}
     ${shotBoard.length ? `<section class="shot-review" aria-label="Candid camera direction board">
+      <div class="stage-label">Current review stage · newest generated media</div>
       <h1>Candid Camera Direction Board</h1>
       ${shotBoard.map(renderShot).join("\n")}
     </section>` : ""}
+    <section class="video-review" aria-label="Existing video reference strip">
+      <h1>Existing Video Reference Strip</h1>
+      ${available.map(renderVideo).join("\n")}
+      ${waitingMarkup}
+    </section>
     ${audioBeds.length ? `<section class="audio-review" aria-label="Audio beds for approval">
       <h1>Audio Beds For Approval</h1>
       ${audioBeds.map(renderAudioBed).join("\n")}

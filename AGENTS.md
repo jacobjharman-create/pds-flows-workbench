@@ -52,6 +52,15 @@ Required behavior:
 5. Commit and push the `hostinger-live` sink when files changed.
 6. Verify the public page at `https://prometheusdesignstudios.com/pds-flows-workbench/?v=<live_commit>`.
 7. Confirm public MP4 files return `206 video/mp4` for phone playback.
-8. Always send Jacob the updated sandbox link after verification.
+8. Confirm public poster/still images and audio beds return valid phone-safe responses when present.
+9. Always send Jacob the updated sandbox link after verification.
 
 Default output should remain videos-only unless Jacob explicitly asks for a different review stage.
+
+Stage-first rule:
+
+- The sandbox must lead with the newest media type from the current update.
+- If the latest update produced photos/stills, the photo/still board goes first.
+- If the latest update produced videos, the video strip goes first.
+- If the latest update produced audio beds, include the audio section near the relevant current stage.
+- Older videos, stills, or audio can remain below as reference, but Jacob should not have to scroll past stale media to find the newest output.
