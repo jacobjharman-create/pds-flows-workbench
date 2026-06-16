@@ -38,3 +38,20 @@ Open the hosted URL on desktop and mobile/cellular. Confirm images and MP4 previ
 - Do not store ElevenLabs credentials, API keys, private client data, or signed temporary URLs as source of truth.
 - Prefer downloaded preview assets over expiring ElevenLabs signed URLs.
 - Use low-resolution draft assets for wiring and lip-sync QA. Upgrade only after approval.
+
+## Update Sandbox Trigger
+
+When Jacob says `update sandbox`, treat it as a complete PDS Flows sandbox publish task.
+
+Required behavior:
+
+1. Rebuild the local sandbox from this source repo.
+2. Verify the generated page and assets.
+3. Sync the workbench into `/Users/CoachHarman/Documents/Codex/prometheus-design-studios-ai-studio/pds-flows-workbench/`.
+4. Commit and push this source repo when files changed.
+5. Commit and push the `hostinger-live` sink when files changed.
+6. Verify the public page at `https://prometheusdesignstudios.com/pds-flows-workbench/?v=<live_commit>`.
+7. Confirm public MP4 files return `206 video/mp4` for phone playback.
+8. Always send Jacob the updated sandbox link after verification.
+
+Default output should remain videos-only unless Jacob explicitly asks for a different review stage.
