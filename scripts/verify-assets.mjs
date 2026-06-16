@@ -27,7 +27,14 @@ if (missing.length) {
   process.exit(1);
 }
 
+const indexHtml = fs.readFileSync(indexPath, "utf8");
+if (indexHtml.includes("blob:")) {
+  console.error("index.html contains non-portable blob URLs.");
+  process.exit(1);
+}
+
 const mp4Count = localAssets.filter((file) => file.endsWith(".mp4")).length;
 const imageCount = localAssets.filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file)).length;
+const audioCount = localAssets.filter((file) => /\.(mp3|m4a|wav|ogg)$/i.test(file)).length;
 
-console.log(`Verified ${localAssets.length} assets (${imageCount} images, ${mp4Count} videos).`);
+console.log(`Verified ${localAssets.length} assets (${imageCount} images, ${mp4Count} videos, ${audioCount} audio).`);

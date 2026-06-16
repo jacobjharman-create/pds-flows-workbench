@@ -77,10 +77,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "music-upscale-lounge-bed-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 689999,
+            "mime": "audio/mpeg"
           }
         }
       ]
@@ -97,10 +99,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s1-tts-char-a-okay-seriously-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 83342,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -130,10 +134,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 57429,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -163,10 +169,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s3-tts-char-a-wait-really-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 29425,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -216,10 +224,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 65370,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -249,10 +259,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s6-tts-char-a-that-sounds-way-too-easy-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 49905,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -282,10 +294,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 77909,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -315,10 +329,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s8-tts-char-a-okay-i-need-that-today-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 46144,
+            "mime": "audio/mpeg"
           }
         },
         {
@@ -348,10 +364,12 @@
           "alt": "",
           "w": 0,
           "h": 0,
-          "local": null,
+          "local": "s9-tts-char-b-go-to-mealpreprevolution-com-0-audio.mp3",
           "downloadStatus": {
-            "ok": false,
-            "reason": "blob-url"
+            "ok": true,
+            "source": "safari-blob-capture",
+            "bytes": 87104,
+            "mime": "audio/mpeg"
           }
         },
         {

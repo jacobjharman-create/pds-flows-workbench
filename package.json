@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "node scripts/rebuild-index.mjs",
     "start": "python3 -m http.server 8787",
     "verify": "node scripts/verify-assets.mjs"
   }

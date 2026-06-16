@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Music — Upscale Lounge Bed",
+    "file": "music-upscale-lounge-bed-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 689999,
+    "nodeIndex": 4,
+    "audioIndex": 0
+  },
+  {
+    "title": "S1 TTS — Char A — \"Okay, seriously...\"",
+    "file": "s1-tts-char-a-okay-seriously-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 83342,
+    "nodeIndex": 5,
+    "audioIndex": 0
+  },
+  {
+    "title": "S2 TTS — Char B — \"Honestly? Meal Prep Revolution.\"",
+    "file": "s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 57429,
+    "nodeIndex": 6,
+    "audioIndex": 0
+  },
+  {
+    "title": "S3 TTS — Char A — \"Wait, really?\"",
+    "file": "s3-tts-char-a-wait-really-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 29425,
+    "nodeIndex": 7,
+    "audioIndex": 0
+  },
+  {
+    "title": "S5 TTS — Char B — \"They cook everything...\"",
+    "file": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 65370,
+    "nodeIndex": 9,
+    "audioIndex": 0
+  },
+  {
+    "title": "S6 TTS — Char A — \"That sounds way too easy.\"",
+    "file": "s6-tts-char-a-that-sounds-way-too-easy-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 49905,
+    "nodeIndex": 10,
+    "audioIndex": 0
+  },
+  {
+    "title": "S7 TTS — Char B — \"It is. My family loves it...\"",
+    "file": "s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 77909,
+    "nodeIndex": 11,
+    "audioIndex": 0
+  },
+  {
+    "title": "S8 TTS — Char A — \"Okay, I need that today.\"",
+    "file": "s8-tts-char-a-okay-i-need-that-today-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 46144,
+    "nodeIndex": 12,
+    "audioIndex": 0
+  },
+  {
+    "title": "S9 TTS — Char B — \"Go to MealPrepRevolution.com...\"",
+    "file": "s9-tts-char-b-go-to-mealpreprevolution-com-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 87104,
+    "nodeIndex": 13,
+    "audioIndex": 0
+  }
+]
