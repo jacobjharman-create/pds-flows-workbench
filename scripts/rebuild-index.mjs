@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 
 const root = process.cwd();
 const nodesPath = path.join(root, "nodes.json");
@@ -33,6 +34,35 @@ const sceneNodes = new Map(
 const endCardNode = nodes.find((node) => node.title === "END CARD — Animated Hold");
 
 const videoFor = (node) => (node?.media ?? []).find((media) => media.tag === "VIDEO" && media.local);
+const posterFor = (video) => {
+  if (!video?.local) return "";
+  const parsed = path.parse(video.local);
+  const poster = `${parsed.name}-poster.jpg`;
+  const videoPath = path.join(root, video.local);
+  const posterPath = path.join(root, poster);
+  if (!fs.existsSync(videoPath)) return "";
+  const shouldCreate =
+    !fs.existsSync(posterPath) ||
+    fs.statSync(posterPath).mtimeMs < fs.statSync(videoPath).mtimeMs;
+  if (shouldCreate) {
+    execFileSync("ffmpeg", [
+      "-y",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-ss",
+      "0.12",
+      "-i",
+      videoPath,
+      "-frames:v",
+      "1",
+      "-q:v",
+      "3",
+      posterPath,
+    ]);
+  }
+  return poster;
+};
 
 const timeline = [
   ...Array.from({ length: 9 }, (_, index) => {
@@ -54,10 +84,13 @@ const timeline = [
 const available = timeline.filter((item) => item.video);
 const waiting = timeline.filter((item) => !item.video);
 
-const renderVideo = (item) => `
+const renderVideo = (item) => {
+  const poster = posterFor(item.video);
+  return `
 <section class="stage-item" id="${attr(item.key)}">
-  <video controls playsinline preload="metadata" src="${attr(item.video.local)}"></video>
+  <video controls playsinline preload="metadata"${poster ? ` poster="${attr(poster)}"` : ""} src="${attr(item.video.local)}"></video>
 </section>`;
+};
 
 const renderAudioBed = (bed) => `
 <section class="audio-bed">

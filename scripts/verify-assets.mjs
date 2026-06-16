@@ -54,8 +54,25 @@ if (unexpectedAudio.length) {
   process.exit(1);
 }
 
+const videoTags = [...indexHtml.matchAll(/<video\b[^>]*>/g)].map((match) => match[0]);
+const videoPosters = videoTags
+  .map((tag) => tag.match(/\bposter="([^"]+)"/)?.[1])
+  .filter(Boolean);
+if (videoPosters.length !== videoTags.length) {
+  console.error(`Expected every video to have a poster; found ${videoPosters.length}/${videoTags.length}.`);
+  process.exit(1);
+}
+
+const missingPosters = videoPosters.filter((file) => !fs.existsSync(path.join(root, file)));
+if (missingPosters.length) {
+  console.error("Missing video poster assets:");
+  for (const file of missingPosters) console.error(`- ${file}`);
+  process.exit(1);
+}
+
 const mp4Count = localAssets.filter((file) => file.endsWith(".mp4")).length;
-const imageCount = localAssets.filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file)).length;
+const imageCount =
+  localAssets.filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file)).length + videoPosters.length;
 const audioCount = localAssets.filter((file) => /\.(mp3|m4a|wav|ogg)$/i.test(file)).length;
 
-console.log(`Verified ${localAssets.length} assets (${imageCount} images, ${mp4Count} videos, ${audioCount} audio).`);
+console.log(`Verified ${localAssets.length + videoPosters.length} assets (${imageCount} images, ${mp4Count} videos, ${audioCount} audio).`);
