@@ -4,8 +4,12 @@ import path from "node:path";
 const root = process.cwd();
 const nodesPath = path.join(root, "nodes.json");
 const indexPath = path.join(root, "index.html");
+const audioBedsPath = path.join(root, "audio-beds.json");
 const data = JSON.parse(fs.readFileSync(nodesPath, "utf8"));
 const nodes = data.nodes ?? [];
+const audioBeds = fs.existsSync(audioBedsPath)
+  ? JSON.parse(fs.readFileSync(audioBedsPath, "utf8")).beds ?? []
+  : [];
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -55,6 +59,15 @@ const renderVideo = (item) => `
   <video controls playsinline preload="metadata" src="${attr(item.video.local)}"></video>
 </section>`;
 
+const renderAudioBed = (bed) => `
+<section class="audio-bed">
+  <div>
+    <strong>${escapeHtml(bed.title)}</strong>
+    <p>${escapeHtml(bed.note)}</p>
+  </div>
+  <audio controls preload="metadata" src="${attr(bed.file)}"></audio>
+</section>`;
+
 const waitingMarkup = waiting.length
   ? `<section class="waiting">
       <span>Waiting for video</span>
@@ -78,12 +91,22 @@ const html = `<!doctype html>
     .waiting{min-height:32svh;display:grid;place-items:center;text-align:center;padding:40px 18px;color:#cbd5e1;border-top:1px solid #111827}
     .waiting span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
     .waiting strong{display:block;margin-top:6px;font-size:20px;color:#f8fafc}
+    .audio-review{padding:28px 16px 40px;background:#080b11;border-top:1px solid #1f2937}
+    .audio-review h1{margin:0 auto 16px;max-width:880px;font-size:18px;font-weight:700;line-height:1.15}
+    .audio-bed{max-width:880px;margin:0 auto 12px;padding:14px;background:#111827;border:1px solid #263244;border-radius:8px}
+    .audio-bed strong{display:block;font-size:14px;line-height:1.2}
+    .audio-bed p{margin:5px 0 12px;color:#cbd5e1;font-size:12px;line-height:1.35}
+    .audio-bed audio{display:block;width:100%}
   </style>
 </head>
 <body>
   <main>
     ${available.map(renderVideo).join("\n")}
     ${waitingMarkup}
+    ${audioBeds.length ? `<section class="audio-review" aria-label="Audio beds for approval">
+      <h1>Audio Beds For Approval</h1>
+      ${audioBeds.map(renderAudioBed).join("\n")}
+    </section>` : ""}
   </main>
 </body>
 </html>

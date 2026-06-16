@@ -4,6 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const indexPath = path.join(root, "index.html");
 const nodesPath = path.join(root, "nodes.json");
+const audioBedsPath = path.join(root, "audio-beds.json");
 
 const required = [indexPath, nodesPath];
 for (const file of required) {
@@ -14,11 +15,17 @@ for (const file of required) {
 }
 
 const nodes = JSON.parse(fs.readFileSync(nodesPath, "utf8")).nodes ?? [];
-const localAssets = nodes.flatMap((node) =>
-  (node.media ?? [])
-    .map((media) => media.local)
-    .filter(Boolean)
-);
+const audioBeds = fs.existsSync(audioBedsPath)
+  ? JSON.parse(fs.readFileSync(audioBedsPath, "utf8")).beds ?? []
+  : [];
+const localAssets = [
+  ...nodes.flatMap((node) =>
+    (node.media ?? [])
+      .map((media) => media.local)
+      .filter(Boolean)
+  ),
+  ...audioBeds.map((bed) => bed.file).filter(Boolean),
+];
 
 const missing = localAssets.filter((file) => !fs.existsSync(path.join(root, file)));
 if (missing.length) {
@@ -33,8 +40,17 @@ if (indexHtml.includes("blob:")) {
   process.exit(1);
 }
 
-if (indexHtml.includes("<audio") || indexHtml.includes("<img")) {
-  console.error("video-stage index.html must not embed audio or image tags.");
+if (indexHtml.includes("<img")) {
+  console.error("sandbox index.html must not embed image tags.");
+  process.exit(1);
+}
+
+const audioSrcs = [...indexHtml.matchAll(/<audio[^>]+src="([^"]+)"/g)].map((match) => match[1]);
+const allowedAudio = new Set(audioBeds.map((bed) => bed.file));
+const unexpectedAudio = audioSrcs.filter((src) => !allowedAudio.has(src));
+if (unexpectedAudio.length) {
+  console.error("Unexpected audio tags:");
+  for (const src of unexpectedAudio) console.error(`- ${src}`);
   process.exit(1);
 }
 
