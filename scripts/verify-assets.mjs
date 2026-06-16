@@ -33,6 +33,11 @@ if (indexHtml.includes("blob:")) {
   process.exit(1);
 }
 
+if (indexHtml.includes("<audio") || indexHtml.includes("<img")) {
+  console.error("video-stage index.html must not embed audio or image tags.");
+  process.exit(1);
+}
+
 const mp4Count = localAssets.filter((file) => file.endsWith(".mp4")).length;
 const imageCount = localAssets.filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file)).length;
 const audioCount = localAssets.filter((file) => /\.(mp3|m4a|wav|ogg)$/i.test(file)).length;

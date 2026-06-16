@@ -3,703 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PDS Flows Progress Preview</title>
+  <title>PDS Flows Video Stage</title>
   <style>
     *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#0f1115;color:#f5f1e8;overflow-x:hidden}
-    a{color:#93c5fd}
-    header{position:sticky;top:0;background:#0f1115f2;backdrop-filter:blur(12px);padding:10px 14px;border-bottom:1px solid #282d35;z-index:3}
-    h1{font-size:18px;line-height:1.1;margin:0 0 2px}
-    h2{font-size:14px;margin:18px 14px 8px;color:#e5e7eb}
-    .flow{color:#93c5fd}
-    .portable{font-size:11px;color:#b8c1cc;margin-top:4px}
-    .campaign-line{font-size:14px;line-height:1.2;overflow-wrap:anywhere}
-    .overview{padding:10px 14px 6px;border-bottom:1px solid #202734;background:#10141b}
-    .status-strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-bottom:8px}
-    .status-strip div{min-width:0;background:#171b22;border:1px solid #2c3340;border-radius:7px;padding:7px 8px}
-    .status-strip strong{display:block;font-size:18px;line-height:1;color:#fff}
-    .status-strip span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8;margin-top:3px}
-    .mini-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(116px,1fr));gap:7px}
-    .mini-card{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr);gap:7px;min-width:0;min-height:48px;overflow:hidden;text-decoration:none;color:#e5e7eb;background:#171b22;border:1px solid #2c3340;border-radius:7px;padding:6px}
-    .mini-card:hover,.mini-card:focus{border-color:#93c5fd;outline:none}
-    .thumb{width:34px;height:34px;border-radius:5px;overflow:hidden;background:#0a0d12;display:grid;place-items:center}
-    .thumb img,.thumb video{width:100%;height:100%;object-fit:cover;border-radius:0;background:#0a0d12}
-    .empty-thumb{font-size:9px;text-transform:uppercase;color:#94a3b8}
-    .mini-copy{min-width:0}
-    .mini-copy strong{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;line-height:1.2}
-    .mini-copy span{display:inline-block;margin-top:3px;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8}
-    .type-chips{position:absolute;right:5px;bottom:5px;display:flex;gap:2px}
-    .type-chips span{font-size:8px;line-height:1;color:#cbd5e1;background:#243044;border-radius:3px;padding:2px 3px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;padding:0 14px 18px}
-    .card{background:#171b22;border:1px solid #2c3340;border-radius:8px;padding:10px;scroll-margin-top:78px}
-    .card h3{font-size:13px;line-height:1.2;margin:0 0 6px}
-    .meta{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:7px}
-    .meta span{font-size:10px;color:#b8c1cc;background:#222936;padding:2px 5px;border-radius:4px;word-break:break-word}
-    .failed{border-color:#7f1d1d}
-    .not-generated{border-color:#7c5f16}
-    .preview-available{border-color:#31523e}
-    img,video{width:100%;max-height:180px;object-fit:contain;background:#0a0d12;border-radius:6px}
-    audio{width:100%;min-height:34px}
-    .summary-details{margin-top:7px}
-    .summary-details summary{cursor:pointer;font-size:11px;color:#93c5fd}
-    .summary{font-size:12px;line-height:1.45;color:#cbd5e1}
-    .muted{color:#94a3b8;font-size:12px}
-    .media-note{padding:8px;border:1px solid #334155;border-radius:6px;background:#111827}
-    .node{display:inline-block;color:#93c5fd;font-size:11px;margin-top:6px}
-    @media (min-width:1200px){
-      .mini-grid{grid-template-columns:repeat(auto-fill,minmax(128px,1fr))}
-      .overview{min-height:calc(100vh - 74px)}
-    }
+    html{scroll-snap-type:y proximity;background:#05070a}
+    body{margin:0;background:#05070a;color:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:#bfdbfe}
+    .topbar{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 14px;background:linear-gradient(180deg,#05070ad9,#05070a8a 72%,transparent);backdrop-filter:blur(10px)}
+    .title{min-width:0}
+    h1{margin:0;font-size:15px;line-height:1.1}
+    .meta{margin-top:3px;color:#cbd5e1;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .nav{display:flex;align-items:center;gap:6px;overflow-x:auto;max-width:52vw;padding-bottom:2px}
+    .nav a{flex:0 0 auto;text-decoration:none;font-size:11px;color:#dbeafe;background:#111827cc;border:1px solid #334155;border-radius:5px;padding:5px 7px}
+    .stage-item{position:relative;min-height:100svh;display:grid;place-items:center;padding:54px 14px 18px;scroll-snap-align:start}
+    .stage-item video{width:min(100%,calc(100svh * 9 / 16));height:min(calc(100svh - 88px),calc(100vw * 16 / 9));max-height:calc(100svh - 88px);aspect-ratio:9/16;object-fit:contain;background:#000;border:1px solid #1f2937;border-radius:8px;box-shadow:0 20px 80px #000a}
+    .stage-label{position:absolute;left:14px;bottom:14px;display:flex;align-items:center;gap:8px;max-width:calc(100% - 28px);padding:8px 10px;background:#05070acc;border:1px solid #1f2937;border-radius:7px;backdrop-filter:blur(10px)}
+    .stage-label span{font-size:11px;color:#94a3b8}
+    .stage-label strong{font-size:12px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .waiting{min-height:32svh;display:grid;place-items:center;text-align:center;padding:40px 18px;color:#cbd5e1;border-top:1px solid #111827}
+    .waiting span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
+    .waiting strong{display:block;margin-top:6px;font-size:20px;color:#f8fafc}
     @media (max-width:700px){
-      header{position:relative}
-      h1{font-size:17px}
-      .campaign-line{font-size:13px}
-      .status-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
-      .mini-grid{grid-template-columns:1fr}
-      .grid{grid-template-columns:1fr}
-      img,video{max-height:150px}
+      .topbar{align-items:flex-start;flex-direction:column;gap:7px}
+      .nav{max-width:100%;width:100%}
+      .stage-item{padding-top:86px}
+      .stage-item video{max-height:calc(100svh - 122px)}
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>PDS Flows Progress Preview</h1>
-    <div class="campaign-line">Meal Prep Revolution draft pass · <a class="flow" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open ElevenLabs Flow</a></div>
-    <div class="portable">Compact phone-safe review board. Tap a node to jump to its media and collapsed details.</div>
+  <header class="topbar">
+    <div class="title">
+      <h1>PDS Flows / Video Stage</h1>
+      <div class="meta">5 videos in final-order review · 5 slots waiting · <a href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open ElevenLabs Flow</a></div>
+    </div>
+    <nav class="nav" aria-label="Video timeline">
+      <a href="#S1">S1</a><a href="#S2">S2</a><a href="#S3">S3</a><a href="#S5">S5</a><a href="#END">END</a>
+    </nav>
   </header>
-  
-<section class="overview" aria-label="PDS Flows node overview">
-  <div class="status-strip">
-    <div><strong>27</strong><span>nodes</span></div>
-    <div><strong>21</strong><span>ready</span></div>
-    <div><strong>9</strong><span>audio</span></div>
-    <div><strong>5</strong><span>video</span></div>
-    <div><strong>5</strong><span>waiting</span></div>
-    <div><strong>1</strong><span>failed</span></div>
+  <main>
+    
+<section class="stage-item" id="S1">
+  <div class="stage-label">
+    <span>01</span>
+    <strong>Scene 1 / Camera A / Okay, seriously...</strong>
   </div>
-  <div class="mini-grid">
-<a class="mini-card preview-available" href="#cWW6F8fmpg9aFwxcqB7V" aria-label="REF — Character A (Brunette)">
-  <div class="thumb"><img loading="lazy" src="ref-character-a-brunette-0-img.webp" alt="REF — Character A (Brunette)"></div>
-  <div class="mini-copy">
-    <strong>Character A (Brunette)</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#hVLEGmvbeiRWqvIEqCd5" aria-label="REF — Character B (Blonde)">
-  <div class="thumb"><img loading="lazy" src="ref-character-b-blonde-0-img.webp" alt="REF — Character B (Blonde)"></div>
-  <div class="mini-copy">
-    <strong>Character B (Blonde)</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card not-generated" href="#wkVCrk3WDBgAPcX6Rhir" aria-label="REF — Gym Environment">
-  <div class="thumb"><div class="empty-thumb">wait</div></div>
-  <div class="mini-copy">
-    <strong>Gym Environment</strong>
-    <span>wait</span>
-  </div>
-  <div class="type-chips"><span>-</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#ERsNnt0EFR5uMFXNnJwi" aria-label="END CARD — Meal Prep Revolution">
-  <div class="thumb"><img loading="lazy" src="end-card-meal-prep-revolution-0-img.webp" alt="END CARD — Meal Prep Revolution"></div>
-  <div class="mini-copy">
-    <strong>End — Meal Prep Revolution</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#lr3Ldj184bwxNEdS5Onp" aria-label="Music — Upscale Lounge Bed">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>Music — Upscale Lounge Bed</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#5L28foBj5cG0gUTEmR36" aria-label="S1 TTS — Char A — &quot;Okay, seriously...&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S1 Char A — Okay, seriously...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#zqOIo00VyR1bdWTJtyN3" aria-label="S2 TTS — Char B — &quot;Honestly? Meal Prep Revolution.&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S2 Char B — Honestly? Meal Prep Revolution.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#v1Dv8W3r3DLQf87DrPsw" aria-label="S3 TTS — Char A — &quot;Wait, really?&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S3 Char A — Wait, really?</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card not-generated" href="#BwnTnLaI7sLvBiu0y75O" aria-label="S4 TTS — Char B — &quot;Yep. I pick my meals...&quot;">
-  <div class="thumb"><div class="empty-thumb">wait</div></div>
-  <div class="mini-copy">
-    <strong>S4 Char B — Yep. I pick my meals...</strong>
-    <span>wait</span>
-  </div>
-  <div class="type-chips"><span>-</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#kInWJN8Ml9DngjMCRUta" aria-label="S5 TTS — Char B — &quot;They cook everything...&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S5 Char B — They cook everything...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#hdw5DkX4Tp718vsymPTN" aria-label="S6 TTS — Char A — &quot;That sounds way too easy.&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S6 Char A — That sounds way too easy.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#7eCEEFwf1lucnCFLdLNq" aria-label="S7 TTS — Char B — &quot;It is. My family loves it...&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S7 Char B — It is. My family loves it...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#FtXAqezatQjf6UGdJQ6V" aria-label="S8 TTS — Char A — &quot;Okay, I need that today.&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S8 Char A — Okay, I need that today.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#zDdj6fCfTenBfJ0kFbyW" aria-label="S9 TTS — Char B — &quot;Go to MealPrepRevolution.com...&quot;">
-  <div class="thumb"><div class="empty-thumb">ready</div></div>
-  <div class="mini-copy">
-    <strong>S9 Char B — Go to MealPrepRevolution.com...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>A</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#2DYRui2go6dhHCzNE5AI" aria-label="S1 — CAM A — &quot;Okay, seriously...&quot;">
-  <div class="thumb"><img loading="lazy" src="s1-cam-a-okay-seriously-0-img.jpg" alt="S1 — CAM A — &quot;Okay, seriously...&quot;"></div>
-  <div class="mini-copy">
-    <strong>S1 — A — Okay, seriously...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span><span>V</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#2qqnFaHsUM33Z5g2ByAH" aria-label="S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot;">
-  <div class="thumb"><img loading="lazy" src="s2-cam-b-honestly-meal-prep-revolution-0-img.jpg" alt="S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot;"></div>
-  <div class="mini-copy">
-    <strong>S2 — B — Honestly? Meal Prep Revolution.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span><span>V</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#pWGSCG5q55E5GLUNYMil" aria-label="S3 — CAM A — &quot;Wait, really?&quot;">
-  <div class="thumb"><img loading="lazy" src="s3-cam-a-wait-really-0-img.jpg" alt="S3 — CAM A — &quot;Wait, really?&quot;"></div>
-  <div class="mini-copy">
-    <strong>S3 — A — Wait, really?</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span><span>V</span></div>
-</a>
-
-<a class="mini-card not-generated" href="#i7TYGS63Wsl3lKQG8we8" aria-label="S4 — CAM B — &quot;Yep. I pick my meals...&quot;">
-  <div class="thumb"><img loading="lazy" src="s4-cam-b-yep-i-pick-my-meals-0-img.webp" alt="S4 — CAM B — &quot;Yep. I pick my meals...&quot;"></div>
-  <div class="mini-copy">
-    <strong>S4 — B — Yep. I pick my meals...</strong>
-    <span>wait</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#DTeLAAtZdv1HkdwdfzXY" aria-label="S5 — CAM B — &quot;They cook everything...&quot;">
-  <div class="thumb"><img loading="lazy" src="s5-cam-b-they-cook-everything-0-img.jpg" alt="S5 — CAM B — &quot;They cook everything...&quot;"></div>
-  <div class="mini-copy">
-    <strong>S5 — B — They cook everything...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span><span>V</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#hGph64nwtHGVdhkGIm82" aria-label="S6 — CAM A — &quot;That sounds way too easy.&quot;">
-  <div class="thumb"><img loading="lazy" src="s6-cam-a-that-sounds-way-too-easy-0-img.jpg" alt="S6 — CAM A — &quot;That sounds way too easy.&quot;"></div>
-  <div class="mini-copy">
-    <strong>S6 — A — That sounds way too easy.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#q1oNcql2PuZJMwHD6ZIh" aria-label="S7 — CAM B — &quot;It is. My family loves it...&quot;">
-  <div class="thumb"><img loading="lazy" src="s7-cam-b-it-is-my-family-loves-it-0-img.jpg" alt="S7 — CAM B — &quot;It is. My family loves it...&quot;"></div>
-  <div class="mini-copy">
-    <strong>S7 — B — It is. My family loves it...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#j7KtWamZuCUCZZD4mlkA" aria-label="S8 — CAM A — &quot;Okay, I need that today.&quot;">
-  <div class="thumb"><img loading="lazy" src="s8-cam-a-okay-i-need-that-today-0-img.jpg" alt="S8 — CAM A — &quot;Okay, I need that today.&quot;"></div>
-  <div class="mini-copy">
-    <strong>S8 — A — Okay, I need that today.</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#Sm4Sh62gvObkSLXqhQWy" aria-label="S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot;">
-  <div class="thumb"><img loading="lazy" src="s9-cam-b-go-to-mealpreprevolution-com-0-img.jpg" alt="S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot;"></div>
-  <div class="mini-copy">
-    <strong>S9 — B — Go to MealPrepRevolution.com...</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card preview-available" href="#ESH48qte1X7l96yDPM2E" aria-label="END CARD — Animated Hold">
-  <div class="thumb"><img loading="lazy" src="end-card-animated-hold-0-img.jpg" alt="END CARD — Animated Hold"></div>
-  <div class="mini-copy">
-    <strong>End — Animated Hold</strong>
-    <span>ready</span>
-  </div>
-  <div class="type-chips"><span>I</span><span>V</span></div>
-</a>
-
-<a class="mini-card not-generated" href="#node_91cc6ca9-e80b-4801-bd94-c0e0a4193860" aria-label="Image">
-  <div class="thumb"><div class="empty-thumb">wait</div></div>
-  <div class="mini-copy">
-    <strong>Image</strong>
-    <span>wait</span>
-  </div>
-  <div class="type-chips"><span>-</span></div>
-</a>
-
-<a class="mini-card failed" href="#vgCN0hvRR7KItvIl5WP2" aria-label="FINAL — Meal Prep Revolution :30s Ad">
-  <div class="thumb"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-0-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"></div>
-  <div class="mini-copy">
-    <strong>Final — Meal Prep Revolution :30s Ad</strong>
-    <span>fail</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a>
-
-<a class="mini-card not-generated" href="#boPx8Rv03jSLj3EnIPx5" aria-label="FINAL DRAFT — Meal Prep Revolution Wiring Test">
-  <div class="thumb"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-0-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"></div>
-  <div class="mini-copy">
-    <strong>Draft — Meal Prep Revolution Wiring Test</strong>
-    <span>wait</span>
-  </div>
-  <div class="type-chips"><span>I</span></div>
-</a></div>
+  <video controls playsinline preload="metadata" src="s1-cam-a-okay-seriously-1-video.mp4"></video>
 </section>
-  <h2>Character References</h2><section class="grid">
-<article id="cWW6F8fmpg9aFwxcqB7V" class="card preview-available">
-  <h3>REF — Character A (Brunette)</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>cWW6F8fmpg9aFwxcqB7V</span>
-  </div>
-  <img loading="lazy" src="ref-character-a-brunette-0-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">REF — Character A (Brunette) / Seedream 4.5 / Photorealistic portrait reference sheet of a 25-year-old brunette woman with a sleek high ponytail, athletic toned build, glowing healthy skin, wearing premium luxury activewear in warm neutral tones. Seated on a premium recumbent fitness bike in a luxury Newport Beach fitness club — floor-to-ceiling windows with warm California morning sunlight streaming in, architectural wood panel details, natural stone finishes behind her. Medium close-up from chest up, face angled slightly three-quarter toward camera, mouth fully unobstructed, eyes fully visible, no sunglasses, hair away from lips. Warm directional golden morning window light. Shot on Phase One IQ4, 85mm portrait lens, natural skin texture, subtle film grain. No other people in frame. Photorealistic, crisp, editorial fitness brand aesthetic. / Run / Seedream 4.5 / 9:16 / 2K</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
 
-<article id="hVLEGmvbeiRWqvIEqCd5" class="card preview-available">
-  <h3>REF — Character B (Blonde)</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>hVLEGmvbeiRWqvIEqCd5</span>
+<section class="stage-item" id="S2">
+  <div class="stage-label">
+    <span>02</span>
+    <strong>Scene 2 / Camera B / Honestly? Meal Prep Revolution.</strong>
   </div>
-  <img loading="lazy" src="ref-character-b-blonde-0-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">REF — Character B (Blonde) / Seedream 4.5 / Photorealistic portrait reference of a 27-year-old woman with long blonde beach-wave hair, athletic and feminine build, glowing healthy skin, wearing premium luxury activewear in soft coastal neutral tones. Seated on a premium recumbent fitness bike in a luxury Newport Beach fitness club — floor-to-ceiling windows with warm California morning sunlight, architectural wood panel details, natural stone finishes behind her. Medium close-up from chest up, face angled slightly three-quarter toward camera, mouth fully unobstructed, eyes fully visible, no sunglasses, hair tucked behind shoulders away from lips. Warm directional golden morning window light. Shot on Phase One IQ4, 85mm portrait lens, natural skin texture, subtle film grain. No other people in frame. Photorealistic, crisp, editorial fitness brand aesthetic. / Run / Seedream 4.5 / 9:16 / 2K</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article></section>
-<h2>Environment / End Card</h2><section class="grid">
-<article id="wkVCrk3WDBgAPcX6Rhir" class="card not-generated">
-  <h3>REF — Gym Environment</h3>
-  <div class="meta">
-    <span>not generated</span>
-    <span>wkVCrk3WDBgAPcX6Rhir</span>
-  </div>
-  <p class="muted">No portable preview media found for this node yet.</p>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">REF — Gym Environment / Seedream 4.5 / Your generation will appear here / Luxury Equinox-inspired Newport Beach wellness fitness club interior. Floor-to-ceiling windows with warm California morning sunlight flooding in, casting long golden shafts of light across the space. Architectural wood panel walls, natural stone flooring and accents, premium recumbent fitness bikes positioned side-by-side in foreground. Immaculate, minimalist, affluent coastal wellness aesthetic. No people, no signage. Shot on Phase One IQ4, wide 24mm lens, warm 5500K morning light, crisp architectural photography. / Run / Seedream 4.5 / 9:16 / 2K</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
+  <video controls playsinline preload="metadata" src="s2-cam-b-honestly-meal-prep-revolution-1-video.mp4"></video>
+</section>
 
-<article id="ERsNnt0EFR5uMFXNnJwi" class="card preview-available">
-  <h3>END CARD — Meal Prep Revolution</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>ERsNnt0EFR5uMFXNnJwi</span>
+<section class="stage-item" id="S3">
+  <div class="stage-label">
+    <span>03</span>
+    <strong>Scene 3 / Camera A / Wait, really?</strong>
   </div>
-  <img loading="lazy" src="end-card-meal-prep-revolution-0-img.webp" alt="Luxury food photography end...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">END CARD — Meal Prep Revolution / Seedream 4.5 / Luxury food photography end card. Premium chef-prepared meal containers arranged elegantly on a white marble surface with fresh whole ingredients scattered naturally — vibrant herbs, colorful vegetables, lean proteins. Clean modern packaging with minimalist branding. Warm soft studio light from above, subtle shadows. Crisp commercial food photography, Phase One IQ4, 85mm macro, shallow depth of field. Text overlay in clean bold white sans-serif typeface, centered bottom third: line 1 large &quot;MEAL PREP REVOLUTION&quot;, line 2 medium &quot;Fresh Meals. Pickup or Delivery.&quot;, line 3 medium &quot;Order Today.&quot;, line 4 small &quot;MealPrepRevolution.com&quot;. All text rendered exactly and legibly. Premium, editorial, aspirational. / Run / Seedream 4.5 / 9:16 / 2K</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
+  <video controls playsinline preload="metadata" src="s3-cam-a-wait-really-1-video.mp4"></video>
+</section>
 
-<article id="ESH48qte1X7l96yDPM2E" class="card preview-available">
-  <h3>END CARD — Animated Hold</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>ESH48qte1X7l96yDPM2E</span>
+<section class="stage-item" id="S5">
+  <div class="stage-label">
+    <span>04</span>
+    <strong>Scene 5 / Camera B / They cook everything...</strong>
   </div>
-  <img loading="lazy" src="end-card-animated-hold-0-img.jpg" alt="Preview"><video controls playsinline preload="metadata" src="end-card-animated-hold-1-video.mp4"></video><img loading="lazy" src="end-card-animated-hold-2-img.webp" alt="Luxury food photography end...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">END CARD — Animated Hold / Kling 3.0 / Completely static hold. No camera movement. The premium meal prep product photography end card holds perfectly still for the full duration. Text remains crisp and legible throughout. / Run / Kling 3.0 / Start frame / 1080p / 3s</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
+  <video controls playsinline preload="metadata" src="s5-cam-b-they-cook-everything-1-video.mp4"></video>
+</section>
 
-<article id="node_91cc6ca9-e80b-4801-bd94-c0e0a4193860" class="card not-generated">
-  <h3>Image</h3>
-  <div class="meta">
-    <span>not generated</span>
-    <span>node_91cc6ca9-e80b-4801-bd94-c0e0a4193860</span>
+<section class="stage-item" id="END">
+  <div class="stage-label">
+    <span>05</span>
+    <strong>End Card / Animated Hold</strong>
   </div>
-  <p class="muted">No portable preview media found for this node yet.</p>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">Image / GPT Image 2 / Your generation will appear here / REF — Luxury Newport Beach Fitness Club. Photorealistic environment reference image for a premium commercial. Luxury Equinox-inspired Newport Beach wellness club interior with floor-to-ceiling windows, warm California morning sunlight, architectural wood details, natural stone finishes, premium sleek recumbent bikes fixed side-by-side, clean affluent coastal California wellness aesthetic, polished but authentic. No people, no background pedestrians, no floating objects, no distorted equipment, no brand logos. Stable layout reference for all scenes. / Run / GPT Image 2 / 16:9 / 1K / Medium</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article></section>
-<h2>Dialogue Audio</h2><section class="grid">
-<article id="lr3Ldj184bwxNEdS5Onp" class="card preview-available">
-  <h3>Music — Upscale Lounge Bed</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>lr3Ldj184bwxNEdS5Onp</span>
-  </div>
-  <audio controls preload="metadata" src="music-upscale-lounge-bed-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">Music — Upscale Lounge Bed / Eleven Music / 0:28 / Lyrics / Run / Music v2 / 28s</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="5L28foBj5cG0gUTEmR36" class="card preview-available">
-  <h3>S1 TTS — Char A — &quot;Okay, seriously...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>5L28foBj5cG0gUTEmR36</span>
-  </div>
-  <audio controls preload="metadata" src="s1-tts-char-a-okay-seriously-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S1 TTS — Char A — &quot;Okay, seriously...&quot; / Eleven v3 / 0:04 / Jessica - Playful, Bright, Warm / Okay, seriously... you look amazing. What&#39;s your secret? / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="zqOIo00VyR1bdWTJtyN3" class="card preview-available">
-  <h3>S2 TTS — Char B — &quot;Honestly? Meal Prep Revolution.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>zqOIo00VyR1bdWTJtyN3</span>
-  </div>
-  <audio controls preload="metadata" src="s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S2 TTS — Char B — &quot;Honestly? Meal Prep Revolution.&quot; / Eleven v3 / 0:02 / Anya - Casual and friendly / Honestly? Meal Prep Revolution. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="v1Dv8W3r3DLQf87DrPsw" class="card preview-available">
-  <h3>S3 TTS — Char A — &quot;Wait, really?&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>v1Dv8W3r3DLQf87DrPsw</span>
-  </div>
-  <audio controls preload="metadata" src="s3-tts-char-a-wait-really-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S3 TTS — Char A — &quot;Wait, really?&quot; / Eleven v3 / 0:00 / Jessica - Playful, Bright, Warm / Wait, really? / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="BwnTnLaI7sLvBiu0y75O" class="card not-generated">
-  <h3>S4 TTS — Char B — &quot;Yep. I pick my meals...&quot;</h3>
-  <div class="meta">
-    <span>not generated</span>
-    <span>BwnTnLaI7sLvBiu0y75O</span>
-  </div>
-  <p class="muted">No portable preview media found for this node yet.</p>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S4 TTS — Char B — &quot;Yep. I pick my meals...&quot; / Eleven v3 / Your audio will appear here / Anya - Casual and friendly / Yep. I pick my meals in a couple taps. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="kInWJN8Ml9DngjMCRUta" class="card preview-available">
-  <h3>S5 TTS — Char B — &quot;They cook everything...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>kInWJN8Ml9DngjMCRUta</span>
-  </div>
-  <audio controls preload="metadata" src="s5-tts-char-b-they-cook-everything-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S5 TTS — Char B — &quot;They cook everything...&quot; / Eleven v3 / 0:03 / Anya - Casual and friendly / They cook everything, and I choose pickup or delivery. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="hdw5DkX4Tp718vsymPTN" class="card preview-available">
-  <h3>S6 TTS — Char A — &quot;That sounds way too easy.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>hdw5DkX4Tp718vsymPTN</span>
-  </div>
-  <audio controls preload="metadata" src="s6-tts-char-a-that-sounds-way-too-easy-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S6 TTS — Char A — &quot;That sounds way too easy.&quot; / Eleven v3 / 0:02 / Jessica - Playful, Bright, Warm / That sounds way too easy. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="7eCEEFwf1lucnCFLdLNq" class="card preview-available">
-  <h3>S7 TTS — Char B — &quot;It is. My family loves it...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>7eCEEFwf1lucnCFLdLNq</span>
-  </div>
-  <audio controls preload="metadata" src="s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S7 TTS — Char B — &quot;It is. My family loves it...&quot; / Eleven v3 / 0:03 / Anya - Casual and friendly / It is. My family loves it, and I got my weekends back. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="FtXAqezatQjf6UGdJQ6V" class="card preview-available">
-  <h3>S8 TTS — Char A — &quot;Okay, I need that today.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>FtXAqezatQjf6UGdJQ6V</span>
-  </div>
-  <audio controls preload="metadata" src="s8-tts-char-a-okay-i-need-that-today-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S8 TTS — Char A — &quot;Okay, I need that today.&quot; / Eleven v3 / 0:01 / Jessica - Playful, Bright, Warm / Okay, I need that today. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="zDdj6fCfTenBfJ0kFbyW" class="card preview-available">
-  <h3>S9 TTS — Char B — &quot;Go to MealPrepRevolution.com...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>zDdj6fCfTenBfJ0kFbyW</span>
-  </div>
-  <audio controls preload="metadata" src="s9-tts-char-b-go-to-mealpreprevolution-com-0-audio.mp3"></audio>
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S9 TTS — Char B — &quot;Go to MealPrepRevolution.com...&quot; / Eleven v3 / 0:04 / Anya - Casual and friendly / Go to MealPrepRevolution dot com and order today. / Run / Eleven v3</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article></section>
-<h2>Scene Video Outputs / Lip-Sync QA</h2><section class="grid">
-<article id="2DYRui2go6dhHCzNE5AI" class="card preview-available">
-  <h3>S1 — CAM A — &quot;Okay, seriously...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>2DYRui2go6dhHCzNE5AI</span>
-  </div>
-  <img loading="lazy" src="s1-cam-a-okay-seriously-0-img.jpg" alt="Preview"><video controls playsinline preload="metadata" src="s1-cam-a-okay-seriously-1-video.mp4"></video><img loading="lazy" src="s1-cam-a-okay-seriously-2-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S1 — CAM A — &quot;Okay, seriously...&quot; / OmniHuman 1.5 / Warm, curious, bubbly delivery with natural head movement and bright engaged eyes. Candid conversational energy, genuine surprise and friendliness. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="2qqnFaHsUM33Z5g2ByAH" class="card preview-available">
-  <h3>S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>2qqnFaHsUM33Z5g2ByAH</span>
-  </div>
-  <img loading="lazy" src="s2-cam-b-honestly-meal-prep-revolution-0-img.jpg" alt="Preview"><video controls playsinline preload="metadata" src="s2-cam-b-honestly-meal-prep-revolution-1-video.mp4"></video><img loading="lazy" src="s2-cam-b-honestly-meal-prep-revolution-2-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot; / OmniHuman 1.5 / Relaxed, confident, warm delivery with a natural smile. Calm head nod, genuine and trustworthy energy, like sharing a secret with a close friend. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="pWGSCG5q55E5GLUNYMil" class="card preview-available">
-  <h3>S3 — CAM A — &quot;Wait, really?&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>pWGSCG5q55E5GLUNYMil</span>
-  </div>
-  <img loading="lazy" src="s3-cam-a-wait-really-0-img.jpg" alt="Preview"><video controls playsinline preload="metadata" src="s3-cam-a-wait-really-1-video.mp4"></video><img loading="lazy" src="s3-cam-a-wait-really-2-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S3 — CAM A — &quot;Wait, really?&quot; / OmniHuman 1.5 / Playful, bright, surprised reaction. Quick natural head tilt, wide eyes, genuine delight and curiosity. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="i7TYGS63Wsl3lKQG8we8" class="card not-generated">
-  <h3>S4 — CAM B — &quot;Yep. I pick my meals...&quot;</h3>
-  <div class="meta">
-    <span>not generated</span>
-    <span>i7TYGS63Wsl3lKQG8we8</span>
-  </div>
-  <img loading="lazy" src="s4-cam-b-yep-i-pick-my-meals-0-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S4 — CAM B — &quot;Yep. I pick my meals...&quot; / OmniHuman 1.5 / Your generation will appear here / Warm, organized, matter-of-fact delivery. Confident nod, natural smile, relaxed and conversational energy. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="DTeLAAtZdv1HkdwdfzXY" class="card preview-available">
-  <h3>S5 — CAM B — &quot;They cook everything...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>DTeLAAtZdv1HkdwdfzXY</span>
-  </div>
-  <img loading="lazy" src="s5-cam-b-they-cook-everything-0-img.jpg" alt="Preview"><video controls playsinline preload="metadata" src="s5-cam-b-they-cook-everything-1-video.mp4"></video><img loading="lazy" src="s5-cam-b-they-cook-everything-2-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S5 — CAM B — &quot;They cook everything...&quot; / OmniHuman 1.5 / Confident, helpful, clearly explaining the service. Warm eye contact, slight lean forward, natural gestures implied in micro-expressions. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="hGph64nwtHGVdhkGIm82" class="card preview-available">
-  <h3>S6 — CAM A — &quot;That sounds way too easy.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>hGph64nwtHGVdhkGIm82</span>
-  </div>
-  <img loading="lazy" src="s6-cam-a-that-sounds-way-too-easy-0-img.jpg" alt="Preview"><img loading="lazy" src="s6-cam-a-that-sounds-way-too-easy-1-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S6 — CAM A — &quot;That sounds way too easy.&quot; / OmniHuman 1.5 / Amused, impressed, lightly skeptical but delighted. Natural smile breaking through, bright playful delivery. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="q1oNcql2PuZJMwHD6ZIh" class="card preview-available">
-  <h3>S7 — CAM B — &quot;It is. My family loves it...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>q1oNcql2PuZJMwHD6ZIh</span>
-  </div>
-  <img loading="lazy" src="s7-cam-b-it-is-my-family-loves-it-0-img.jpg" alt="Preview"><img loading="lazy" src="s7-cam-b-it-is-my-family-loves-it-1-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S7 — CAM B — &quot;It is. My family loves it...&quot; / OmniHuman 1.5 / Warm, genuine pride, relatable mom energy. Natural smile, soft confident delivery, authentic and sincere. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="j7KtWamZuCUCZZD4mlkA" class="card preview-available">
-  <h3>S8 — CAM A — &quot;Okay, I need that today.&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>j7KtWamZuCUCZZD4mlkA</span>
-  </div>
-  <img loading="lazy" src="s8-cam-a-okay-i-need-that-today-0-img.jpg" alt="Preview"><img loading="lazy" src="s8-cam-a-okay-i-need-that-today-1-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S8 — CAM A — &quot;Okay, I need that today.&quot; / OmniHuman 1.5 / Decisive, excited, fully convinced. Bright eager delivery, natural head nod, energized and ready. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="Sm4Sh62gvObkSLXqhQWy" class="card preview-available">
-  <h3>S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot;</h3>
-  <div class="meta">
-    <span>preview available</span>
-    <span>Sm4Sh62gvObkSLXqhQWy</span>
-  </div>
-  <img loading="lazy" src="s9-cam-b-go-to-mealpreprevolution-com-0-img.jpg" alt="Preview"><img loading="lazy" src="s9-cam-b-go-to-mealpreprevolution-com-1-img.webp" alt="Photorealistic portrait ref...">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot; / OmniHuman 1.5 / Warm, friendly CTA delivery. Direct eye contact, clear enunciation, confident smile, trustworthy closing energy. / Run / OmniHuman 1.5 / 720p</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article></section>
-<h2>Compositions</h2><section class="grid">
-<article id="vgCN0hvRR7KItvIl5WP2" class="card failed">
-  <h3>FINAL — Meal Prep Revolution :30s Ad</h3>
-  <div class="meta">
-    <span>failed</span>
-    <span>vgCN0hvRR7KItvIl5WP2</span>
-  </div>
-  <img loading="lazy" src="final-meal-prep-revolution-30s-ad-0-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-1-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-2-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-3-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-4-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-5-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-6-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad"><img loading="lazy" src="final-meal-prep-revolution-30s-ad-7-img.jpg" alt="FINAL — Meal Prep Revolution :30s Ad">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">FINAL — Meal Prep Revolution :30s Ad / Generation failed / Dependency node node_b230c364-5c6f-4e5d-a58b-67b93f232121 has errors. / Run / 0 / 0:02 / 0:04 / 0:06 / 0:08 / 0:10 / 0:12 / 0:14 / 0:16 / 0:18 / 0:20 / 0:22 / 0:24 / 0:26 / 0:28 / 0:30 / S1 — CAM A — &quot;Okay, seriously...&quot; / S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot; / S4 — CAM B — &quot;Yep. I pick my meals...&quot; / S5 — CAM B — &quot;They cook everything...&quot; / S6 — CAM A — &quot;That sounds way too easy.&quot; / S7 — CAM B — &quot;It is. My family loves it...&quot; / S8 — CAM A — &quot;Okay, I need that today.&quot; / S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot; / Music — Upscale Lounge Bed / Add audio track</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article>
-
-<article id="boPx8Rv03jSLj3EnIPx5" class="card not-generated">
-  <h3>FINAL DRAFT — Meal Prep Revolution Wiring Test</h3>
-  <div class="meta">
-    <span>not generated</span>
-    <span>boPx8Rv03jSLj3EnIPx5</span>
-  </div>
-  <img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-0-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-1-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-2-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-3-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-4-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-5-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-6-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test"><img loading="lazy" src="final-draft-meal-prep-revolution-wiring-test-7-img.jpg" alt="FINAL DRAFT — Meal Prep Revolution Wiring Test">
-  <details class="summary-details">
-    <summary>Prompt / node details</summary>
-    <p class="summary">FINAL DRAFT — Meal Prep Revolution Wiring Test / Your generation will appear here / Run / 0 / 0:02 / 0:04 / 0:06 / 0:08 / 0:10 / 0:12 / 0:14 / 0:16 / 0:18 / 0:20 / 0:22 / 0:24 / 0:26 / 0:28 / 0:30 / S1 — CAM A — &quot;Okay, seriously...&quot; / S2 — CAM B — &quot;Honestly? Meal Prep Revolution.&quot; / S4 — CAM B — &quot;Yep. I pick my meals...&quot; / S5 — CAM B — &quot;They cook everything...&quot; / S6 — CAM A — &quot;That sounds way too easy.&quot; / S7 — CAM B — &quot;It is. My family loves it...&quot; / S8 — CAM A — &quot;Okay, I need that today.&quot; / S9 — CAM B — &quot;Go to MealPrepRevolution.com...&quot; / Music — Upscale Lounge Bed / Add audio track</p>
-  </details>
-  <a class="node" href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open Flow</a>
-</article></section>
-  
+  <video controls playsinline preload="metadata" src="end-card-animated-hold-1-video.mp4"></video>
+</section>
+    <section class="waiting">
+      <span>Waiting for video</span>
+      <strong>S4 / S6 / S7 / S8 / S9</strong>
+    </section>
+  </main>
 </body>
 </html>
