@@ -5,6 +5,7 @@ const root = process.cwd();
 const indexPath = path.join(root, "index.html");
 const nodesPath = path.join(root, "nodes.json");
 const audioBedsPath = path.join(root, "audio-beds.json");
+const shotBoardPath = path.join(root, "shot-direction-board.json");
 
 const required = [indexPath, nodesPath];
 for (const file of required) {
@@ -18,6 +19,9 @@ const nodes = JSON.parse(fs.readFileSync(nodesPath, "utf8")).nodes ?? [];
 const audioBeds = fs.existsSync(audioBedsPath)
   ? JSON.parse(fs.readFileSync(audioBedsPath, "utf8")).beds ?? []
   : [];
+const shotBoard = fs.existsSync(shotBoardPath)
+  ? JSON.parse(fs.readFileSync(shotBoardPath, "utf8")).shots ?? []
+  : [];
 const localAssets = [
   ...nodes.flatMap((node) =>
     (node.media ?? [])
@@ -25,6 +29,7 @@ const localAssets = [
       .filter(Boolean)
   ),
   ...audioBeds.map((bed) => bed.file).filter(Boolean),
+  ...shotBoard.map((shot) => shot.file).filter(Boolean),
 ];
 
 const missing = localAssets.filter((file) => !fs.existsSync(path.join(root, file)));
@@ -40,8 +45,12 @@ if (indexHtml.includes("blob:")) {
   process.exit(1);
 }
 
-if (indexHtml.includes("<img")) {
-  console.error("sandbox index.html must not embed image tags.");
+const imageSrcs = [...indexHtml.matchAll(/<img[^>]+src="([^"]+)"/g)].map((match) => match[1]);
+const allowedImages = new Set(shotBoard.map((shot) => shot.file));
+const unexpectedImages = imageSrcs.filter((src) => !allowedImages.has(src));
+if (unexpectedImages.length) {
+  console.error("Unexpected image tags:");
+  for (const src of unexpectedImages) console.error(`- ${src}`);
   process.exit(1);
 }
 

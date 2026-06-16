@@ -6,10 +6,14 @@ const root = process.cwd();
 const nodesPath = path.join(root, "nodes.json");
 const indexPath = path.join(root, "index.html");
 const audioBedsPath = path.join(root, "audio-beds.json");
+const shotBoardPath = path.join(root, "shot-direction-board.json");
 const data = JSON.parse(fs.readFileSync(nodesPath, "utf8"));
 const nodes = data.nodes ?? [];
 const audioBeds = fs.existsSync(audioBedsPath)
   ? JSON.parse(fs.readFileSync(audioBedsPath, "utf8")).beds ?? []
+  : [];
+const shotBoard = fs.existsSync(shotBoardPath)
+  ? JSON.parse(fs.readFileSync(shotBoardPath, "utf8")).shots ?? []
   : [];
 
 const escapeHtml = (value = "") =>
@@ -101,6 +105,15 @@ const renderAudioBed = (bed) => `
   <audio controls preload="metadata" src="${attr(bed.file)}"></audio>
 </section>`;
 
+const renderShot = (shot) => `
+<section class="shot-card">
+  <img src="${attr(shot.file)}" alt="${attr(shot.title)}" loading="lazy">
+  <div>
+    <strong>${escapeHtml(shot.title)}</strong>
+    <p>${escapeHtml(shot.note)}</p>
+  </div>
+</section>`;
+
 const waitingMarkup = waiting.length
   ? `<section class="waiting">
       <span>Waiting for video</span>
@@ -130,12 +143,23 @@ const html = `<!doctype html>
     .audio-bed strong{display:block;font-size:14px;line-height:1.2}
     .audio-bed p{margin:5px 0 12px;color:#cbd5e1;font-size:12px;line-height:1.35}
     .audio-bed audio{display:block;width:100%}
+    .shot-review{padding:28px 16px 40px;background:#05070a;border-top:1px solid #1f2937}
+    .shot-review h1{margin:0 auto 16px;max-width:880px;font-size:18px;font-weight:700;line-height:1.15}
+    .shot-card{max-width:880px;margin:0 auto 18px;background:#0b111c;border:1px solid #263244;border-radius:8px;overflow:hidden}
+    .shot-card img{display:block;width:100%;height:auto;background:#000}
+    .shot-card div{padding:14px}
+    .shot-card strong{display:block;font-size:14px;line-height:1.2}
+    .shot-card p{margin:5px 0 0;color:#cbd5e1;font-size:12px;line-height:1.35}
   </style>
 </head>
 <body>
   <main>
     ${available.map(renderVideo).join("\n")}
     ${waitingMarkup}
+    ${shotBoard.length ? `<section class="shot-review" aria-label="Candid camera direction board">
+      <h1>Candid Camera Direction Board</h1>
+      ${shotBoard.map(renderShot).join("\n")}
+    </section>` : ""}
     ${audioBeds.length ? `<section class="audio-review" aria-label="Audio beds for approval">
       <h1>Audio Beds For Approval</h1>
       ${audioBeds.map(renderAudioBed).join("\n")}

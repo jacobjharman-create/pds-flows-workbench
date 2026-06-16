@@ -1,0 +1,39 @@
+{
+  "shots": [
+    {
+      "title": "Option 1 — Character B Speaks To Friend",
+      "file": "direction-board/candid-shot-01-b-speaks-over-a-shoulder.jpg",
+      "note": "Camera B alternative: both bikes face the same direction; brunette listener shoulder sits blurred on the right edge while blonde speaker turns sideways toward her friend."
+    },
+    {
+      "title": "Option 2 — Character A Reacts To Friend",
+      "file": "direction-board/candid-shot-02-a-reacts-over-b-shoulder.jpg",
+      "note": "Camera A alternative: both bikes face the same direction; brunette speaker is framed on the right while blonde listener shoulder sits blurred in the bottom-left foreground."
+    },
+    {
+      "title": "Option 3 — Candid Side Observer",
+      "file": "direction-board/candid-shot-03-side-observer-two-bikes.jpg",
+      "note": "A wider observer-style angle with both bikes parallel and facing forward. Best for establishing or silent transition coverage."
+    },
+    {
+      "title": "Option 4 — Tight Character B Crop",
+      "file": "direction-board/candid-shot-04-tight-b-speaks-crop.jpg",
+      "note": "Tighter Camera B crop: brunette shoulder blurred on the right, blonde speaker close enough for lip sync, still facing her friend."
+    },
+    {
+      "title": "Option 5 — Tight Character A Crop",
+      "file": "direction-board/candid-shot-05-tight-a-reacts-crop.jpg",
+      "note": "Tighter Camera A crop: blonde shoulder blurred bottom-left, brunette framed on the right, still talking sideways to her friend."
+    },
+    {
+      "title": "Option 6 — Between-Bikes Observer Crop",
+      "file": "direction-board/candid-shot-06-between-bikes-observer-crop.jpg",
+      "note": "Soft observer crop from between the bikes. Best as a candid setup or non-dialogue transition because both women are visible."
+    },
+    {
+      "title": "CTA Direction — Website Screenshot With Voiceover",
+      "file": "meal-prep-revolution-final-cta-screenshot-20260616-img.jpg",
+      "note": "Recommended CTA treatment: keep the real screenshot as the visual and place Character B's CTA audio over it, instead of showing her performing the CTA to camera."
+    }
+  ]
+}
