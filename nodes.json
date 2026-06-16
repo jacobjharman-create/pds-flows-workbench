@@ -1,0 +1,943 @@
+{
+  "generatedAt": "2026-06-16T20:05:39.905Z",
+  "flowUrl": "https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz",
+  "nodes": [
+    {
+      "title": "REF — Character A (Brunette)",
+      "id": "cWW6F8fmpg9aFwxcqB7V",
+      "text": "REF — Character A (Brunette)\nSeedream 4.5\n\nPhotorealistic portrait reference sheet of a 25-year-old brunette woman with a sleek high ponytail, athletic toned build, glowing healthy skin, wearing premium luxury activewear in warm neutral tones. Seated on a premium recumbent fitness bike in a luxury Newport Beach fitness club — floor-to-ceiling windows with warm California morning sunlight streaming in, architectural wood panel details, natural stone finishes behind her. Medium close-up from chest up, face angled slightly three-quarter toward camera, mouth fully unobstructed, eyes fully visible, no sunglasses, hair away from lips. Warm directional golden morning window light. Shot on Phase One IQ4, 85mm portrait lens, natural skin texture, subtle film grain. No other people in frame. Photorealistic, crisp, editorial fitness brand aesthetic.\nRun\n\n\nSeedream 4.5\n\n9:16\n\n2K\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/cn56zUTc5ATJ0wFnBrTF/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2de8dca16e649fea9a0263a1a1435c05dbeb2e03a4508a9e9d96683b058ad944bd74f8aebcd67f985e7e2681326e3bc5f3f0e5f10cd30ad9cd3ea6e31ebb9ef7d218da74b774fe86ba3d57777b16977275e21cfbdcb41d8fdf3442bb4c50d5f69a91ffb33dc6c3d0c135ba45acf396dc410e4638dd095df8fc63c3c54405740545ab0f36a81edc13a32ce65250c919a3eb946559305c3485e50ad0bf48a98ac240ca2d84b535b28bca11622031772f39ff12975d3b6d7bed1aab20a0597116bbe43f7a5b8968cd5a6a03d9bd1b7cc967cc2cc91ea7e5556925ffea806379980c12ae49cf8c0b705b83bb0bfb3baca1fa18c6ddf563b7d17efe49ccd4439add68",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "ref-character-a-brunette-0-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "REF — Character B (Blonde)",
+      "id": "hVLEGmvbeiRWqvIEqCd5",
+      "text": "REF — Character B (Blonde)\nSeedream 4.5\n\nPhotorealistic portrait reference of a 27-year-old woman with long blonde beach-wave hair, athletic and feminine build, glowing healthy skin, wearing premium luxury activewear in soft coastal neutral tones. Seated on a premium recumbent fitness bike in a luxury Newport Beach fitness club — floor-to-ceiling windows with warm California morning sunlight, architectural wood panel details, natural stone finishes behind her. Medium close-up from chest up, face angled slightly three-quarter toward camera, mouth fully unobstructed, eyes fully visible, no sunglasses, hair tucked behind shoulders away from lips. Warm directional golden morning window light. Shot on Phase One IQ4, 85mm portrait lens, natural skin texture, subtle film grain. No other people in frame. Photorealistic, crisp, editorial fitness brand aesthetic.\nRun\n\n\nSeedream 4.5\n\n9:16\n\n2K\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "ref-character-b-blonde-0-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "REF — Gym Environment",
+      "id": "wkVCrk3WDBgAPcX6Rhir",
+      "text": "REF — Gym Environment\nSeedream 4.5\nYour generation will appear here\nLuxury Equinox-inspired Newport Beach wellness fitness club interior. Floor-to-ceiling windows with warm California morning sunlight flooding in, casting long golden shafts of light across the space. Architectural wood panel walls, natural stone flooring and accents, premium recumbent fitness bikes positioned side-by-side in foreground. Immaculate, minimalist, affluent coastal wellness aesthetic. No people, no signage. Shot on Phase One IQ4, wide 24mm lens, warm 5500K morning light, crisp architectural photography.\nRun\n\n\nSeedream 4.5\n\n9:16\n\n2K\n\n\n\n",
+      "media": []
+    },
+    {
+      "title": "END CARD — Meal Prep Revolution",
+      "id": "ERsNnt0EFR5uMFXNnJwi",
+      "text": "END CARD — Meal Prep Revolution\nSeedream 4.5\n\nLuxury food photography end card. Premium chef-prepared meal containers arranged elegantly on a white marble surface with fresh whole ingredients scattered naturally — vibrant herbs, colorful vegetables, lean proteins. Clean modern packaging with minimalist branding. Warm soft studio light from above, subtle shadows. Crisp commercial food photography, Phase One IQ4, 85mm macro, shallow depth of field. Text overlay in clean bold white sans-serif typeface, centered bottom third: line 1 large \"MEAL PREP REVOLUTION\", line 2 medium \"Fresh Meals. Pickup or Delivery.\", line 3 medium \"Order Today.\", line 4 small \"MealPrepRevolution.com\". All text rendered exactly and legibly. Premium, editorial, aspirational.\nRun\n\n\nSeedream 4.5\n\n9:16\n\n2K\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/m9ZtLi9wN1ep8QBLO0sV/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=42787f4f039090edfd1bd8306882191eb911a36454c531318f630b3e0ebea3d2b516220f7bbec8e5d92de1a5df5e30fe947e2978a623299ec294712c2ec76263e08fea033403ed0604385c38c3fae47b64585a3a89fd4c5cd4ed2ce880196b50f1300d75c7bba80831366004fc09efafd1dbb7613d15b810976e6a87710d645e45fad93658d4c3332041a3cfd1d9b6a1ff8f808813d7b3ecb1e424d6c87712dac1edb0e4ca206c86abc837fbaf4590df9f39b7dd6d28b1333849625ce8ab596bbb1d6868fea336b8bac469a633e03138dfe7c27e56436c2a1c9c587c866882d9c0789ff5794c7c584387fa9ff9c9f03b37993920076bcc77796cbd82a6e63366",
+          "poster": "",
+          "alt": "Luxury food photography end...",
+          "w": 1024,
+          "h": 1820,
+          "local": "end-card-meal-prep-revolution-0-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Music — Upscale Lounge Bed",
+      "id": "lr3Ldj184bwxNEdS5Onp",
+      "text": "Music — Upscale Lounge Bed\nEleven Music\n\n0:28\n\n\n\nLyrics\n\n\nRun\n\n\nMusic v2\n\n28s\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/7eb33fc9-fd23-47f9-9473-880ae83d4569",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S1 TTS — Char A — \"Okay, seriously...\"",
+      "id": "5L28foBj5cG0gUTEmR36",
+      "text": "S1 TTS — Char A — \"Okay, seriously...\"\nEleven v3\n\n0:04\n\n\n\n\n\nJessica - Playful, Bright, Warm\nOkay, seriously... you look amazing. What's your secret?\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/bdc29251-49c9-4697-922b-1d97853e6a0a",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/c1816597-3c66-453d-8bdd-ced830376365",
+          "poster": "",
+          "alt": "Jessica - Playful, Bright, Warm",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S2 TTS — Char B — \"Honestly? Meal Prep Revolution.\"",
+      "id": "zqOIo00VyR1bdWTJtyN3",
+      "text": "S2 TTS — Char B — \"Honestly? Meal Prep Revolution.\"\nEleven v3\n\n0:02\n\n\n\n\n\nAnya - Casual and friendly\nHonestly? Meal Prep Revolution.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/3f3c602a-3548-408d-a459-1ec8f809b542",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/0cfed96e-aa57-40bf-8f3d-4ec8aa3ee973",
+          "poster": "",
+          "alt": "Anya - Casual and friendly",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S3 TTS — Char A — \"Wait, really?\"",
+      "id": "v1Dv8W3r3DLQf87DrPsw",
+      "text": "S3 TTS — Char A — \"Wait, really?\"\nEleven v3\n\n0:00\n\n\n\n\n\nJessica - Playful, Bright, Warm\nWait, really?\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/1e586639-ff93-42d5-a13f-5684a38b4bef",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/c1816597-3c66-453d-8bdd-ced830376365",
+          "poster": "",
+          "alt": "Jessica - Playful, Bright, Warm",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S4 TTS — Char B — \"Yep. I pick my meals...\"",
+      "id": "BwnTnLaI7sLvBiu0y75O",
+      "text": "S4 TTS — Char B — \"Yep. I pick my meals...\"\nEleven v3\nYour audio will appear here\n\n\n\nAnya - Casual and friendly\nYep. I pick my meals in a couple taps.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/0cfed96e-aa57-40bf-8f3d-4ec8aa3ee973",
+          "poster": "",
+          "alt": "Anya - Casual and friendly",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S5 TTS — Char B — \"They cook everything...\"",
+      "id": "kInWJN8Ml9DngjMCRUta",
+      "text": "S5 TTS — Char B — \"They cook everything...\"\nEleven v3\n\n0:03\n\n\n\n\n\nAnya - Casual and friendly\nThey cook everything, and I choose pickup or delivery.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/eed8d3e5-25c6-4d21-bdcd-6c912afb39c4",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/0cfed96e-aa57-40bf-8f3d-4ec8aa3ee973",
+          "poster": "",
+          "alt": "Anya - Casual and friendly",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S6 TTS — Char A — \"That sounds way too easy.\"",
+      "id": "hdw5DkX4Tp718vsymPTN",
+      "text": "S6 TTS — Char A — \"That sounds way too easy.\"\nEleven v3\n\n0:02\n\n\n\n\n\nJessica - Playful, Bright, Warm\nThat sounds way too easy.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/fcee5df6-4866-4aaf-b81a-89786093e181",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/c1816597-3c66-453d-8bdd-ced830376365",
+          "poster": "",
+          "alt": "Jessica - Playful, Bright, Warm",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S7 TTS — Char B — \"It is. My family loves it...\"",
+      "id": "7eCEEFwf1lucnCFLdLNq",
+      "text": "S7 TTS — Char B — \"It is. My family loves it...\"\nEleven v3\n\n0:03\n\n\n\n\n\nAnya - Casual and friendly\nIt is. My family loves it, and I got my weekends back.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/c4fa7bfd-f0ab-4237-b580-586f48b16ecd",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/0cfed96e-aa57-40bf-8f3d-4ec8aa3ee973",
+          "poster": "",
+          "alt": "Anya - Casual and friendly",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S8 TTS — Char A — \"Okay, I need that today.\"",
+      "id": "FtXAqezatQjf6UGdJQ6V",
+      "text": "S8 TTS — Char A — \"Okay, I need that today.\"\nEleven v3\n\n0:01\n\n\n\n\n\nJessica - Playful, Bright, Warm\nOkay, I need that today.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/c29c6285-b1ee-407e-bf0b-8f5f75420d04",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/c1816597-3c66-453d-8bdd-ced830376365",
+          "poster": "",
+          "alt": "Jessica - Playful, Bright, Warm",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S9 TTS — Char B — \"Go to MealPrepRevolution.com...\"",
+      "id": "zDdj6fCfTenBfJ0kFbyW",
+      "text": "S9 TTS — Char B — \"Go to MealPrepRevolution.com...\"\nEleven v3\n\n0:04\n\n\n\n\n\nAnya - Casual and friendly\nGo to MealPrepRevolution dot com and order today.\nRun\n\n\nEleven v3\n\n\n",
+      "media": [
+        {
+          "tag": "AUDIO",
+          "src": "blob:https://elevenlabs.io/14595a22-ff87-47de-9072-2a61731df653",
+          "poster": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "blob:https://elevenlabs.io/0cfed96e-aa57-40bf-8f3d-4ec8aa3ee973",
+          "poster": "",
+          "alt": "Anya - Casual and friendly",
+          "w": 64,
+          "h": 64,
+          "local": null,
+          "downloadStatus": {
+            "ok": false,
+            "reason": "blob-url"
+          }
+        }
+      ]
+    },
+    {
+      "title": "S1 — CAM A — \"Okay, seriously...\"",
+      "id": "2DYRui2go6dhHCzNE5AI",
+      "text": "S1 — CAM A — \"Okay, seriously...\"\nOmniHuman 1.5\n\n\n\n\nWarm, curious, bubbly delivery with natural head movement and bright engaged eyes. Candid conversational energy, genuine surprise and friendliness.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e9efa408c025c0da15f223306ec49dcc2f6419acda9ae631ac9266655809de3916a29c9f75ae093ed23e8d14510947b5837e0a958a1dce72d7715ccad7f91d8f08de758416184343773247c54d289a6dac72a6f9f160bbbb7b59c5398fe18f5ac199c6a7a968c8beaea12fdc740572e08c4a14de45f3aeb87db70ac4e21742bbe1dd84f312994521092512797d923db55fca287354a9bcbf2838c207528c52a87cc2802f9ad7cee0a404d0885d803018eeb97a02665635763273c2730d26cec737e94d43276b26fd053d6a462f4929bdee6a26257fd4c7a9cd6f0b7b6bdce6ebc3430cbb8555a392b4f37ae7ca075d1a62158ec14faec328aa4b72db775a617",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s1-cam-a-okay-seriously-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a0fcd86572ea26a7ef2c438b2e6f52471a2a24c9ac5dfd1c2f8108ad58aa4c9d92c831947eba8b2b68dc783d6e66195801111bdb6c3828821757dda7c898821ea9c8e4c27632a896864edd910c3773aa2efab8b3f7da0a59c59bbec6bc221c0ed9a4032acd6e6a12750fd49d1f57f150f1244812509f079d65ab4da4efd42011b5efb071ac3e1ce97e15bd8889aded8e381159feb598cf94d79f88a795327d6a1ad5407dba975aa10b8cf2f8e6ef2ee23dc56c126f945c88f928c329578a742a7d41e113e87654cc867fc0af231b9ca867d24725d08739adb4d8d7f67e5417e400a3837848e7eba908ee930b79931b6a908528a04ee08ae9f9dde8b3cdae367e",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "s1-cam-a-okay-seriously-1-video.mp4",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/cn56zUTc5ATJ0wFnBrTF/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2de8dca16e649fea9a0263a1a1435c05dbeb2e03a4508a9e9d96683b058ad944bd74f8aebcd67f985e7e2681326e3bc5f3f0e5f10cd30ad9cd3ea6e31ebb9ef7d218da74b774fe86ba3d57777b16977275e21cfbdcb41d8fdf3442bb4c50d5f69a91ffb33dc6c3d0c135ba45acf396dc410e4638dd095df8fc63c3c54405740545ab0f36a81edc13a32ce65250c919a3eb946559305c3485e50ad0bf48a98ac240ca2d84b535b28bca11622031772f39ff12975d3b6d7bed1aab20a0597116bbe43f7a5b8968cd5a6a03d9bd1b7cc967cc2cc91ea7e5556925ffea806379980c12ae49cf8c0b705b83bb0bfb3baca1fa18c6ddf563b7d17efe49ccd4439add68",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s1-cam-a-okay-seriously-2-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
+      "id": "2qqnFaHsUM33Z5g2ByAH",
+      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nOmniHuman 1.5\n\n\n\n\nRelaxed, confident, warm delivery with a natural smile. Calm head nod, genuine and trustworthy energy, like sharing a secret with a close friend.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e2ff54e5c86b18a37a519c915aba20721f3736b683ac58bf20b779491f0b7fcd7b182220ee778a885e6cf68ea601c8deb0bafd289535ccbefb1cd6d98f8985f7c314b93d9829e38ad8166ca613e65d01b803527d2c3305d99e491022d83aa2ce41d063fd19d8786297638abbd7e5baafc345dbf9c201705f0b42e901028c3a0cab968fa9d905b3760723da71cddee1ea6fdb459900e78dbb247e7044604ed44f10800b0d832942b44971de9079f6fd4896f7200a9e187c8968e1da35f7586cc1a3d641f104bc5c83eded1b3c24a66b0a638e35d903a7a329e1697e358a777b860b12fad1d7582f6fffb8d692af1ddd62ecf0eb1e658e48eaf854f8f3ceddf4d",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s2-cam-b-honestly-meal-prep-revolution-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1a0dbe95cc008d459ac4ed141652e3c9f7e5d4631c3bca3f744ca18c40ee93b9cf3c988338cf8abb0661499b281f328b46d9f46e42f9b46c69a2deba94082977326af4a1aff892f8119048ff2538bb20fcbe29972e2eedf253aa85dd772d45a96eb2b9913905cc28f125f41b8fbab4db90afbc940c0d659dfea7bb28b0dc2d2607411f570620ac1a66743865bfe36a6861502d439de50217eeb182930e0cf857ae8150e88c3a68be3e4c438b887179a6a02c762d8340a0e9da5296b09bd5d8fa0e861cb4d46364f829d1bdc6cae768d90a7ced457fbd9ccae9f9ac87277eca33f252247c7f1fe6b4cb86612c446bc019e28c25eb1f58d6cf5d8e57abf35ef9ff",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "s2-cam-b-honestly-meal-prep-revolution-1-video.mp4",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s2-cam-b-honestly-meal-prep-revolution-2-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S3 — CAM A — \"Wait, really?\"",
+      "id": "pWGSCG5q55E5GLUNYMil",
+      "text": "S3 — CAM A — \"Wait, really?\"\nOmniHuman 1.5\n\n\n\n\nPlayful, bright, surprised reaction. Quick natural head tilt, wide eyes, genuine delight and curiosity.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/Fw5fmRBC1NPWteNKuLej/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=023f44dc12382d599817a53df0eb45925b35988b4efbf4b75863f7eeaa2f409ce9ddb9ec7ab24c321b9ec8296805be3dc5d6b6677f7d1986f815222e3eb6504cb4b27b74c83ec763fec83b5cb9ff68877ae5616e08e45dd6c0e53b97980fbf4ca086ae6f94c38321dd79bbd42845721ecb91355b5e6d70594c147e525558aee593bce40c070147fc35ce601fe2e877bdf1b7de2d54049df92503a58274124d4564322b1b6ffa68957f778e73f1ac176d2480231ed4e93cd6791863a77e7da4c3f01decdc1162970bde4dc7bdc8853bad49461e588f18f646be6262443848ffd8f1642f7943677f43da0d51d278d7df94cc453c73225a66ed323b7c8434a9e695",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s3-cam-a-wait-really-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/Fw5fmRBC1NPWteNKuLej/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=737b49fee8e67499b13d02d212ac2f8374df68cf90554814a3d1d261bde6a8189ded5eec2d0eb5e2aaae3f8776ef3b5a894275e815b483c238ba0d43af3d511f6c4d0fcadda30731d6fd10d26324059f2cdc4c142ad2d10fada8e6178ef91431d7952fc15c5bdf93fa4795b2dd8542830a08deed9e3503280eccb894bf4ae239cf76a4534275cee46d03d4355a5e3bd3bd3e4e45fbe55e17a1af8fdcdef3760195ec8f5526a8eeed5d6e734b46723147310fa8005a0b90f34f1bbcd969ae56c8e4227ab18518a917dda93c82cd633734c57bb309f6de01befa91a73fd3bd3502fd0077362b3861ab5700f354e7aa193b339d6e3982d818492449eb64ab0e2b71",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "s3-cam-a-wait-really-1-video.mp4",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/cn56zUTc5ATJ0wFnBrTF/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2de8dca16e649fea9a0263a1a1435c05dbeb2e03a4508a9e9d96683b058ad944bd74f8aebcd67f985e7e2681326e3bc5f3f0e5f10cd30ad9cd3ea6e31ebb9ef7d218da74b774fe86ba3d57777b16977275e21cfbdcb41d8fdf3442bb4c50d5f69a91ffb33dc6c3d0c135ba45acf396dc410e4638dd095df8fc63c3c54405740545ab0f36a81edc13a32ce65250c919a3eb946559305c3485e50ad0bf48a98ac240ca2d84b535b28bca11622031772f39ff12975d3b6d7bed1aab20a0597116bbe43f7a5b8968cd5a6a03d9bd1b7cc967cc2cc91ea7e5556925ffea806379980c12ae49cf8c0b705b83bb0bfb3baca1fa18c6ddf563b7d17efe49ccd4439add68",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s3-cam-a-wait-really-2-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S4 — CAM B — \"Yep. I pick my meals...\"",
+      "id": "i7TYGS63Wsl3lKQG8we8",
+      "text": "S4 — CAM B — \"Yep. I pick my meals...\"\nOmniHuman 1.5\nYour generation will appear here\n\nWarm, organized, matter-of-fact delivery. Confident nod, natural smile, relaxed and conversational energy.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s4-cam-b-yep-i-pick-my-meals-0-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S5 — CAM B — \"They cook everything...\"",
+      "id": "DTeLAAtZdv1HkdwdfzXY",
+      "text": "S5 — CAM B — \"They cook everything...\"\nOmniHuman 1.5\n\n\n\n\nConfident, helpful, clearly explaining the service. Warm eye contact, slight lean forward, natural gestures implied in micro-expressions.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/jZAyqNcpcd3fJVD9jic0/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7709cca085fb7c616b69269551c2a03d1d0bf103383387cb407a4eaf92098db50e4f54d3a2d12aa9202ed0d52d8b545d3c364299160f0f3d894d3aed375a062e0033dcfa5f21b3dd441a730b08c1e5de8fd24a31c55dfb2c03623b7b51fc03c24b096db741fa3386e0939d2fdd955e9e33df56220d539d114324a24612944a047d10d1e9eaf24de7c9fdebc592ccd8cc7f2026e27fc96a0b5d8cd26a0e14cfa72461a261f791fbca7f54247002d5039154cfc2d15d3f4b978e356ff86b07fa24a0d03a7c711c9bc2236958320d9a896a45d8675ca3a2691218d87b5e536b68f7c2e3a66f022a0e2f82979da7f10365e5e8707c2aa0282ae4f55d27a3e79c2287",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s5-cam-b-they-cook-everything-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/jZAyqNcpcd3fJVD9jic0/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0c848e5f72a1e7e5679c9e7f6b469ac32426c06c2d5cf388f6213acab49af314a6dc8df9253ad5260af32fb3a2a1ebd4dce911261ac9ad1ebd4d659e707699c20b6287b51f72aa1ef40868497b3c7ea04f4f39d49960d975b5a8595b60ad482b6d412c46b25b4ad7978fbb7582a519e28814924b03b3b314978ffd8bfe6c094b9fd14f7b441278482c081e27f131b406f31cc04edc80f74252ca6eb882a31519e340c97a944c77f2030ac82ce6b993dcb4238664140c4906a1d1b2d44b0a4828c0e0f3a9fe53a4314e6e78c6c587a22e27301a4eb766e944f0840ee82d517355f881682d7ef520290eafe63377ba3fcca5840c2c0bd2b5f30501de01b23bc3b4",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "s5-cam-b-they-cook-everything-1-video.mp4",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s5-cam-b-they-cook-everything-2-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S6 — CAM A — \"That sounds way too easy.\"",
+      "id": "hGph64nwtHGVdhkGIm82",
+      "text": "S6 — CAM A — \"That sounds way too easy.\"\nOmniHuman 1.5\n\n\n\n\nAmused, impressed, lightly skeptical but delighted. Natural smile breaking through, bright playful delivery.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/12hOLBdbcFtPHbnC0qMa/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0d47e68a8b01d3f43b21a1b92178ded42ba78179f9873e30bafa344ac4432c8b1c0d81dab2d0a0094fc297d4320abee8d850b9765ebf054ed61edd741dc53bf608e33e278372f186d4a03afe61185e20c3ec1de52189d4a0391b0214dd6213b99a52bfebabcf1f697ce232eddcab4d06d544861bc130bccb5d799fcfcfdb492cf152bcfe094c72e12731a2d4974ead4ca6f8ee46f9b9b3ee33fc1bca708eeb1331990a920971dc59cd00fcc1b65c2852b27f22b6399287ec98a38dbb6e684dbff233b177e4710f42fa63b5c15f6fa3b08d0a465d9ef0df9220528b4bed5636c075ac49bb93cab0e573a39a34494e7157fc3298e08be873b48181aaa80352328f",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s6-cam-a-that-sounds-way-too-easy-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/cn56zUTc5ATJ0wFnBrTF/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2de8dca16e649fea9a0263a1a1435c05dbeb2e03a4508a9e9d96683b058ad944bd74f8aebcd67f985e7e2681326e3bc5f3f0e5f10cd30ad9cd3ea6e31ebb9ef7d218da74b774fe86ba3d57777b16977275e21cfbdcb41d8fdf3442bb4c50d5f69a91ffb33dc6c3d0c135ba45acf396dc410e4638dd095df8fc63c3c54405740545ab0f36a81edc13a32ce65250c919a3eb946559305c3485e50ad0bf48a98ac240ca2d84b535b28bca11622031772f39ff12975d3b6d7bed1aab20a0597116bbe43f7a5b8968cd5a6a03d9bd1b7cc967cc2cc91ea7e5556925ffea806379980c12ae49cf8c0b705b83bb0bfb3baca1fa18c6ddf563b7d17efe49ccd4439add68",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s6-cam-a-that-sounds-way-too-easy-1-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S7 — CAM B — \"It is. My family loves it...\"",
+      "id": "q1oNcql2PuZJMwHD6ZIh",
+      "text": "S7 — CAM B — \"It is. My family loves it...\"\nOmniHuman 1.5\n\n\n\n\nWarm, genuine pride, relatable mom energy. Natural smile, soft confident delivery, authentic and sincere.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/6dYqrab4C9394uBgsPFJ/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0802b76880dbceee632e364e8942d01dd652da4eaadd4d43e20fe2b5eee0b50efa41b9370b4111c7b74aa2c2ae64b9af7890d2c0336ff9988371d67620f3f63009b58f906f85eecf4038a084b060cb59666bbdd85a71a11bf33600282608f6889a3949f36baf415e32fecabe5a82cebe485baacd6f10d17a906d2fe6391dba8dcbc1bbae791a8e7fd0075572d49add3d416a73d4af5501cf004fa9f42e0648bbbe0ac8013a74711d602238aba5ed68594d067c4e11adcd33965f07748665dff393f91c1afa19341f3334519a3d05bf1ac73174658a6cebdc2561647a5bfe04f9bf456eb7b9537cd27b430d66b8842929bac93109673eae615bde5e45635380ca",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s7-cam-b-it-is-my-family-loves-it-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s7-cam-b-it-is-my-family-loves-it-1-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S8 — CAM A — \"Okay, I need that today.\"",
+      "id": "j7KtWamZuCUCZZD4mlkA",
+      "text": "S8 — CAM A — \"Okay, I need that today.\"\nOmniHuman 1.5\n\n\n\n\nDecisive, excited, fully convinced. Bright eager delivery, natural head nod, energized and ready.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/AWN9f9ChoFpe9qq2KVBS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5b85cde7aa226aa330c78d0a680bc27d8bffa6a86c46d3a411984bc5b5af4c854c17339c8525d97c465f24fd1ee61f4fc2d0fa571e66f0ca3228c6d5607905e242f614dbdcd73bb4df7e6aee5a6661d29bfd61b2c52a67f7d12d9f8f7a7952386ba614cecd6cc6016c473560137ad477223687d25792872f8734c7dbfc76c65e5b6ce257daac0b41ae050a69fd9ccd710604d5937c91e21cd38205cc163eae7a3c6cd3ffa8603f5979d398802e78bcdc95893689408fe8f47565ed0e742fa42eaec4af09948838e01181c3ac89553a26df9abea5b0b629e1d94c9c054a3dca98250d5ee9e26fe3c6dbdb3f6a08da57bc42576aca4e8de2d9b1a2e8fb0e7226d6",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s8-cam-a-okay-i-need-that-today-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/cn56zUTc5ATJ0wFnBrTF/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2de8dca16e649fea9a0263a1a1435c05dbeb2e03a4508a9e9d96683b058ad944bd74f8aebcd67f985e7e2681326e3bc5f3f0e5f10cd30ad9cd3ea6e31ebb9ef7d218da74b774fe86ba3d57777b16977275e21cfbdcb41d8fdf3442bb4c50d5f69a91ffb33dc6c3d0c135ba45acf396dc410e4638dd095df8fc63c3c54405740545ab0f36a81edc13a32ce65250c919a3eb946559305c3485e50ad0bf48a98ac240ca2d84b535b28bca11622031772f39ff12975d3b6d7bed1aab20a0597116bbe43f7a5b8968cd5a6a03d9bd1b7cc967cc2cc91ea7e5556925ffea806379980c12ae49cf8c0b705b83bb0bfb3baca1fa18c6ddf563b7d17efe49ccd4439add68",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s8-cam-a-okay-i-need-that-today-1-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "S9 — CAM B — \"Go to MealPrepRevolution.com...\"",
+      "id": "Sm4Sh62gvObkSLXqhQWy",
+      "text": "S9 — CAM B — \"Go to MealPrepRevolution.com...\"\nOmniHuman 1.5\n\n\n\n\nWarm, friendly CTA delivery. Direct eye contact, clear enunciation, confident smile, trustworthy closing energy.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/1CWFnndJ3NH9AzY82rZf/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=137645c6f85570d788affbfc404cb14a9fa0515f0730ea9787835018bf7f5c21499babfba74afb01a1586b86faeed614a12e279dd6f904dbd717a76d1389cca285ced6aa9154c236a3c23ae6de48c69db70d1a0840beb77762155f92bad0aeffb0efc70828685fd7b347e1b0dc786edcd2678e7b8227e96d098e99bde6877852e9c4aa744259f809319a0b697a840e1b8a1ee3bd7e62f822e47ab341d48ae0c3db81113aead5c836d769bdf097d0d1c8ce84e510d08b47f2775e21445cf1650689538551137838c84af7a140b2d2032eb5b93d33601e46fffbcf8c718baed209092f05373e3db7284884e6f6a5bed219615652841f6a39b464e86e706ca414bd",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 848,
+          "local": "s9-cam-b-go-to-mealpreprevolution-com-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/DFGwgw9yAljTBlsylach/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=449b32024c92075453baacb63da2b05768f81bbf99b1403b914eb111f3a2c18871c89d8482fcff024a1f470a2640d647c847c63aca696c3d521a2f2f5559705ac62cf77253c3d9a9328356b43c47d9279f6a4529ef5d0bb5c6ab2037e5c54079290d2c990e371aef3b4f0e2983c1e5b107a59eeec7564381616a74310ee71d74d10f7852e91bc7cd62d6271d89afe159f95fda7a1c85d1b6aff2532f3af8db913f76d52556994599fbd930f184c9c57ed33ee717a983c2860a537855b7080cc4dc64256f3dea59804ca8e377fdcf7702d3b75f9fb8370bf464f1aaf7d38c4636a227c99a2a4cf6d6ba451d585cd0f75ba95af0e5fcd88bd2985cc0d3ef928ebd",
+          "poster": "",
+          "alt": "Photorealistic portrait ref...",
+          "w": 1024,
+          "h": 1820,
+          "local": "s9-cam-b-go-to-mealpreprevolution-com-1-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "END CARD — Animated Hold",
+      "id": "ESH48qte1X7l96yDPM2E",
+      "text": "END CARD — Animated Hold\nKling 3.0\n\n\n\nCompletely static hold. No camera movement. The premium meal prep product photography end card holds perfectly still for the full duration. Text remains crisp and legible throughout.\nRun\n\n\nKling 3.0\n\nStart frame\n\n1080p\n\n3s\n\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=658aeb2ba31e63badbe45c7c2794b1ba6f309ca3c0b8dea8405492feeb7669069afcf13c3aa0d05fcae53b1c40c1f52fd85c3039d36ea4e74f3be5d44c18d431de76e34f5eaee424998746754b39a8227211c856d401ee08efb395d005c05b9f625052691a6b3cac7e6b9616b1caeb04548aad4b53449a3797a9e36c9d87b19d1fc80c8b5786e3ecc039d8033c646659faf150ad1651dffb9b2073150f3febd3f2201ad1fb7a0aff63e67a0d8bf31f125c61b7babac08095484bbc2ce4408af20d0c9dc9b0ac5630de6e1fb39ddf8b5056ffa712e8ad63403e54f596b5905dbce4167b99aa64ca2cc8c493743319f7d27e946b32f5a9324177442aabc068fe66",
+          "poster": "",
+          "alt": "Preview",
+          "w": 480,
+          "h": 854,
+          "local": "end-card-animated-hold-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0977daaece493cb96bb37bed4ac7e168436cb4d41a05eaf07e5da97f5f692f65c6569d0f3bdcb110822f6dabcf633e73daaced62f3682a859b7c811e998e9938d87bbb089e07b582daf9be6d8457fd1206196877bd8b5c805b626a06f83300be253c196746e23cb56b2e74029ee36bd0a39e6db7ac815bb1d700d092f1d736761ed0a229c98d19036ea6b31f67e8dcb86ed4ba9fabfe5365077541f652e9d80ffda0c6dfd2ea0ddc9c5a667e0a687dfe3ab1c801e36c8e460cb591ead8ae7d72b7b32bcdbf01fa7a75d781c3c4cf066d668bad047a6f3ed3dd096dd6a181bb293c83e25c7e204d3251a00dc4377eca8032053f34cc2ac49f066d63ce3469e7d6",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 854,
+          "local": "end-card-animated-hold-1-video.mp4",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/m9ZtLi9wN1ep8QBLO0sV/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=42787f4f039090edfd1bd8306882191eb911a36454c531318f630b3e0ebea3d2b516220f7bbec8e5d92de1a5df5e30fe947e2978a623299ec294712c2ec76263e08fea033403ed0604385c38c3fae47b64585a3a89fd4c5cd4ed2ce880196b50f1300d75c7bba80831366004fc09efafd1dbb7613d15b810976e6a87710d645e45fad93658d4c3332041a3cfd1d9b6a1ff8f808813d7b3ecb1e424d6c87712dac1edb0e4ca206c86abc837fbaf4590df9f39b7dd6d28b1333849625ce8ab596bbb1d6868fea336b8bac469a633e03138dfe7c27e56436c2a1c9c587c866882d9c0789ff5794c7c584387fa9ff9c9f03b37993920076bcc77796cbd82a6e63366",
+          "poster": "",
+          "alt": "Luxury food photography end...",
+          "w": 1024,
+          "h": 1820,
+          "local": "end-card-animated-hold-2-img.webp",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "Image",
+      "id": "node_91cc6ca9-e80b-4801-bd94-c0e0a4193860",
+      "text": "Image\nGPT Image 2\nYour generation will appear here\nREF — Luxury Newport Beach Fitness Club. Photorealistic environment reference image for a premium commercial. Luxury Equinox-inspired Newport Beach wellness club interior with floor-to-ceiling windows, warm California morning sunlight, architectural wood details, natural stone finishes, premium sleek recumbent bikes fixed side-by-side, clean affluent coastal California wellness aesthetic, polished but authentic. No people, no background pedestrians, no floating objects, no distorted equipment, no brand logos. Stable layout reference for all scenes.\nRun\n\n\nGPT Image 2\n\n16:9\n\n1K\n\nMedium\n\n\n\n",
+      "media": []
+    },
+    {
+      "title": "FINAL — Meal Prep Revolution :30s Ad",
+      "id": "vgCN0hvRR7KItvIl5WP2",
+      "text": "FINAL — Meal Prep Revolution :30s Ad\nGeneration failed\nDependency node node_b230c364-5c6f-4e5d-a58b-67b93f232121 has errors.\nRun\n\n0\n0:02\n0:04\n0:06\n0:08\n0:10\n0:12\n0:14\n0:16\n0:18\n0:20\n0:22\n0:24\n0:26\n0:28\n0:30\n\nS1 — CAM A — \"Okay, seriously...\"\n\nS2 — CAM B — \"Honestly? Meal Prep Revolution.\"\n\nS4 — CAM B — \"Yep. I pick my meals...\"\n\nS5 — CAM B — \"They cook everything...\"\n\nS6 — CAM A — \"That sounds way too easy.\"\n\nS7 — CAM B — \"It is. My family loves it...\"\n\nS8 — CAM A — \"Okay, I need that today.\"\n\nS9 — CAM B — \"Go to MealPrepRevolution.com...\"\nMusic — Upscale Lounge Bed\n\n\nAdd audio track\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e9efa408c025c0da15f223306ec49dcc2f6419acda9ae631ac9266655809de3916a29c9f75ae093ed23e8d14510947b5837e0a958a1dce72d7715ccad7f91d8f08de758416184343773247c54d289a6dac72a6f9f160bbbb7b59c5398fe18f5ac199c6a7a968c8beaea12fdc740572e08c4a14de45f3aeb87db70ac4e21742bbe1dd84f312994521092512797d923db55fca287354a9bcbf2838c207528c52a87cc2802f9ad7cee0a404d0885d803018eeb97a02665635763273c2730d26cec737e94d43276b26fd053d6a462f4929bdee6a26257fd4c7a9cd6f0b7b6bdce6ebc3430cbb8555a392b4f37ae7ca075d1a62158ec14faec328aa4b72db775a617",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e2ff54e5c86b18a37a519c915aba20721f3736b683ac58bf20b779491f0b7fcd7b182220ee778a885e6cf68ea601c8deb0bafd289535ccbefb1cd6d98f8985f7c314b93d9829e38ad8166ca613e65d01b803527d2c3305d99e491022d83aa2ce41d063fd19d8786297638abbd7e5baafc345dbf9c201705f0b42e901028c3a0cab968fa9d905b3760723da71cddee1ea6fdb459900e78dbb247e7044604ed44f10800b0d832942b44971de9079f6fd4896f7200a9e187c8968e1da35f7586cc1a3d641f104bc5c83eded1b3c24a66b0a638e35d903a7a329e1697e358a777b860b12fad1d7582f6fffb8d692af1ddd62ecf0eb1e658e48eaf854f8f3ceddf4d",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-1-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/Fw5fmRBC1NPWteNKuLej/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=023f44dc12382d599817a53df0eb45925b35988b4efbf4b75863f7eeaa2f409ce9ddb9ec7ab24c321b9ec8296805be3dc5d6b6677f7d1986f815222e3eb6504cb4b27b74c83ec763fec83b5cb9ff68877ae5616e08e45dd6c0e53b97980fbf4ca086ae6f94c38321dd79bbd42845721ecb91355b5e6d70594c147e525558aee593bce40c070147fc35ce601fe2e877bdf1b7de2d54049df92503a58274124d4564322b1b6ffa68957f778e73f1ac176d2480231ed4e93cd6791863a77e7da4c3f01decdc1162970bde4dc7bdc8853bad49461e588f18f646be6262443848ffd8f1642f7943677f43da0d51d278d7df94cc453c73225a66ed323b7c8434a9e695",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-2-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/jZAyqNcpcd3fJVD9jic0/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7709cca085fb7c616b69269551c2a03d1d0bf103383387cb407a4eaf92098db50e4f54d3a2d12aa9202ed0d52d8b545d3c364299160f0f3d894d3aed375a062e0033dcfa5f21b3dd441a730b08c1e5de8fd24a31c55dfb2c03623b7b51fc03c24b096db741fa3386e0939d2fdd955e9e33df56220d539d114324a24612944a047d10d1e9eaf24de7c9fdebc592ccd8cc7f2026e27fc96a0b5d8cd26a0e14cfa72461a261f791fbca7f54247002d5039154cfc2d15d3f4b978e356ff86b07fa24a0d03a7c711c9bc2236958320d9a896a45d8675ca3a2691218d87b5e536b68f7c2e3a66f022a0e2f82979da7f10365e5e8707c2aa0282ae4f55d27a3e79c2287",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-3-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/12hOLBdbcFtPHbnC0qMa/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0d47e68a8b01d3f43b21a1b92178ded42ba78179f9873e30bafa344ac4432c8b1c0d81dab2d0a0094fc297d4320abee8d850b9765ebf054ed61edd741dc53bf608e33e278372f186d4a03afe61185e20c3ec1de52189d4a0391b0214dd6213b99a52bfebabcf1f697ce232eddcab4d06d544861bc130bccb5d799fcfcfdb492cf152bcfe094c72e12731a2d4974ead4ca6f8ee46f9b9b3ee33fc1bca708eeb1331990a920971dc59cd00fcc1b65c2852b27f22b6399287ec98a38dbb6e684dbff233b177e4710f42fa63b5c15f6fa3b08d0a465d9ef0df9220528b4bed5636c075ac49bb93cab0e573a39a34494e7157fc3298e08be873b48181aaa80352328f",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-4-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/6dYqrab4C9394uBgsPFJ/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0802b76880dbceee632e364e8942d01dd652da4eaadd4d43e20fe2b5eee0b50efa41b9370b4111c7b74aa2c2ae64b9af7890d2c0336ff9988371d67620f3f63009b58f906f85eecf4038a084b060cb59666bbdd85a71a11bf33600282608f6889a3949f36baf415e32fecabe5a82cebe485baacd6f10d17a906d2fe6391dba8dcbc1bbae791a8e7fd0075572d49add3d416a73d4af5501cf004fa9f42e0648bbbe0ac8013a74711d602238aba5ed68594d067c4e11adcd33965f07748665dff393f91c1afa19341f3334519a3d05bf1ac73174658a6cebdc2561647a5bfe04f9bf456eb7b9537cd27b430d66b8842929bac93109673eae615bde5e45635380ca",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-5-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/AWN9f9ChoFpe9qq2KVBS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5b85cde7aa226aa330c78d0a680bc27d8bffa6a86c46d3a411984bc5b5af4c854c17339c8525d97c465f24fd1ee61f4fc2d0fa571e66f0ca3228c6d5607905e242f614dbdcd73bb4df7e6aee5a6661d29bfd61b2c52a67f7d12d9f8f7a7952386ba614cecd6cc6016c473560137ad477223687d25792872f8734c7dbfc76c65e5b6ce257daac0b41ae050a69fd9ccd710604d5937c91e21cd38205cc163eae7a3c6cd3ffa8603f5979d398802e78bcdc95893689408fe8f47565ed0e742fa42eaec4af09948838e01181c3ac89553a26df9abea5b0b629e1d94c9c054a3dca98250d5ee9e26fe3c6dbdb3f6a08da57bc42576aca4e8de2d9b1a2e8fb0e7226d6",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-6-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/1CWFnndJ3NH9AzY82rZf/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=137645c6f85570d788affbfc404cb14a9fa0515f0730ea9787835018bf7f5c21499babfba74afb01a1586b86faeed614a12e279dd6f904dbd717a76d1389cca285ced6aa9154c236a3c23ae6de48c69db70d1a0840beb77762155f92bad0aeffb0efc70828685fd7b347e1b0dc786edcd2678e7b8227e96d098e99bde6877852e9c4aa744259f809319a0b697a840e1b8a1ee3bd7e62f822e47ab341d48ae0c3db81113aead5c836d769bdf097d0d1c8ce84e510d08b47f2775e21445cf1650689538551137838c84af7a140b2d2032eb5b93d33601e46fffbcf8c718baed209092f05373e3db7284884e6f6a5bed219615652841f6a39b464e86e706ca414bd",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-meal-prep-revolution-30s-ad-7-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    },
+    {
+      "title": "FINAL DRAFT — Meal Prep Revolution Wiring Test",
+      "id": "boPx8Rv03jSLj3EnIPx5",
+      "text": "FINAL DRAFT — Meal Prep Revolution Wiring Test\nYour generation will appear here\nRun\n\n0\n0:02\n0:04\n0:06\n0:08\n0:10\n0:12\n0:14\n0:16\n0:18\n0:20\n0:22\n0:24\n0:26\n0:28\n0:30\n\nS1 — CAM A — \"Okay, seriously...\"\n\nS2 — CAM B — \"Honestly? Meal Prep Revolution.\"\n\nS4 — CAM B — \"Yep. I pick my meals...\"\n\nS5 — CAM B — \"They cook everything...\"\n\nS6 — CAM A — \"That sounds way too easy.\"\n\nS7 — CAM B — \"It is. My family loves it...\"\n\nS8 — CAM A — \"Okay, I need that today.\"\n\nS9 — CAM B — \"Go to MealPrepRevolution.com...\"\nMusic — Upscale Lounge Bed\n\n\nAdd audio track\n\n\n\n",
+      "media": [
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e9efa408c025c0da15f223306ec49dcc2f6419acda9ae631ac9266655809de3916a29c9f75ae093ed23e8d14510947b5837e0a958a1dce72d7715ccad7f91d8f08de758416184343773247c54d289a6dac72a6f9f160bbbb7b59c5398fe18f5ac199c6a7a968c8beaea12fdc740572e08c4a14de45f3aeb87db70ac4e21742bbe1dd84f312994521092512797d923db55fca287354a9bcbf2838c207528c52a87cc2802f9ad7cee0a404d0885d803018eeb97a02665635763273c2730d26cec737e94d43276b26fd053d6a462f4929bdee6a26257fd4c7a9cd6f0b7b6bdce6ebc3430cbb8555a392b4f37ae7ca075d1a62158ec14faec328aa4b72db775a617",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-0-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e2ff54e5c86b18a37a519c915aba20721f3736b683ac58bf20b779491f0b7fcd7b182220ee778a885e6cf68ea601c8deb0bafd289535ccbefb1cd6d98f8985f7c314b93d9829e38ad8166ca613e65d01b803527d2c3305d99e491022d83aa2ce41d063fd19d8786297638abbd7e5baafc345dbf9c201705f0b42e901028c3a0cab968fa9d905b3760723da71cddee1ea6fdb459900e78dbb247e7044604ed44f10800b0d832942b44971de9079f6fd4896f7200a9e187c8968e1da35f7586cc1a3d641f104bc5c83eded1b3c24a66b0a638e35d903a7a329e1697e358a777b860b12fad1d7582f6fffb8d692af1ddd62ecf0eb1e658e48eaf854f8f3ceddf4d",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-1-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/Fw5fmRBC1NPWteNKuLej/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=023f44dc12382d599817a53df0eb45925b35988b4efbf4b75863f7eeaa2f409ce9ddb9ec7ab24c321b9ec8296805be3dc5d6b6677f7d1986f815222e3eb6504cb4b27b74c83ec763fec83b5cb9ff68877ae5616e08e45dd6c0e53b97980fbf4ca086ae6f94c38321dd79bbd42845721ecb91355b5e6d70594c147e525558aee593bce40c070147fc35ce601fe2e877bdf1b7de2d54049df92503a58274124d4564322b1b6ffa68957f778e73f1ac176d2480231ed4e93cd6791863a77e7da4c3f01decdc1162970bde4dc7bdc8853bad49461e588f18f646be6262443848ffd8f1642f7943677f43da0d51d278d7df94cc453c73225a66ed323b7c8434a9e695",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-2-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/jZAyqNcpcd3fJVD9jic0/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7709cca085fb7c616b69269551c2a03d1d0bf103383387cb407a4eaf92098db50e4f54d3a2d12aa9202ed0d52d8b545d3c364299160f0f3d894d3aed375a062e0033dcfa5f21b3dd441a730b08c1e5de8fd24a31c55dfb2c03623b7b51fc03c24b096db741fa3386e0939d2fdd955e9e33df56220d539d114324a24612944a047d10d1e9eaf24de7c9fdebc592ccd8cc7f2026e27fc96a0b5d8cd26a0e14cfa72461a261f791fbca7f54247002d5039154cfc2d15d3f4b978e356ff86b07fa24a0d03a7c711c9bc2236958320d9a896a45d8675ca3a2691218d87b5e536b68f7c2e3a66f022a0e2f82979da7f10365e5e8707c2aa0282ae4f55d27a3e79c2287",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-3-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/12hOLBdbcFtPHbnC0qMa/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0d47e68a8b01d3f43b21a1b92178ded42ba78179f9873e30bafa344ac4432c8b1c0d81dab2d0a0094fc297d4320abee8d850b9765ebf054ed61edd741dc53bf608e33e278372f186d4a03afe61185e20c3ec1de52189d4a0391b0214dd6213b99a52bfebabcf1f697ce232eddcab4d06d544861bc130bccb5d799fcfcfdb492cf152bcfe094c72e12731a2d4974ead4ca6f8ee46f9b9b3ee33fc1bca708eeb1331990a920971dc59cd00fcc1b65c2852b27f22b6399287ec98a38dbb6e684dbff233b177e4710f42fa63b5c15f6fa3b08d0a465d9ef0df9220528b4bed5636c075ac49bb93cab0e573a39a34494e7157fc3298e08be873b48181aaa80352328f",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-4-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/6dYqrab4C9394uBgsPFJ/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0802b76880dbceee632e364e8942d01dd652da4eaadd4d43e20fe2b5eee0b50efa41b9370b4111c7b74aa2c2ae64b9af7890d2c0336ff9988371d67620f3f63009b58f906f85eecf4038a084b060cb59666bbdd85a71a11bf33600282608f6889a3949f36baf415e32fecabe5a82cebe485baacd6f10d17a906d2fe6391dba8dcbc1bbae791a8e7fd0075572d49add3d416a73d4af5501cf004fa9f42e0648bbbe0ac8013a74711d602238aba5ed68594d067c4e11adcd33965f07748665dff393f91c1afa19341f3334519a3d05bf1ac73174658a6cebdc2561647a5bfe04f9bf456eb7b9537cd27b430d66b8842929bac93109673eae615bde5e45635380ca",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-5-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/AWN9f9ChoFpe9qq2KVBS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5b85cde7aa226aa330c78d0a680bc27d8bffa6a86c46d3a411984bc5b5af4c854c17339c8525d97c465f24fd1ee61f4fc2d0fa571e66f0ca3228c6d5607905e242f614dbdcd73bb4df7e6aee5a6661d29bfd61b2c52a67f7d12d9f8f7a7952386ba614cecd6cc6016c473560137ad477223687d25792872f8734c7dbfc76c65e5b6ce257daac0b41ae050a69fd9ccd710604d5937c91e21cd38205cc163eae7a3c6cd3ffa8603f5979d398802e78bcdc95893689408fe8f47565ed0e742fa42eaec4af09948838e01181c3ac89553a26df9abea5b0b629e1d94c9c054a3dca98250d5ee9e26fe3c6dbdb3f6a08da57bc42576aca4e8de2d9b1a2e8fb0e7226d6",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-6-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        },
+        {
+          "tag": "IMG",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/1CWFnndJ3NH9AzY82rZf/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=137645c6f85570d788affbfc404cb14a9fa0515f0730ea9787835018bf7f5c21499babfba74afb01a1586b86faeed614a12e279dd6f904dbd717a76d1389cca285ced6aa9154c236a3c23ae6de48c69db70d1a0840beb77762155f92bad0aeffb0efc70828685fd7b347e1b0dc786edcd2678e7b8227e96d098e99bde6877852e9c4aa744259f809319a0b697a840e1b8a1ee3bd7e62f822e47ab341d48ae0c3db81113aead5c836d769bdf097d0d1c8ce84e510d08b47f2775e21445cf1650689538551137838c84af7a140b2d2032eb5b93d33601e46fffbcf8c718baed209092f05373e3db7284884e6f6a5bed219615652841f6a39b464e86e706ca414bd",
+          "poster": "",
+          "alt": "",
+          "w": 480,
+          "h": 848,
+          "local": "final-draft-meal-prep-revolution-wiring-test-7-img.jpg",
+          "downloadStatus": {
+            "ok": true
+          }
+        }
+      ]
+    }
+  ]
+}
