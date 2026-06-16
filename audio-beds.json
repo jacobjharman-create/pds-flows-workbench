@@ -1,19 +1,19 @@
 {
   "beds": [
     {
-      "title": "Music Bed — Newport Upscale Nightclub Draft",
+      "title": "Music Bed — Mellow Latin Fitness Club Draft",
       "file": "newport-upscale-nightclub-bed-preview-0-audio.mp3",
-      "note": "Current upscale electronic/lounge music direction, normalized for preview. Use this to judge whether the energy feels like affluent Newport Beach nightlife."
+      "note": "Revised upbeat background direction: more beat-forward, mellow Latin-club fitness energy with an upscale Newport Beach feel. Original preview, not a direct artist imitation."
     },
     {
-      "title": "Foley Bed — Recumbent Bike Machinery",
+      "title": "Foley Bed — Deep Magnetic Recumbent Bike Whir",
       "file": "recumbent-bike-machinery-bed-preview-0-audio.mp3",
-      "note": "Draft mechanical layer: quiet resistance whir, pedal cadence, and small drivetrain clicks. This is preview-only and should sit under dialogue in final mix."
+      "note": "Revised bike layer: deeper smooth electronic resistance whir with the percussive click removed. Built to sit low under dialogue in the final mix."
     },
     {
       "title": "Combined Bed — Music Plus Recumbent Bike Foley",
       "file": "music-plus-recumbent-bike-bed-preview-0-audio.mp3",
-      "note": "Low mix preview of the music and bike foley together, before dialogue ducking or final polish."
+      "note": "Preview mix of the revised mellow Latin-club music and deeper magnetic bike whir, before dialogue ducking or final polish."
     }
   ]
 }
