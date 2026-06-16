@@ -8,118 +8,54 @@
     *{box-sizing:border-box}
     html{scroll-snap-type:y proximity;background:#05070a}
     body{margin:0;background:#05070a;color:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    a{color:#bfdbfe}
-    .topbar{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 14px;background:linear-gradient(180deg,#05070ad9,#05070a8a 72%,transparent);backdrop-filter:blur(10px)}
-    .title{min-width:0}
-    h1{margin:0;font-size:15px;line-height:1.1}
-    .meta{margin-top:3px;color:#cbd5e1;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .nav{display:flex;align-items:center;gap:6px;overflow-x:auto;max-width:52vw;padding-bottom:2px}
-    .nav a{flex:0 0 auto;text-decoration:none;font-size:11px;color:#dbeafe;background:#111827cc;border:1px solid #334155;border-radius:5px;padding:5px 7px}
-    .stage-item{position:relative;min-height:100svh;display:grid;place-items:center;padding:54px 14px 18px;scroll-snap-align:start}
-    .stage-item video{width:min(100%,calc(100svh * 9 / 16));height:min(calc(100svh - 88px),calc(100vw * 16 / 9));max-height:calc(100svh - 88px);aspect-ratio:9/16;object-fit:contain;background:#000;border:1px solid #1f2937;border-radius:8px;box-shadow:0 20px 80px #000a}
-    .stage-label{position:absolute;left:14px;bottom:14px;display:flex;align-items:center;gap:8px;max-width:calc(100% - 28px);padding:8px 10px;background:#05070acc;border:1px solid #1f2937;border-radius:7px;backdrop-filter:blur(10px)}
-    .stage-label span{font-size:11px;color:#94a3b8}
-    .stage-label strong{font-size:12px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    main{min-height:100svh}
+    .stage-item{position:relative;min-height:100svh;display:grid;place-items:center;padding:0;scroll-snap-align:start}
+    .stage-item video{width:min(100vw,calc(100svh * 9 / 16));height:min(100svh,calc(100vw * 16 / 9));max-width:100vw;max-height:100svh;aspect-ratio:9/16;object-fit:contain;background:#000}
     .waiting{min-height:32svh;display:grid;place-items:center;text-align:center;padding:40px 18px;color:#cbd5e1;border-top:1px solid #111827}
     .waiting span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
     .waiting strong{display:block;margin-top:6px;font-size:20px;color:#f8fafc}
-    @media (max-width:700px){
-      .topbar{align-items:flex-start;flex-direction:column;gap:7px}
-      .nav{max-width:100%;width:100%}
-      .stage-item{padding-top:86px}
-      .stage-item video{max-height:calc(100svh - 122px)}
-    }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="title">
-      <h1>PDS Flows / Video Stage</h1>
-      <div class="meta">10 videos in final-order review · 0 slots waiting · <a href="https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz">Open ElevenLabs Flow</a></div>
-    </div>
-    <nav class="nav" aria-label="Video timeline">
-      <a href="#S1">S1</a><a href="#S2">S2</a><a href="#S3">S3</a><a href="#S4">S4</a><a href="#S5">S5</a><a href="#S6">S6</a><a href="#S7">S7</a><a href="#S8">S8</a><a href="#S9">S9</a><a href="#END">END</a>
-    </nav>
-  </header>
   <main>
     
 <section class="stage-item" id="S1">
-  <div class="stage-label">
-    <span>01</span>
-    <strong>Scene 1 / Camera A / Okay, seriously...</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s1-cam-a-okay-seriously-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S2">
-  <div class="stage-label">
-    <span>02</span>
-    <strong>Scene 2 / Camera B / Honestly? Meal Prep Revolution.</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S3">
-  <div class="stage-label">
-    <span>03</span>
-    <strong>Scene 3 / Camera A / Wait, really?</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s3-cam-a-wait-really-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S4">
-  <div class="stage-label">
-    <span>04</span>
-    <strong>Scene 4 / Camera B / Yep. I pick my meals...</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S5">
-  <div class="stage-label">
-    <span>05</span>
-    <strong>Scene 5 / Camera B / They cook everything...</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S6">
-  <div class="stage-label">
-    <span>06</span>
-    <strong>Scene 6 / Camera A / That sounds way too easy.</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S7">
-  <div class="stage-label">
-    <span>07</span>
-    <strong>Scene 7 / Camera B / It is. My family loves it...</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S8">
-  <div class="stage-label">
-    <span>08</span>
-    <strong>Scene 8 / Camera A / Okay, I need that today.</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="S9">
-  <div class="stage-label">
-    <span>09</span>
-    <strong>Scene 9 / Camera B / Go to MealPrepRevolution.com...</strong>
-  </div>
   <video controls playsinline preload="metadata" src="s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video.mp4"></video>
 </section>
 
 <section class="stage-item" id="END">
-  <div class="stage-label">
-    <span>10</span>
-    <strong>End Card / Animated Hold</strong>
-  </div>
   <video controls playsinline preload="metadata" src="end-card-animated-hold-cleanpass-20260616-1455-video.mp4"></video>
 </section>
     
