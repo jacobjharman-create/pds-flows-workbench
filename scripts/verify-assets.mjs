@@ -6,6 +6,7 @@ const indexPath = path.join(root, "index.html");
 const nodesPath = path.join(root, "nodes.json");
 const audioBedsPath = path.join(root, "audio-beds.json");
 const shotBoardPath = path.join(root, "shot-direction-board.json");
+const reviewStagePath = path.join(root, "review-stage.json");
 
 const required = [indexPath, nodesPath];
 for (const file of required) {
@@ -22,6 +23,9 @@ const audioBeds = fs.existsSync(audioBedsPath)
 const shotBoard = fs.existsSync(shotBoardPath)
   ? JSON.parse(fs.readFileSync(shotBoardPath, "utf8")).shots ?? []
   : [];
+const reviewStage = fs.existsSync(reviewStagePath)
+  ? JSON.parse(fs.readFileSync(reviewStagePath, "utf8"))
+  : { currentStage: "video" };
 const localAssets = [
   ...nodes.flatMap((node) =>
     (node.media ?? [])
@@ -76,6 +80,18 @@ const missingPosters = videoPosters.filter((file) => !fs.existsSync(path.join(ro
 if (missingPosters.length) {
   console.error("Missing video poster assets:");
   for (const file of missingPosters) console.error(`- ${file}`);
+  process.exit(1);
+}
+
+const firstPositions = {
+  audio: indexHtml.indexOf("Audio Beds For Approval"),
+  photo: indexHtml.indexOf("Candid Camera Direction Board"),
+  video: indexHtml.indexOf("Existing Video Reference Strip"),
+};
+const currentPosition = firstPositions[reviewStage.currentStage];
+const presentPositions = Object.values(firstPositions).filter((position) => position >= 0);
+if (currentPosition >= 0 && presentPositions.some((position) => position < currentPosition)) {
+  console.error(`Current review stage "${reviewStage.currentStage}" is not first in index.html.`);
   process.exit(1);
 }
 

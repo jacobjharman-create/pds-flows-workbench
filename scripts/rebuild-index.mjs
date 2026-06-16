@@ -7,6 +7,7 @@ const nodesPath = path.join(root, "nodes.json");
 const indexPath = path.join(root, "index.html");
 const audioBedsPath = path.join(root, "audio-beds.json");
 const shotBoardPath = path.join(root, "shot-direction-board.json");
+const reviewStagePath = path.join(root, "review-stage.json");
 const data = JSON.parse(fs.readFileSync(nodesPath, "utf8"));
 const nodes = data.nodes ?? [];
 const audioBeds = fs.existsSync(audioBedsPath)
@@ -15,6 +16,9 @@ const audioBeds = fs.existsSync(audioBedsPath)
 const shotBoard = fs.existsSync(shotBoardPath)
   ? JSON.parse(fs.readFileSync(shotBoardPath, "utf8")).shots ?? []
   : [];
+const reviewStage = fs.existsSync(reviewStagePath)
+  ? JSON.parse(fs.readFileSync(reviewStagePath, "utf8"))
+  : { currentStage: "video", label: "Current review stage" };
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -121,6 +125,35 @@ const waitingMarkup = waiting.length
     </section>`
   : "";
 
+const shotSection = shotBoard.length ? `<section class="shot-review" aria-label="Candid camera direction board">
+      ${reviewStage.currentStage === "photo" ? `<div class="stage-label">${escapeHtml(reviewStage.label)}</div>` : ""}
+      <h1>Candid Camera Direction Board</h1>
+      ${shotBoard.map(renderShot).join("\n")}
+    </section>` : "";
+
+const videoSection = `<section class="video-review" aria-label="Existing video reference strip">
+      ${reviewStage.currentStage === "video" ? `<div class="stage-label">${escapeHtml(reviewStage.label)}</div>` : ""}
+      <h1>Existing Video Reference Strip</h1>
+      ${available.map(renderVideo).join("\n")}
+      ${waitingMarkup}
+    </section>`;
+
+const audioSection = audioBeds.length ? `<section class="audio-review" aria-label="Audio beds for approval">
+      ${reviewStage.currentStage === "audio" ? `<div class="stage-label">${escapeHtml(reviewStage.label)}</div>` : ""}
+      <h1>Audio Beds For Approval</h1>
+      ${audioBeds.map(renderAudioBed).join("\n")}
+    </section>` : "";
+
+const sectionsByStage = {
+  audio: [audioSection, shotSection, videoSection],
+  photo: [shotSection, videoSection, audioSection],
+  video: [videoSection, shotSection, audioSection],
+};
+
+const orderedSections = (sectionsByStage[reviewStage.currentStage] ?? sectionsByStage.video)
+  .filter(Boolean)
+  .join("\n");
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -157,20 +190,7 @@ const html = `<!doctype html>
 </head>
 <body>
   <main>
-    ${shotBoard.length ? `<section class="shot-review" aria-label="Candid camera direction board">
-      <div class="stage-label">Current review stage · newest generated media</div>
-      <h1>Candid Camera Direction Board</h1>
-      ${shotBoard.map(renderShot).join("\n")}
-    </section>` : ""}
-    <section class="video-review" aria-label="Existing video reference strip">
-      <h1>Existing Video Reference Strip</h1>
-      ${available.map(renderVideo).join("\n")}
-      ${waitingMarkup}
-    </section>
-    ${audioBeds.length ? `<section class="audio-review" aria-label="Audio beds for approval">
-      <h1>Audio Beds For Approval</h1>
-      ${audioBeds.map(renderAudioBed).join("\n")}
-    </section>` : ""}
+    ${orderedSections}
   </main>
 </body>
 </html>

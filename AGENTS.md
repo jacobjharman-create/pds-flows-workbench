@@ -60,7 +60,9 @@ Default output should remain videos-only unless Jacob explicitly asks for a diff
 Stage-first rule:
 
 - The sandbox must lead with the newest media type from the current update.
+- Set `review-stage.json` to the current stage (`audio`, `photo`, or `video`) before rebuilding.
 - If the latest update produced photos/stills, the photo/still board goes first.
 - If the latest update produced videos, the video strip goes first.
 - If the latest update produced audio beds, include the audio section near the relevant current stage.
 - Older videos, stills, or audio can remain below as reference, but Jacob should not have to scroll past stale media to find the newest output.
+- Do not leave `review-stage.json` pointing at an older stage after producing new media.
