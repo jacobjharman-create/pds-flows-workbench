@@ -792,45 +792,34 @@
     {
       "title": "END CARD — Animated Hold",
       "id": "ESH48qte1X7l96yDPM2E",
-      "text": "END CARD — Animated Hold\nKling 3.0\n\n\n\nCompletely static hold. No camera movement. The premium meal prep product photography end card holds perfectly still for the full duration. Text remains crisp and legible throughout.\nRun\n\n\nKling 3.0\n\nStart frame\n\n1080p\n\n3s\n\n\n\n\n",
+      "text": "END CARD — Screenshot CTA Hold\nLocal final CTA source image from Jacob screenshot. Preserve screenshot graphics exactly: no logo changes, no extra text, no added graphics, no redesigned layout. Use this actual Meal Prep Revolution / Prometheus Design Studios screenshot as the exit screen and conclusion screen base. Static hold only; no camera movement, no generated redesign, no altered brand marks.",
       "media": [
         {
           "tag": "IMG",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=658aeb2ba31e63badbe45c7c2794b1ba6f309ca3c0b8dea8405492feeb7669069afcf13c3aa0d05fcae53b1c40c1f52fd85c3039d36ea4e74f3be5d44c18d431de76e34f5eaee424998746754b39a8227211c856d401ee08efb395d005c05b9f625052691a6b3cac7e6b9616b1caeb04548aad4b53449a3797a9e36c9d87b19d1fc80c8b5786e3ecc039d8033c646659faf150ad1651dffb9b2073150f3febd3f2201ad1fb7a0aff63e67a0d8bf31f125c61b7babac08095484bbc2ce4408af20d0c9dc9b0ac5630de6e1fb39ddf8b5056ffa712e8ad63403e54f596b5905dbce4167b99aa64ca2cc8c493743319f7d27e946b32f5a9324177442aabc068fe66",
+          "src": "",
           "poster": "",
-          "alt": "Preview",
-          "w": 480,
-          "h": 854,
-          "local": "end-card-animated-hold-0-img.jpg",
+          "alt": "Meal Prep Revolution final CTA screenshot source",
+          "w": 589,
+          "h": 1280,
+          "local": "meal-prep-revolution-final-cta-screenshot-20260616-img.jpg",
           "downloadStatus": {
-            "ok": true
+            "ok": true,
+            "source": "user-upload"
           }
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T214527Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=25d108fef3283a272e81024f3510893bee4f7c145000e5c68e7d51d8fcb52ce593cb8a477a7a15f6cad0f5e969faed3f468f13cd21395e4962cc6f2454190ddc07fc60ca5e439d061b42715fb0e5f7d1f65b55c5857b2914be2012b1147c6d422c3527d508e11ba101648be467931665dc21667b61656759872e06ad82560381b477a8b52056481bc207f5c00e7fb47b0b1c94d327cb84cee38964af492ed8913ab1f10528222c5becf0678f6cf3afdafc1e612278530d5397011772ccffe28d55465d30699c260a7db7bd418eca298b07d89ef0f3d0ed05051bc2ce65a6681b7890bb861bdeddc8905186dcc03c8460093e840a7e4ee7e4d831c850613aa6d9",
+          "src": "",
           "poster": "",
-          "alt": "END CARD — Animated Hold",
-          "w": 480,
-          "h": 854,
-          "local": "end-card-animated-hold-cleanpass-20260616-1455-video.mp4",
+          "alt": "END CARD — Screenshot CTA Hold",
+          "w": 720,
+          "h": 1280,
+          "duration": 3.5,
+          "res": "720p",
+          "local": "end-card-meal-prep-screenshot-cta-hold-20260616-video.mp4",
           "downloadStatus": {
             "ok": true,
-            "bytes": 121828
-          },
-          "duration": 3.125,
-          "res": "1080p"
-        },
-        {
-          "tag": "IMG",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/m9ZtLi9wN1ep8QBLO0sV/preview_content.webp?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=42787f4f039090edfd1bd8306882191eb911a36454c531318f630b3e0ebea3d2b516220f7bbec8e5d92de1a5df5e30fe947e2978a623299ec294712c2ec76263e08fea033403ed0604385c38c3fae47b64585a3a89fd4c5cd4ed2ce880196b50f1300d75c7bba80831366004fc09efafd1dbb7613d15b810976e6a87710d645e45fad93658d4c3332041a3cfd1d9b6a1ff8f808813d7b3ecb1e424d6c87712dac1edb0e4ca206c86abc837fbaf4590df9f39b7dd6d28b1333849625ce8ab596bbb1d6868fea336b8bac469a633e03138dfe7c27e56436c2a1c9c587c866882d9c0789ff5794c7c584387fa9ff9c9f03b37993920076bcc77796cbd82a6e63366",
-          "poster": "",
-          "alt": "Luxury food photography end...",
-          "w": 1024,
-          "h": 1820,
-          "local": "end-card-animated-hold-2-img.webp",
-          "downloadStatus": {
-            "ok": true
+            "source": "local-screenshot-hold"
           }
         }
       ]
