@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:05:39.905Z",
+  "generatedAt": "2026-06-16T21:56:25.276Z",
   "flowUrl": "https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz",
   "nodes": [
     {
@@ -390,7 +390,7 @@
     {
       "title": "S1 — CAM A — \"Okay, seriously...\"",
       "id": "2DYRui2go6dhHCzNE5AI",
-      "text": "S1 — CAM A — \"Okay, seriously...\"\nOmniHuman 1.5\n\n\n\n\nWarm, curious, bubbly delivery with natural head movement and bright engaged eyes. Candid conversational energy, genuine surprise and friendliness.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S1 — CAM A — \"Okay, seriously...\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character A reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Warm, curious, bubbly delivery with natural head movement and bright engaged eyes. Candid conversational energy, genuine surprise and friendliness. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -406,15 +406,18 @@
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=a0fcd86572ea26a7ef2c438b2e6f52471a2a24c9ac5dfd1c2f8108ad58aa4c9d92c831947eba8b2b68dc783d6e66195801111bdb6c3828821757dda7c898821ea9c8e4c27632a896864edd910c3773aa2efab8b3f7da0a59c59bbec6bc221c0ed9a4032acd6e6a12750fd49d1f57f150f1244812509f079d65ab4da4efd42011b5efb071ac3e1ce97e15bd8889aded8e381159feb598cf94d79f88a795327d6a1ad5407dba975aa10b8cf2f8e6ef2ee23dc56c126f945c88f928c329578a742a7d41e113e87654cc867fc0af231b9ca867d24725d08739adb4d8d7f67e5417e400a3837848e7eba908ee930b79931b6a908528a04ee08ae9f9dde8b3cdae367e",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/jT2laaNi5la6b2UqiklE/oKzslat6FZJLsgiX0uHl/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T213438Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=afaaae00b2b5fe3157250155ba1375c0750955527ce48d4d1ebf21260ca4772194c85014434029ef1b74237ad07db00e57d2bde5b4fe8f85692cfa514be2cf91c809f577441a4f71f428b70b0eb936dafcc5ed6f907486634093e82c2f5fe0f94cd18e826c584e83cfe60edd211d334ad53d06053b0910408cdf7d12a9fc08d55f473ec7e9f9d543524f4fad4df0033587e5b481baa990d888e9044b4f4586004bed6d3a3506852c05141cc6442ecac14e5654841e6fcf0c3e90e79896e51b180583b86fc6825d3c782988096c06e36d061e31bb49c80c74c68a680ce5f57584dd0952b20670f8e5193bff22146430ebbb2bd3f2db3d1d2444a6bc9ff92932c2",
           "poster": "",
-          "alt": "",
+          "alt": "S1 — CAM A — \"Okay, seriously...\"",
           "w": 480,
-          "h": 848,
-          "local": "s1-cam-a-okay-seriously-1-video.mp4",
+          "h": 850,
+          "local": "s1-cam-a-okay-seriously-cleanpass-20260616-1455-video.mp4",
           "downloadStatus": {
-            "ok": true
-          }
+            "ok": true,
+            "bytes": 255131
+          },
+          "duration": 4.12,
+          "res": "720p"
         },
         {
           "tag": "IMG",
@@ -433,7 +436,7 @@
     {
       "title": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
       "id": "2qqnFaHsUM33Z5g2ByAH",
-      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nOmniHuman 1.5\n\n\n\n\nRelaxed, confident, warm delivery with a natural smile. Calm head nod, genuine and trustworthy energy, like sharing a secret with a close friend.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nOmniHuman 1.5\n\n\n\n\nUse the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Relaxed, confident, warm delivery with a natural smile. Calm head nod, genuine and trustworthy energy, like sharing a secret with a close friend. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -449,15 +452,18 @@
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1a0dbe95cc008d459ac4ed141652e3c9f7e5d4631c3bca3f744ca18c40ee93b9cf3c988338cf8abb0661499b281f328b46d9f46e42f9b46c69a2deba94082977326af4a1aff892f8119048ff2538bb20fcbe29972e2eedf253aa85dd772d45a96eb2b9913905cc28f125f41b8fbab4db90afbc940c0d659dfea7bb28b0dc2d2607411f570620ac1a66743865bfe36a6861502d439de50217eeb182930e0cf857ae8150e88c3a68be3e4c438b887179a6a02c762d8340a0e9da5296b09bd5d8fa0e861cb4d46364f829d1bdc6cae768d90a7ced457fbd9ccae9f9ac87277eca33f252247c7f1fe6b4cb86612c446bc019e28c25eb1f58d6cf5d8e57abf35ef9ff",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/6Eb7BS4KGaO7XZm38ONd/howoxHZjXMtwBlR1awgw/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T212539Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4e44863fabf6bcd54b45afab2e3f68ef0657409e8827ec09ea742a7c21455aed244417a26d6aee6ec0a9c153f58cbc228d438476e2609363d79c255daba7414ee4a7b2d842744e1f13908e8fd5ff55dd08e1d174680d118c42db8cae9723d3f1a6ce4110e7446036c1f7fa75decf8bd7a659c2b7c4baa6b44fca33ce5ec708aa5919e39a1dc5f7e7a305bb83a5ee663c74d9188a9b5159364e83947fcd1f463c369c34a6a3929a6ec211e3704f8a275f64e6953f6b342c91dcf18802d17f92472e410ac14a824b69df9bf8fc45f1dd45d10fe50fec34b496e6a012a4f693c8fecac129b26740df55f5b6d903b52c134886302883fd9661f6ed6602550f22d132",
           "poster": "",
-          "alt": "",
+          "alt": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
           "w": 480,
-          "h": 848,
-          "local": "s2-cam-b-honestly-meal-prep-revolution-1-video.mp4",
+          "h": 850,
+          "local": "s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video.mp4",
           "downloadStatus": {
-            "ok": true
-          }
+            "ok": true,
+            "bytes": 217255
+          },
+          "duration": 2.52,
+          "res": "720p"
         },
         {
           "tag": "IMG",
@@ -476,7 +482,7 @@
     {
       "title": "S3 — CAM A — \"Wait, really?\"",
       "id": "pWGSCG5q55E5GLUNYMil",
-      "text": "S3 — CAM A — \"Wait, really?\"\nOmniHuman 1.5\n\n\n\n\nPlayful, bright, surprised reaction. Quick natural head tilt, wide eyes, genuine delight and curiosity.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S3 — CAM A — \"Wait, really?\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character A reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Playful, bright, surprised reaction. Quick natural head tilt, wide eyes, genuine delight and curiosity. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -492,15 +498,18 @@
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/Fw5fmRBC1NPWteNKuLej/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=737b49fee8e67499b13d02d212ac2f8374df68cf90554814a3d1d261bde6a8189ded5eec2d0eb5e2aaae3f8776ef3b5a894275e815b483c238ba0d43af3d511f6c4d0fcadda30731d6fd10d26324059f2cdc4c142ad2d10fada8e6178ef91431d7952fc15c5bdf93fa4795b2dd8542830a08deed9e3503280eccb894bf4ae239cf76a4534275cee46d03d4355a5e3bd3bd3e4e45fbe55e17a1af8fdcdef3760195ec8f5526a8eeed5d6e734b46723147310fa8005a0b90f34f1bbcd969ae56c8e4227ab18518a917dda93c82cd633734c57bb309f6de01befa91a73fd3bd3502fd0077362b3861ab5700f354e7aa193b339d6e3982d818492449eb64ab0e2b71",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/y2u8yjl6OD4f9jS3hm7B/8nzxxdlILz5pVeR1rQvv/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T213801Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2aa1f3bb63a25c09f96abe260c1547e7f133d978cba247a56a586a856dd275b5a9d2955a52210cc177c111275ec7640a100d0760eda1b49ad53a0ef964fbfbcf38f547ac645c9afec8c8e4ccb763629ddde274f0a9d04ab3f0ba8d2ebf30703ed0f5178c825bace568bbd41a5ba26c01cc059bd65f5f2402e53283cc6d414fe3e3ea14e5f2595a1e202d04760ce522fac9bfdb7fa1c4f22d54406061cd666a0b7f6530669f4acdc851bf79e97f844bc440cad6dc94cb6639596473a915b22e5fcde3cb6b2a15631caf198dcf4e743629c71eafed5beabf8758e08e39b48451e365635b31e798712448f3e24d2741ca77a4585a736dc9895e3a47aec9ee42569b",
           "poster": "",
-          "alt": "",
+          "alt": "S3 — CAM A — \"Wait, really?\"",
           "w": 480,
-          "h": 848,
-          "local": "s3-cam-a-wait-really-1-video.mp4",
+          "h": 850,
+          "local": "s3-cam-a-wait-really-cleanpass-20260616-1455-video.mp4",
           "downloadStatus": {
-            "ok": true
-          }
+            "ok": true,
+            "bytes": 75219
+          },
+          "duration": 0.76,
+          "res": "720p"
         },
         {
           "tag": "IMG",
@@ -519,7 +528,7 @@
     {
       "title": "S4 — CAM B — \"Yep. I pick my meals...\"",
       "id": "i7TYGS63Wsl3lKQG8we8",
-      "text": "S4 — CAM B — \"Yep. I pick my meals...\"\nOmniHuman 1.5\nYour generation will appear here\n\nWarm, organized, matter-of-fact delivery. Confident nod, natural smile, relaxed and conversational energy.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S4 — CAM B — \"Yep. I pick my meals...\"\nOmniHuman 1.5\n\n\n\n\nUse the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Warm, organized, matter-of-fact delivery. Confident nod, natural smile, relaxed and conversational energy. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -532,13 +541,28 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/C8i0DTuTUbjiM65UrleH/d3ciHby3HzvWOOgn6jay/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T211941Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0953be0a34e9bddf4e0d288a1c7e0881e923529d092d8b53080edc42d3865bcc32d5dfe446d8b33574670da48fce8058e8ca48bcbdb3daaed8ce956ad56099e50c9a9baecd94b9038c3e32c31fd8d10025d83a4f36894af2d26ea29cad38760c4f0246e800466b9d3ee86e304bc66ab2ac56fb489b0d12f1989405883655e5295b89a470749c6f64c17172a031c9e767df6b4148bfde4aef8eaa87cd8c1b9131ddbcdc7f5dbc3ad12fba4ef707f6bd8ba9e4e7b7b49c68bae023f97597ee8349a64bf3e4cfbaff22506a3e160a02ee24a788aef09174fe736452254c34033873d33da243a90f93c2e6119d9bcda842d30b343cbb521d160124f826de9dbafb1a",
+          "poster": "",
+          "alt": "S4 — CAM B — \"Yep. I pick my meals...\"",
+          "w": 480,
+          "h": 848,
+          "duration": 2.2,
+          "res": "720p",
+          "local": "s4-cam-b-yep-i-pick-my-meals-cleanpass-20260616-1455-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "bytes": 120625
+          }
         }
       ]
     },
     {
       "title": "S5 — CAM B — \"They cook everything...\"",
       "id": "DTeLAAtZdv1HkdwdfzXY",
-      "text": "S5 — CAM B — \"They cook everything...\"\nOmniHuman 1.5\n\n\n\n\nConfident, helpful, clearly explaining the service. Warm eye contact, slight lean forward, natural gestures implied in micro-expressions.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S5 — CAM B — \"They cook everything...\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Confident, helpful, clearly explaining the service. Warm eye contact, slight lean forward, natural gestures implied in micro-expressions. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -554,15 +578,18 @@
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/jZAyqNcpcd3fJVD9jic0/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0c848e5f72a1e7e5679c9e7f6b469ac32426c06c2d5cf388f6213acab49af314a6dc8df9253ad5260af32fb3a2a1ebd4dce911261ac9ad1ebd4d659e707699c20b6287b51f72aa1ef40868497b3c7ea04f4f39d49960d975b5a8595b60ad482b6d412c46b25b4ad7978fbb7582a519e28814924b03b3b314978ffd8bfe6c094b9fd14f7b441278482c081e27f131b406f31cc04edc80f74252ca6eb882a31519e340c97a944c77f2030ac82ce6b993dcb4238664140c4906a1d1b2d44b0a4828c0e0f3a9fe53a4314e6e78c6c587a22e27301a4eb766e944f0840ee82d517355f881682d7ef520290eafe63377ba3fcca5840c2c0bd2b5f30501de01b23bc3b4",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/83cLXVtQY0LP2LJK7e12/7K8js4UWBXnJQkDrxvwR/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T214128Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=3801b5bfc2480a78589d8ca13d68138e7a091730620d311c7df0f7fac8d6b44b77529cdd317443bca592ab6b92550c92c060147985c6714a85c4289e337cb0968c7404516597172412d02358b32c120153c7432affe471006b4b55839cb30b46b698709f601296b6db83595a65365b9aa91a884be6ce5ff6539053074b36bf2addf662bcaa63a1ca8543e2273e6ab203cf555fca1e7404e0173b474edb00a7bbe712dad48865d89f79b22c9803e422b1dcd61d3bbb824892ec9eb8c281206a3d422fbce120daa8b902e2130df9fc3b300926a2e5cf48bb22a56a6883f462486d24ab2e22a7eae88c63a10d10a30e67adf5bef512e8a449f34a5e2db83f6d33ea",
           "poster": "",
-          "alt": "",
+          "alt": "S5 — CAM B — \"They cook everything...\"",
           "w": 480,
-          "h": 848,
-          "local": "s5-cam-b-they-cook-everything-1-video.mp4",
+          "h": 850,
+          "local": "s5-cam-b-they-cook-everything-cleanpass-20260616-1455-video.mp4",
           "downloadStatus": {
-            "ok": true
-          }
+            "ok": true,
+            "bytes": 168157
+          },
+          "duration": 3,
+          "res": "720p"
         },
         {
           "tag": "IMG",
@@ -581,7 +608,7 @@
     {
       "title": "S6 — CAM A — \"That sounds way too easy.\"",
       "id": "hGph64nwtHGVdhkGIm82",
-      "text": "S6 — CAM A — \"That sounds way too easy.\"\nOmniHuman 1.5\n\n\n\n\nAmused, impressed, lightly skeptical but delighted. Natural smile breaking through, bright playful delivery.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S6 — CAM A — \"That sounds way too easy.\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character A reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Amused, impressed, lightly skeptical but delighted. Natural smile breaking through, bright playful delivery. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -606,13 +633,28 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/pccw5p9pUl1Jc5YCZpyf/ANulTb4CNKfvcdEoOABe/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T214329Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=cee23411cb473cec35d95b26f4c788e2db24c2e6d8a0b611220138e9794d399aaf57857d4dce2b42293941c8407d103a1b775e176c7f266aa5facf3a77adaf22bf9986c830db9ae45cf36c272958c50490ef850f945de6024946876ca531700e969024f36c3e109881a7bad3132ee164791bb3751a29ebc6cd0685daaa7955870aa6ea46774fc4312088641e572093def5f6858ceb1f93b921b9381330e20632bde64ff6bed21c2b89c9834da2a798f382bb21de148b54157f582f98de01b189455843211052771ec4f2810ba970620094bd9472220074e2a8275c12ea0f9a78cbceda8a60dc855a033f0ad78edae308d8137b9d057e59e05f70067892838dd3",
+          "poster": "",
+          "alt": "S6 — CAM A — \"That sounds way too easy.\"",
+          "w": 480,
+          "h": 850,
+          "duration": 2.04,
+          "res": "720p",
+          "local": "s6-cam-a-that-sounds-way-too-easy-cleanpass-20260616-1455-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "bytes": 163077
+          }
         }
       ]
     },
     {
       "title": "S7 — CAM B — \"It is. My family loves it...\"",
       "id": "q1oNcql2PuZJMwHD6ZIh",
-      "text": "S7 — CAM B — \"It is. My family loves it...\"\nOmniHuman 1.5\n\n\n\n\nWarm, genuine pride, relatable mom energy. Natural smile, soft confident delivery, authentic and sincere.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S7 — CAM B — \"It is. My family loves it...\"\nOmniHuman 1.5\n\n\n\n\nUse the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Warm, genuine pride, relatable mom energy. Natural smile, soft confident delivery, authentic and sincere. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -637,13 +679,28 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/9EafHujoYOLB5qC7bR6p/MSUixOYbeNWwy9uabpCS/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T214826Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=5b1d6e2111866f220d98bd86465758e18af59c55e7154477db431b8dd4a188453cc0c36c337ea55e2ec7663aba7e8f6bf07c667de4c4e4b351c818c8105a9b08139ffff86c03c17849c3a9fd7513009aae6e3b3d8b98640b06f967d2073aad63a253cd61d00093e9fbeae90efdc703e6560a7956a1fd7a8d036a3f49ee3ad9949d6deb136eaecd40d9f39056ba9409f30377d1ec952a2dcfc58db894e71ab27856f2447605f3dc63d68971c582f026763e468fe6290bfa5f0ecd23d80b321352ab166e9a7e12fa26a88abc8ee6c173b7c48384d73ddb09f5fe3e5a886bfa31d41f29df2f08935083ad27abf00a4eab654526d9ab86a70cacbfdb280161e44eab",
+          "poster": "",
+          "alt": "S7 — CAM B — \"It is. My family loves it...\"",
+          "w": 480,
+          "h": 850,
+          "duration": 3.8,
+          "res": "720p",
+          "local": "s7-cam-b-it-is-my-family-loves-it-cleanpass-20260616-1455-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "bytes": 322657
+          }
         }
       ]
     },
     {
       "title": "S8 — CAM A — \"Okay, I need that today.\"",
       "id": "j7KtWamZuCUCZZD4mlkA",
-      "text": "S8 — CAM A — \"Okay, I need that today.\"\nOmniHuman 1.5\n\n\n\n\nDecisive, excited, fully convinced. Bright eager delivery, natural head nod, energized and ready.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S8 — CAM A — \"Okay, I need that today.\"\nOmniHuman 1.5\n\n\n\n\nUse the regenerated Character A reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Decisive, excited, fully convinced. Bright eager delivery, natural head nod, energized and ready. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -668,13 +725,28 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/iEjnaoUh0ZBtqDOBsGV5/jwW8sXVe5qGlkGTUjW8O/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T215227Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8b0c5dadd9cea56c7124f4c3314f7aafd36759ac858490ccf4889a5d5b3758d28d81fa1774359766386bcd5b12ec73051d27d7a59746d1b877b0cdf278949b6f629d4f50c7bbc2115ebd55c9f1f2f2c09940132ccbff501f13b2747abeda708c774ce53b83e14f79b3e9388c7ff32894349efdedce3ca494ced373c6c66d2fb0dcf291f89473c799c17f555cf06a4fa354a48e66b6c215778ee012180271c542b60e2b71070b25daf5e6f0b4adbdac558f01da491ed681224f710e7a404db2815d2334669ed2966a3831761e79f1b3cc15b5f2f8ca5dcff19a9457f40d238c054b1e0bbf2a2a99f5e2017bde97863ba107c9eb34b5eaa2fa289b41ed71501b28",
+          "poster": "",
+          "alt": "S8 — CAM A — \"Okay, I need that today.\"",
+          "w": 480,
+          "h": 850,
+          "duration": 1.88,
+          "res": "720p",
+          "local": "s8-cam-a-okay-i-need-that-today-cleanpass-20260616-1455-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "bytes": 148400
+          }
         }
       ]
     },
     {
       "title": "S9 — CAM B — \"Go to MealPrepRevolution.com...\"",
       "id": "Sm4Sh62gvObkSLXqhQWy",
-      "text": "S9 — CAM B — \"Go to MealPrepRevolution.com...\"\nOmniHuman 1.5\n\n\n\n\nWarm, friendly CTA delivery. Direct eye contact, clear enunciation, confident smile, trustworthy closing energy.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "\n\n\nS9 — CAM B — \"Go to MealPrepRevolution.com...\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Warm, friendly CTA delivery. Direct eye contact, clear enunciation, confident smile, trustworthy closing energy. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
       "media": [
         {
           "tag": "IMG",
@@ -699,6 +771,21 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/1KiOq8k69CUyoWPnfBxy/miJqj4UQCYDGAtPm8VMi/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T215519Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=ba681259c34b9cdca64fc1f829c91e2aad6dec7aed2171afec3c0721e2a0d7894c75f74294c4cb058d76ba3eb469b32d57ce3a9c6f98d9d38dcfaea9b1187c89454731a4dbe20ee6966a6255e12cd8de6e6d160c5e05d61351f6d5112b6dbf2eb897bae971a262674cbd442f303932cb20822ba4dbe82e32139d02de1cc8975d4847cbc99bd63b26959dd577530c688555c5bd29a819d68df4673cd93f15f46256bafd4e9e7bd2936cb76dc9af4902bbc6ab8d67a2feff8ad6854e6bfe99c3fa47a0c8f5dea101c3a321e39f8db4e5dc5d13c10ce0b088819a0fe34141e7738d30ec752f95ba1ad00a2b85a8fbed39bfa0eadeec664158f6cfcafb7d58ece6d5",
+          "poster": "",
+          "alt": "S9 — CAM B — \"Go to MealPrepRevolution.com...\"",
+          "w": 480,
+          "h": 850,
+          "duration": 4.44,
+          "res": "720p",
+          "local": "s9-cam-b-go-to-mealpreprevolution-com-cleanpass-20260616-1455-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "bytes": 259271
+          }
         }
       ]
     },
@@ -721,15 +808,18 @@
         },
         {
           "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=0977daaece493cb96bb37bed4ac7e168436cb4d41a05eaf07e5da97f5f692f65c6569d0f3bdcb110822f6dabcf633e73daaced62f3682a859b7c811e998e9938d87bbb089e07b582daf9be6d8457fd1206196877bd8b5c805b626a06f83300be253c196746e23cb56b2e74029ee36bd0a39e6db7ac815bb1d700d092f1d736761ed0a229c98d19036ea6b31f67e8dcb86ed4ba9fabfe5365077541f652e9d80ffda0c6dfd2ea0ddc9c5a667e0a687dfe3ab1c801e36c8e460cb591ead8ae7d72b7b32bcdbf01fa7a75d781c3c4cf066d668bad047a6f3ed3dd096dd6a181bb293c83e25c7e204d3251a00dc4377eca8032053f34cc2ac49f066d63ce3469e7d6",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/KLelvEsierAp7q16JfRn/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T214527Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=25d108fef3283a272e81024f3510893bee4f7c145000e5c68e7d51d8fcb52ce593cb8a477a7a15f6cad0f5e969faed3f468f13cd21395e4962cc6f2454190ddc07fc60ca5e439d061b42715fb0e5f7d1f65b55c5857b2914be2012b1147c6d422c3527d508e11ba101648be467931665dc21667b61656759872e06ad82560381b477a8b52056481bc207f5c00e7fb47b0b1c94d327cb84cee38964af492ed8913ab1f10528222c5becf0678f6cf3afdafc1e612278530d5397011772ccffe28d55465d30699c260a7db7bd418eca298b07d89ef0f3d0ed05051bc2ce65a6681b7890bb861bdeddc8905186dcc03c8460093e840a7e4ee7e4d831c850613aa6d9",
           "poster": "",
-          "alt": "",
+          "alt": "END CARD — Animated Hold",
           "w": 480,
           "h": 854,
-          "local": "end-card-animated-hold-1-video.mp4",
+          "local": "end-card-animated-hold-cleanpass-20260616-1455-video.mp4",
           "downloadStatus": {
-            "ok": true
-          }
+            "ok": true,
+            "bytes": 121828
+          },
+          "duration": 3.125,
+          "res": "1080p"
         },
         {
           "tag": "IMG",
