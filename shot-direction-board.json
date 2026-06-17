@@ -1,9 +1,19 @@
 {
   "shots": [
     {
-      "title": "PROP PLATE — 2027 Sleek Open-Cockpit Recumbent Bike — 2026-06-17 02:07 PT",
+      "title": "CAMERA A — Character A Speaking — Bike-Plate Source Still — 06/17/2026, 02:24:33 PDT",
+      "file": "camera-a-bike-plate-source-still-20260617-022201.png",
+      "note": "CURRENT REVIEW STILL. Character A stays on assigned Bike A and speaks toward Character B. Character B appears only as blurred foreground shoulder/hair. Bike source uses the 2027 prop plate (recumbent-bike-3d-prop-plate-20260617-0207.png, hash 86486cc2e879) with open cockpit, low compact touchscreen, side/base handles, reclined seat, and logical pedals. Hash 39c209611cef; 2117 KB."
+    },
+    {
+      "title": "CAMERA B — Character B Speaking — Bike-Plate Source Still — 06/17/2026, 02:27:59 PDT",
+      "file": "camera-b-bike-plate-source-still-20260617-022512.png",
+      "note": "CURRENT REVIEW STILL. Character B stays on assigned Bike B and speaks toward Character A. Character A appears only as blurred foreground shoulder/ponytail. Bike should match Camera A as the same 2027 open-cockpit recumbent model, opposite reverse angle only. No seat swap, no bike swap, no direct-to-camera CTA energy. Hash 86c60d1229ef; 2155 KB."
+    },
+    {
+      "title": "REFERENCE PLATE — 2027 Sleek Open-Cockpit Recumbent Bike — 06/17/2026, 02:07:01 PDT",
       "file": "recumbent-bike-3d-prop-plate-20260617-0207.png",
-      "note": "CURRENT REVIEW LOCK CANDIDATE. Deterministic prop plate for the bike model before generating more character shots. One bike geometry is duplicated and the bike-only geometry is mirrored to show the opposite side. Bike A and Bike B stay parallel and face the same physical direction. Final character shots must preserve this same sleek 2027 upscale Equinox/Newport Beach recumbent bike: black satin frame, subtle champagne trim, open cockpit, low compact touchscreen on a short integrated stem, side/base handles, reclined seat/backrest, vented flywheel housing, foot straps, and logical crank/pedal path. No bulky upright handlebars, no 1990s gym equipment, no floating screens, no crossed feet, no missing pedals, and no bike style changes between Camera A and Camera B."
+      "note": "Bike geometry reference only. One bike geometry duplicated/mirrored for opposite side. Final shots must preserve this same black satin/champagne premium recumbent bike family with low integrated console, open cockpit, side/base handles, foot straps, logical pedal path, and no bulky upright handlebars. Hash 86486cc2e879; 1526 KB."
     }
   ]
 }

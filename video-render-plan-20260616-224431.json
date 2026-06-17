@@ -12,10 +12,10 @@
   "resolutionRule": "Use lowest available review resolution for the first video pass. Keep 720p where available. Do not upscale until continuity, mouth visibility, lip sync, and scene order are approved.",
   "globalLocks": [
     "Only Character A and Character B appear in the dialogue scenes.",
-    "Character A uses final-character-a-dark-taupe-20260616-220447.webp and fixed-world-open-recumbent-camera-a-lock-20260617-005258.png.",
-    "Character B uses final-character-b-teal-accent-20260616-220447.webp and fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png.",
+    "Character A uses final-character-a-dark-taupe-20260616-220447.webp and camera-a-bike-plate-source-still-20260617-022201.png.",
+    "Character B uses final-character-b-teal-accent-20260616-220447.webp and camera-b-bike-plate-source-still-20260617-022512.png.",
     "Fixed-world map: Character B is always on Bike B, the left/near bike; Character A is always on Bike A, the right/far bike.",
-    "Bike A and Bike B are the same exact sleek 2026 premium recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
+    "Bike A and Bike B are the same exact sleek 2027 premium open-cockpit recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
     "The front cockpit stays open with room for natural hand movement; do not add large upright-style handlebars or a bulky handlebar tower in front of the riders.",
     "The bikes must make logical mechanical sense and never change style, console, frame, pedals, crank path, seat, side/base handles, flywheel housing, or open-front cockpit from frame to frame.",
     "Each rider's left foot and right foot must stay on the correct left/right pedals of her own assigned bike with no crossed legs, no foot crossing the bike centerline, no foot on the opposite-side pedal, and no left/right pedal confusion.",
@@ -31,73 +31,73 @@
       "scene": 1,
       "nodeTitle": "S1 - CAM A - Okay, seriously...",
       "speaker": "Character A",
-      "cameraFile": "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
+      "cameraFile": "camera-a-bike-plate-source-still-20260617-022201.png",
       "audioFile": "s1-tts-char-a-okay-seriously-0-audio.mp3",
       "dialogue": "Okay, seriously... you look amazing. What's your secret?",
-      "prompt": "Use the locked Camera A reference exactly: fixed-world-open-recumbent-camera-a-lock-20260617-005258.png. Character A is the only active speaker. Character A keeps the exact same face, brunette ponytail, darker mocha/taupe high-end logo-free athleisure, makeup, body type, and assigned bike/seat/side. Character B appears only as a blurred blonde shoulder/hair foreground shape; Character B's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character A turns naturally toward Character B, not toward the camera. Dialogue: \"Okay, seriously... you look amazing. What's your secret?\" Natural curious friend energy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. No direct-to-camera presenter energy. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera A bike-plate source still exactly: camera-a-bike-plate-source-still-20260617-022201.png. Character A is the only active speaker. Character A keeps the exact same face, brunette ponytail, darker mocha/taupe high-end logo-free athleisure, makeup, body type, and assigned bike/seat/side. Character B appears only as a blurred blonde shoulder/hair foreground shape; Character B's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character A turns naturally toward Character B, not toward the camera. Dialogue: \"Okay, seriously... you look amazing. What's your secret?\" Natural curious friend energy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. No direct-to-camera presenter energy. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 2,
       "nodeTitle": "S2 - CAM B - Honestly? Meal Prep Revolution.",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
+      "cameraFile": "camera-b-bike-plate-source-still-20260617-022512.png",
       "audioFile": "s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3",
       "dialogue": "Honestly? Meal Prep Revolution.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera B bike-plate source still exactly: camera-b-bike-plate-source-still-20260617-022512.png. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 3,
       "nodeTitle": "S3 - CAM A - Wait, really?",
       "speaker": "Character A",
-      "cameraFile": "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
+      "cameraFile": "camera-a-bike-plate-source-still-20260617-022201.png",
       "audioFile": "s3-tts-char-a-wait-really-0-audio.mp3",
       "dialogue": "Wait, really?",
-      "prompt": "Use the locked Camera A reference exactly: fixed-world-open-recumbent-camera-a-lock-20260617-005258.png. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Wait, really?\" Cute surprised reaction, natural half-smile, eyes on Character B, not the camera. Continuous visible pedaling by both women and subtle shoulder movement only. Tiny below-face hand movement is allowed only if it stays away from the mouth and jawline. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera A bike-plate source still exactly: camera-a-bike-plate-source-still-20260617-022201.png. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Wait, really?\" Cute surprised reaction, natural half-smile, eyes on Character B, not the camera. Continuous visible pedaling by both women and subtle shoulder movement only. Tiny below-face hand movement is allowed only if it stays away from the mouth and jawline. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 4,
       "nodeTitle": "S4 - CAM B - Yep. I pick my meals...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
+      "cameraFile": "camera-b-bike-plate-source-still-20260617-022512.png",
       "audioFile": "s4-tts-char-b-yep-i-pick-my-meals-0-audio.mp3",
       "dialogue": "Yep. I pick my meals in a couple taps.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Continuous visible pedaling by both women, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera B bike-plate source still exactly: camera-b-bike-plate-source-still-20260617-022512.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Continuous visible pedaling by both women, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 5,
       "nodeTitle": "S5 - CAM B - They cook everything...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
+      "cameraFile": "camera-b-bike-plate-source-still-20260617-022512.png",
       "audioFile": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
       "dialogue": "They cook everything, and I choose pickup or delivery.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera B bike-plate source still exactly: camera-b-bike-plate-source-still-20260617-022512.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 6,
       "nodeTitle": "S6 - CAM A - That sounds way too easy.",
       "speaker": "Character A",
-      "cameraFile": "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
+      "cameraFile": "camera-a-bike-plate-source-still-20260617-022201.png",
       "audioFile": "s6-tts-char-a-that-sounds-way-too-easy-0-audio.mp3",
       "dialogue": "That sounds way too easy.",
-      "prompt": "Use the locked Camera A reference exactly: fixed-world-open-recumbent-camera-a-lock-20260617-005258.png. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"That sounds way too easy.\" Playful impressed reaction, natural smile, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera A bike-plate source still exactly: camera-a-bike-plate-source-still-20260617-022201.png. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"That sounds way too easy.\" Playful impressed reaction, natural smile, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 7,
       "nodeTitle": "S7 - CAM B - It is. My family loves it...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
+      "cameraFile": "camera-b-bike-plate-source-still-20260617-022512.png",
       "audioFile": "s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3",
       "dialogue": "It is. My family loves it, and I got my weekends back.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera B bike-plate source still exactly: camera-b-bike-plate-source-still-20260617-022512.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 8,
       "nodeTitle": "S8 - CAM A - Okay, I need that today.",
       "speaker": "Character A",
-      "cameraFile": "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
+      "cameraFile": "camera-a-bike-plate-source-still-20260617-022201.png",
       "audioFile": "s8-tts-char-a-okay-i-need-that-today-0-audio.mp3",
       "dialogue": "Okay, I need that today.",
-      "prompt": "Use the locked Camera A reference exactly: fixed-world-open-recumbent-camera-a-lock-20260617-005258.png. Character A is the only active speaker and remains seated on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Okay, I need that today.\" Bright convinced reaction, still natural and conversational, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the fresh locked Camera A bike-plate source still exactly: camera-a-bike-plate-source-still-20260617-022201.png. Character A is the only active speaker and remains seated on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Okay, I need that today.\" Bright convinced reaction, still natural and conversational, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority. Maintain the same 2027 open-cockpit recumbent bike model from the bike prop plate; no bike drift, no seat swap, no console changes."
     },
     {
       "scene": 9,
@@ -108,5 +108,6 @@
       "dialogue": "Go to MealPrepRevolution dot com and order today.",
       "prompt": "Use the Meal Prep Revolution website screenshot as the visual hold. Do not show a talking bike CTA shot. Keep screenshot graphics unchanged. No added logo, no rewritten text, no new layout, no fake UI. Place Character B CTA audio over the static/near-static screenshot hold: \"Go to MealPrepRevolution dot com and order today.\""
     }
-  ]
+  ],
+  "updatedAt": "06/17/2026 2:29 AM PDT"
 }
