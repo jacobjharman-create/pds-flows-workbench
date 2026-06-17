@@ -41,7 +41,7 @@
     "twoSidedRackTopMap": "assets/continuity-plates/two-sided-rack-blocking-plate-topmap-lowres-20260617-0218.png"
   },
   "lowResWiring": {
-    "selectedAudioManifest": "assets/audio/lowres-wiring/selected-tts-audio-manifest-20260617-021433.json",
+    "selectedAudioManifest": "assets/audio/lowres-wiring/selected-tts-audio-manifest-20260617-093856.json",
     "totalSelectedAudioSeconds": 24.195,
     "geographyLock": "Character A left/near side facing right; Character B right/opposite side facing left across the squat rack."
   },

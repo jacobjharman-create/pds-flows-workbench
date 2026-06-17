@@ -72,7 +72,7 @@
       "speaker": "character_a",
       "prompt": "Low-res lip-sync proof. Character A reverse shot at fixed squat rack, calm friend answer while setting up next set, mouth fully visible, plate movement below chest. Reference Character A plate and squat-rack world plate.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-021433.mp3",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-084058.mp3",
       "audioDurationSeconds": 2.647,
       "connection": "TTS-03-A-best-switch.audio -> VID-03-A-meal-prep-answer.speech_audio; VID-03-A-meal-prep-answer.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png",
       "draftSettings": {
@@ -88,7 +88,7 @@
       "speaker": "character_a",
       "prompt": "Low-res lip-sync proof. Character A close-up, relaxed delivery, subtle nod on 'show up at my door', black tank and hair unchanged, mouth unobstructed. Reference Character A plate and squat-rack world plate.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-021346.mp3",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-084058.mp3",
       "audioDurationSeconds": 3.483,
       "connection": "TTS-04-A-pick-meals-online.audio -> VID-04-A-online-checkout.speech_audio; VID-04-A-online-checkout.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png",
       "draftSettings": {
@@ -104,7 +104,7 @@
       "speaker": "character_a",
       "prompt": "Low-res lip-sync proof. Character A rack-depth reverse angle, practical relief line, hands and plate remain below mouth line, no salesy posture. Reference Character A plate, squat-rack world plate, and two-shot blocking plate.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-021246.mp3",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-084058.mp3",
       "audioDurationSeconds": 4.272,
       "connection": "TTS-05-A-no-shopping.audio -> VID-05-A-no-shopping-cleanup.speech_audio; VID-05-A-no-shopping-cleanup.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png",
       "draftSettings": {
@@ -120,7 +120,7 @@
       "speaker": "character_a",
       "prompt": "Low-res lip-sync proof. Character A clean hero headshot, confident but natural, mouth fully visible, minimal movement for accurate lip sync. Reference Character A plate and squat-rack world plate.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-021246.mp3",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-084058.mp3",
       "audioDurationSeconds": 3.251,
       "connection": "TTS-06-A-clean-ingredients.audio -> VID-06-A-macros-track.speech_audio; VID-06-A-macros-track.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png",
       "draftSettings": {
@@ -152,7 +152,7 @@
       "speaker": "character_a_vo",
       "prompt": "Low-res CTA proof. Character A voiceover over blurred dark squat-rack freeze frame until website screenshot is uploaded. Overlay MealPrepRevolution.com and subline Pick your meals. Own your week. No lip-sync required for this node.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s8-cta-placeholder-still-lowres-20260617.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-021346.mp3",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-084058.mp3",
       "audioDurationSeconds": 3.344,
       "connection": "TTS-08-A-cta-vo.audio -> VID-08-CTA-site-fade.voiceover_audio; VID-08-CTA-site-fade.visual -> CTA placeholder until website screenshot is uploaded",
       "draftSettings": {

@@ -1,0 +1,98 @@
+{
+  "createdAt": "2026-06-17T16:46:42.333Z",
+  "stage": "low_res_tts_wiring_audio_selected",
+  "targetRuntimeSeconds": 25,
+  "totalAudioSeconds": 24.288225000000004,
+  "editNote": "Use tight cuts and 0-120ms handles where needed. Do not add long pauses before final approval.",
+  "finalRenderGate": "No premium render until low-res TTS-to-lip-sync assembly is approved.",
+  "outputs": [
+    {
+      "scene": "S1",
+      "ttsNode": "TTS-01-B-work-is-nonstop",
+      "videoNode": "VID-01-B-work-stress-rack",
+      "speaker": "character_b",
+      "voice": "Chris - Charming, Down-to-Earth",
+      "text": "Work's nonstop. Budget cuts, boss on me... I'm barely keeping up.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-093856.mp3",
+      "durationSeconds": 4.179592,
+      "bytes": 67753
+    },
+    {
+      "scene": "S2",
+      "ttsNode": "TTS-02-B-how-do-you-stay-consistent",
+      "videoNode": "VID-02-B-asks-how",
+      "speaker": "character_b",
+      "voice": "Chris - Charming, Down-to-Earth",
+      "text": "How do you stay consistent? You're busier than me.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-093856.mp3",
+      "durationSeconds": 2.786395,
+      "bytes": 45601
+    },
+    {
+      "scene": "S3",
+      "ttsNode": "TTS-03-A-best-switch",
+      "videoNode": "VID-03-A-meal-prep-answer",
+      "speaker": "character_a",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
+      "text": "Meal Prep Revolution. Best switch I made.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-084058.mp3",
+      "durationSeconds": 2.647,
+      "bytes": 43511
+    },
+    {
+      "scene": "S4",
+      "ttsNode": "TTS-04-A-pick-meals-online",
+      "videoNode": "VID-04-A-online-checkout",
+      "speaker": "character_a",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
+      "text": "I pick meals online, check out, and they show up at my door.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-084058.mp3",
+      "durationSeconds": 3.622,
+      "bytes": 58976
+    },
+    {
+      "scene": "S5",
+      "ttsNode": "TTS-05-A-no-shopping",
+      "videoNode": "VID-05-A-no-shopping-cleanup",
+      "speaker": "character_a",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
+      "text": "No shopping, cooking, or cleanup. I heat one up and get back to work.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-084058.mp3",
+      "durationSeconds": 3.994,
+      "bytes": 64827
+    },
+    {
+      "scene": "S6",
+      "ttsNode": "TTS-06-A-clean-ingredients",
+      "videoNode": "VID-06-A-macros-track",
+      "speaker": "character_a",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
+      "text": "Clean ingredients, macro-friendly, keeps me on track.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-084058.mp3",
+      "durationSeconds": 3.344,
+      "bytes": 54378
+    },
+    {
+      "scene": "S7",
+      "ttsNode": "TTS-07-B-send-link",
+      "videoNode": "VID-07-B-link-reaction",
+      "speaker": "character_b",
+      "voice": "Chris - Charming, Down-to-Earth",
+      "text": "Send me that link.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-093856.mp3",
+      "durationSeconds": 0.975238,
+      "bytes": 16762
+    },
+    {
+      "scene": "S8",
+      "ttsNode": "TTS-08-A-cta-vo",
+      "videoNode": "VID-08-CTA-site-fade",
+      "speaker": "character_a_vo",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
+      "text": "MealPrepRevolution.com. Own your week.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-084058.mp3",
+      "durationSeconds": 2.74,
+      "bytes": 44765
+    }
+  ]
+}

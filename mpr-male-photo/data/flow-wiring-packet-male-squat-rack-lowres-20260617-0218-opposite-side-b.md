@@ -62,7 +62,7 @@ Low-res lip-sync proof. Character B remains on the opposite/right side of the sq
 
 Speaker: character_a
 TTS node: TTS-03-A-best-switch
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-021433.mp3
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-084058.mp3
 Duration: 2.647s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png
 Connection: TTS-03-A-best-switch.audio -> VID-03-A-meal-prep-answer.speech_audio; VID-03-A-meal-prep-answer.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png
@@ -76,7 +76,7 @@ Low-res lip-sync proof. Character A reverse shot at fixed squat rack, calm frien
 
 Speaker: character_a
 TTS node: TTS-04-A-pick-meals-online
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-021346.mp3
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-084058.mp3
 Duration: 3.483s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png
 Connection: TTS-04-A-pick-meals-online.audio -> VID-04-A-online-checkout.speech_audio; VID-04-A-online-checkout.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png
@@ -90,7 +90,7 @@ Low-res lip-sync proof. Character A close-up, relaxed delivery, subtle nod on 's
 
 Speaker: character_a
 TTS node: TTS-05-A-no-shopping
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-021246.mp3
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-084058.mp3
 Duration: 4.272s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png
 Connection: TTS-05-A-no-shopping.audio -> VID-05-A-no-shopping-cleanup.speech_audio; VID-05-A-no-shopping-cleanup.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png
@@ -104,7 +104,7 @@ Low-res lip-sync proof. Character A rack-depth reverse angle, practical relief l
 
 Speaker: character_a
 TTS node: TTS-06-A-clean-ingredients
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-021246.mp3
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-084058.mp3
 Duration: 3.251s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png
 Connection: TTS-06-A-clean-ingredients.audio -> VID-06-A-macros-track.speech_audio; VID-06-A-macros-track.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png
@@ -132,7 +132,7 @@ Low-res lip-sync proof. Character B remains on the opposite/right side of the sq
 
 Speaker: character_a_vo
 TTS node: TTS-08-A-cta-vo
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-021346.mp3
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-084058.mp3
 Duration: 3.344s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s8-cta-placeholder-still-lowres-20260617.png
 Connection: TTS-08-A-cta-vo.audio -> VID-08-CTA-site-fade.voiceover_audio; VID-08-CTA-site-fade.visual -> CTA placeholder until website screenshot is uploaded
