@@ -2,7 +2,7 @@
 
 Flow: https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D
 Stage: low_res_tts_still_to_lipsync_wiring_packet_opposite_side_b
-Selected audio total: 24.195s
+Selected audio total: 24.288s
 
 ## Critical Geography Lock
 
@@ -34,8 +34,8 @@ Selected audio total: 24.195s
 
 Speaker: character_b
 TTS node: TTS-01-B-work-is-nonstop
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-021433.mp3
-Duration: 3.715s
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-093856.mp3
+Duration: 4.18s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png
 Connection: TTS-01-B-work-is-nonstop.audio -> VID-01-B-work-stress-rack.speech_audio; VID-01-B-work-stress-rack.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png
 
@@ -48,8 +48,8 @@ Low-res lip-sync proof. Character B is on the opposite/right side of the squat r
 
 Speaker: character_b
 TTS node: TTS-02-B-how-do-you-stay-consistent
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-021346.mp3
-Duration: 2.415s
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-093856.mp3
+Duration: 2.79s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png
 Connection: TTS-02-B-how-do-you-stay-consistent.audio -> VID-02-B-asks-how.speech_audio; VID-02-B-asks-how.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png
 
@@ -118,8 +118,8 @@ Low-res lip-sync proof. Character A clean hero headshot, confident but natural, 
 
 Speaker: character_b
 TTS node: TTS-07-B-send-link
-Audio: mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-021246.mp3
-Duration: 1.068s
+Audio: mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-093856.mp3
+Duration: 0.98s
 Still input: mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png
 Connection: TTS-07-B-send-link.audio -> VID-07-B-link-reaction.speech_audio; VID-07-B-link-reaction.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png
 

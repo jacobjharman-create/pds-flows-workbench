@@ -3,7 +3,7 @@
   "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
   "stage": "low_res_tts_still_to_lipsync_wiring_packet_opposite_side_b",
   "targetRuntimeSeconds": 25,
-  "totalSelectedAudioSeconds": 24.195,
+  "totalSelectedAudioSeconds": 24.288,
   "referenceNodes": [
     {
       "node": "REF-CHAR-A-continuity-plate",
@@ -40,8 +40,8 @@
       "speaker": "character_b",
       "prompt": "Low-res lip-sync proof. Character B is on the opposite/right side of the squat rack, facing left across the bar toward Character A. Medium close-up through/across the rack, gray shirt, olive shorts, black smartwatch, dirty-blond hair, mouth fully visible, plate low in frame. Use corrected two-sided rack top-map. No bar, plate, hand, or post crossing mouth.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-021433.mp3",
-      "audioDurationSeconds": 3.715,
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-093856.mp3",
+      "audioDurationSeconds": 4.179592,
       "connection": "TTS-01-B-work-is-nonstop.audio -> VID-01-B-work-stress-rack.speech_audio; VID-01-B-work-stress-rack.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png",
       "draftSettings": {
         "lipSync": true,
@@ -56,8 +56,8 @@
       "speaker": "character_b",
       "prompt": "Low-res lip-sync proof. Character B remains on the opposite/right side of the squat rack, facing left across the rack toward Character A. Tight head-and-shoulders shot, mouth clear, stressed but practical. Use corrected two-sided rack top-map. No same-side blocking.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-021346.mp3",
-      "audioDurationSeconds": 2.415,
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-093856.mp3",
+      "audioDurationSeconds": 2.786395,
       "connection": "TTS-02-B-how-do-you-stay-consistent.audio -> VID-02-B-asks-how.speech_audio; VID-02-B-asks-how.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png",
       "draftSettings": {
         "lipSync": true,
@@ -136,8 +136,8 @@
       "speaker": "character_b",
       "prompt": "Low-res lip-sync proof. Character B remains on the opposite/right side of the squat rack, facing left across the rack toward Character A. Reaction shot, mouth clear, optional hand below chin. Use corrected two-sided rack top-map. No same-side blocking.",
       "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png",
-      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-021246.mp3",
-      "audioDurationSeconds": 1.068,
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-093856.mp3",
+      "audioDurationSeconds": 0.975238,
       "connection": "TTS-07-B-send-link.audio -> VID-07-B-link-reaction.speech_audio; VID-07-B-link-reaction.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png",
       "draftSettings": {
         "lipSync": true,

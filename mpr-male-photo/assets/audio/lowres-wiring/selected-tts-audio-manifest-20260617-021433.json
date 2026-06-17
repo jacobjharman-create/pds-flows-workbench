@@ -1,8 +1,8 @@
 {
-  "createdAt": "2026-06-17T15:41:12.509Z",
+    "createdAt": "2026-06-17T16:38:57.114Z",
   "stage": "low_res_tts_wiring_audio_selected",
   "targetRuntimeSeconds": 25,
-  "totalAudioSeconds": 25.821,
+    "totalAudioSeconds": 24.288,
   "editNote": "Use tight cuts and 0-120ms handles where needed. Do not add long pauses before final approval.",
   "finalRenderGate": "No premium render until low-res TTS-to-lip-sync assembly is approved.",
   "outputs": [
@@ -11,22 +11,22 @@
       "ttsNode": "TTS-01-B-work-is-nonstop",
       "videoNode": "VID-01-B-work-stress-rack",
       "speaker": "character_b",
-      "voice": "Callum - Husky Trickster",
+      "voice": "Chris - Charming, Down-to-Earth",
       "text": "Work's nonstop. Budget cuts, boss on me... I'm barely keeping up.",
-      "file": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-084058.mp3",
-      "durationSeconds": 4.783,
-      "bytes": 77784
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-093856.mp3",
+      "durationSeconds": 4.179592,
+      "bytes": 67753
     },
     {
       "scene": "S2",
       "ttsNode": "TTS-02-B-how-do-you-stay-consistent",
       "videoNode": "VID-02-B-asks-how",
       "speaker": "character_b",
-      "voice": "Callum - Husky Trickster",
+      "voice": "Chris - Charming, Down-to-Earth",
       "text": "How do you stay consistent? You're busier than me.",
-      "file": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-084058.mp3",
-      "durationSeconds": 3.437,
-      "bytes": 56050
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-093856.mp3",
+      "durationSeconds": 2.786395,
+      "bytes": 45601
     },
     {
       "scene": "S3",
@@ -77,11 +77,11 @@
       "ttsNode": "TTS-07-B-send-link",
       "videoNode": "VID-07-B-link-reaction",
       "speaker": "character_b",
-      "voice": "Callum - Husky Trickster",
+      "voice": "Chris - Charming, Down-to-Earth",
       "text": "Send me that link.",
-      "file": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-084058.mp3",
-      "durationSeconds": 1.254,
-      "bytes": 20942
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-093856.mp3",
+      "durationSeconds": 0.975238,
+      "bytes": 16762
     },
     {
       "scene": "S8",

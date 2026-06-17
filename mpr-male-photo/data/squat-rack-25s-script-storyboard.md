@@ -111,7 +111,7 @@ TTS node naming:
 
 Voice assignments:
 - Character A: `Roger - Laid-Back, Casual, Resonant`
-- Character B: `Callum - Husky Trickster`
+- Character B: `Chris - Charming, Down-to-Earth`
 
 Lip-sync priority:
 1. Generate or select the TTS for a single line.

@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-06-17T16:38:57.114Z",
+  "outputs": [
+    {
+      "scene": "S1",
+      "characterId": "character_b",
+      "voiceLabel": "Chris - Charming, Down-to-Earth",
+      "voiceId": "iP95p4xoKVk53GoZ742B",
+      "text": "Work's nonstop. Budget cuts, boss on me... I'm barely keeping up.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-093856.mp3",
+      "bytes": 67753
+    },
+    {
+      "scene": "S2",
+      "characterId": "character_b",
+      "voiceLabel": "Chris - Charming, Down-to-Earth",
+      "voiceId": "iP95p4xoKVk53GoZ742B",
+      "text": "How do you stay consistent? You're busier than me.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-093856.mp3",
+      "bytes": 45601
+    },
+    {
+      "scene": "S7",
+      "characterId": "character_b",
+      "voiceLabel": "Chris - Charming, Down-to-Earth",
+      "voiceId": "iP95p4xoKVk53GoZ742B",
+      "text": "Send me that link.",
+      "file": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-093856.mp3",
+      "bytes": 16762
+    }
+  ]
+}
