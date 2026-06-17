@@ -1,0 +1,18 @@
+{
+  "mealPrepRevolution": {
+    "approvedMusicBed": {
+      "title": "Afro House Candidate 3 — Afro Soul Chant",
+      "file": "music-candidate-afro-soul-chant.mp3",
+      "source": "https://elevenlabs.io/music/house",
+      "mixDirection": "Use as the selected background music bed. Keep it low under dialogue, with the deep magnetic recumbent-bike whir tucked underneath. Dialogue stays dry, clear, and dominant."
+    },
+    "currentVisualReview": {
+      "stage": "photo",
+      "purpose": "Confirm latest Character A and Character B headshot identity locks before producing video shots.",
+      "characterFiles": [
+        "ref-character-a-brunette-0-img.webp",
+        "ref-character-b-blonde-0-img.webp"
+      ]
+    }
+  }
+}
