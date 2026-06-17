@@ -7,6 +7,7 @@ const root = process.cwd();
 const manifestPath = path.join(root, "component-build-manifest.json");
 const outDir = path.join(root, "generated", "audio");
 const apiBase = process.env.ELEVENLABS_API_BASE || "https://api.elevenlabs.io";
+const keychainServices = ["elevenlabs-api", "elevenlabs-api-key", "elevenlabs"];
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, "utf8"));
 const manifest = fs.existsSync(manifestPath) ? readJson(manifestPath) : null;
@@ -52,11 +53,23 @@ const requireManifest = () => {
 };
 
 const requireApiKey = () => {
-  const key = process.env.ELEVENLABS_API_KEY;
+  const key = process.env.ELEVENLABS_API_KEY || readApiKeyFromKeychain();
   if (!key) {
-    throw new Error("ELEVENLABS_API_KEY is not set. Do not store it in this repo; export it for this shell or use Keychain-backed shell setup.");
+    throw new Error("ElevenLabs API key is not installed. Set ELEVENLABS_API_KEY for this shell or store it in macOS Keychain service elevenlabs-api.");
   }
   return key;
+};
+
+const readApiKeyFromKeychain = () => {
+  for (const service of keychainServices) {
+    const result = spawnSync("security", ["find-generic-password", "-w", "-s", service], {
+      encoding: "utf8",
+    });
+    if (result.status === 0 && result.stdout.trim()) {
+      return result.stdout.trim();
+    }
+  }
+  return "";
 };
 
 const apiFetch = async (urlPath, options = {}) => {
@@ -131,7 +144,8 @@ try {
       const firstLine = cli.stdout.split("\n").find(Boolean);
       console.log(firstLine);
     }
-    console.log(`ELEVENLABS_API_KEY present: ${process.env.ELEVENLABS_API_KEY ? "yes" : "no"}`);
+    console.log(`ELEVENLABS_API_KEY env present: ${process.env.ELEVENLABS_API_KEY ? "yes" : "no"}`);
+    console.log(`ElevenLabs API key in Keychain: ${readApiKeyFromKeychain() ? "yes" : "no"}`);
     console.log(`Manifest present: ${manifest ? "yes" : "no"}`);
     if (manifest) {
       console.log(`Client: ${manifest.client}`);

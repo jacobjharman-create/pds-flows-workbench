@@ -7,6 +7,7 @@
     "start": "python3 -m http.server 8787",
     "verify": "node scripts/verify-assets.mjs",
     "el:status": "node scripts/elevenlabs-components.mjs status",
+    "el:install-key": "bash scripts/install-elevenlabs-key.sh",
     "el:cli": "npx -y @elevenlabs/cli",
     "el:voices": "node scripts/elevenlabs-components.mjs voices",
     "el:tts": "node scripts/elevenlabs-components.mjs tts",

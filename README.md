@@ -21,6 +21,7 @@ Mode: draft wiring and lip-sync QA
 Use `docs/CLI_COMPONENT_WORKFLOW.md` before spending video credits in Flows.
 
 - `npm run el:status` checks the local CLI/API lane.
+- `npm run el:install-key` stores an ElevenLabs API key in macOS Keychain as `elevenlabs-api`.
 - `npm run el:cli -- --help` uses the official ElevenLabs CLI for agents, tools, tests, and UI components.
 - `npm run el:voices`, `npm run el:tts`, and `npm run el:music` use the ElevenLabs API for reusable audio components when `ELEVENLABS_API_KEY` is present.
 - `npm run flow:packet` writes a clean import packet for the Flows canvas.

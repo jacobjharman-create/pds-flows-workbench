@@ -24,6 +24,15 @@ npm run flow:packet
 
 `ELEVENLABS_API_KEY` must be present for API actions. Keep it in the shell, Keychain, or a secret manager. Do not commit it.
 
+Preferred local install:
+
+```sh
+npm run el:install-key
+npm run el:status
+```
+
+This stores the key in macOS Keychain as service `elevenlabs-api`. The runner will also read `ELEVENLABS_API_KEY` when it is already exported in the shell.
+
 ## Current Meal Prep Rule
 
 The locked visual references are:
