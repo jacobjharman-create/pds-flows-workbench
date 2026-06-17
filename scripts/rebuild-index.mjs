@@ -72,7 +72,7 @@ const posterFor = (video) => {
   return poster;
 };
 
-const timeline = [
+const fullTimeline = [
   ...Array.from({ length: 9 }, (_, index) => {
     const scene = index + 1;
     const node = sceneNodes.get(scene);
@@ -88,6 +88,13 @@ const timeline = [
     video: videoFor(endCardNode),
   },
 ];
+
+const allowedVideoKeys = Array.isArray(reviewStage.videoKeys)
+  ? new Set(reviewStage.videoKeys)
+  : null;
+const timeline = allowedVideoKeys
+  ? fullTimeline.filter((item) => allowedVideoKeys.has(item.key))
+  : fullTimeline;
 
 const available = timeline.filter((item) => item.video);
 const waiting = timeline.filter((item) => !item.video);

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:56:25.276Z",
+  "generatedAt": "2026-06-17T06:54:01.658Z",
   "flowUrl": "https://elevenlabs.io/app/flows/FmHLp335MCn04VGz1Ndz",
   "nodes": [
     {
@@ -390,8 +390,23 @@
     {
       "title": "S1 — CAM A — \"Okay, seriously...\"",
       "id": "2DYRui2go6dhHCzNE5AI",
-      "text": "S1 — CAM A — \"Okay, seriously...\"\nOmniHuman 1.5\n\n\n\n\nCRITICAL VISUAL LOCK: speaker has bare visible eyes with no sunglasses, no glasses, no eyewear, no tinted lenses, no shadowed lenses. If eyewear appears, the generation is invalid. Use the regenerated Character A reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Warm, curious, bubbly delivery with natural head movement and bright engaged eyes. Candid conversational energy, genuine surprise and friendliness. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S1 — CAM A — \"Okay, seriously...\"\nCreatify Aurora\n\n0:04\n\nUse locked Camera A reference exactly: Character A, brunette ponytail, dark taupe high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera A composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p",
       "media": [
+        {
+          "tag": "VIDEO",
+          "src": "",
+          "poster": "",
+          "alt": "S1 CAM A Creatify Aurora low-res lip sync proof, locked Camera A over-the-shoulder angle.",
+          "w": 512,
+          "h": 768,
+          "local": "s1-cam-a-creatify-lipsync-proof-20260616-2352-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "source": "elevenlabs-flow-api",
+            "generation_id": "v9uPlZYCSc2qMc5srdb4",
+            "model_id": "creatify-aurora"
+          }
+        },
         {
           "tag": "IMG",
           "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e9efa408c025c0da15f223306ec49dcc2f6419acda9ae631ac9266655809de3916a29c9f75ae093ed23e8d14510947b5837e0a958a1dce72d7715ccad7f91d8f08de758416184343773247c54d289a6dac72a6f9f160bbbb7b59c5398fe18f5ac199c6a7a968c8beaea12fdc740572e08c4a14de45f3aeb87db70ac4e21742bbe1dd84f312994521092512797d923db55fca287354a9bcbf2838c207528c52a87cc2802f9ad7cee0a404d0885d803018eeb97a02665635763273c2730d26cec737e94d43276b26fd053d6a462f4929bdee6a26257fd4c7a9cd6f0b7b6bdce6ebc3430cbb8555a392b4f37ae7ca075d1a62158ec14faec328aa4b72db775a617",
@@ -403,21 +418,6 @@
           "downloadStatus": {
             "ok": true
           }
-        },
-        {
-          "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/jT2laaNi5la6b2UqiklE/oKzslat6FZJLsgiX0uHl/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T213438Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=afaaae00b2b5fe3157250155ba1375c0750955527ce48d4d1ebf21260ca4772194c85014434029ef1b74237ad07db00e57d2bde5b4fe8f85692cfa514be2cf91c809f577441a4f71f428b70b0eb936dafcc5ed6f907486634093e82c2f5fe0f94cd18e826c584e83cfe60edd211d334ad53d06053b0910408cdf7d12a9fc08d55f473ec7e9f9d543524f4fad4df0033587e5b481baa990d888e9044b4f4586004bed6d3a3506852c05141cc6442ecac14e5654841e6fcf0c3e90e79896e51b180583b86fc6825d3c782988096c06e36d061e31bb49c80c74c68a680ce5f57584dd0952b20670f8e5193bff22146430ebbb2bd3f2db3d1d2444a6bc9ff92932c2",
-          "poster": "",
-          "alt": "S1 — CAM A — \"Okay, seriously...\"",
-          "w": 480,
-          "h": 850,
-          "local": "s1-cam-a-okay-seriously-cleanpass-20260616-1455-video.mp4",
-          "downloadStatus": {
-            "ok": true,
-            "bytes": 255131
-          },
-          "duration": 4.12,
-          "res": "720p"
         },
         {
           "tag": "IMG",
@@ -436,8 +436,23 @@
     {
       "title": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
       "id": "2qqnFaHsUM33Z5g2ByAH",
-      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nOmniHuman 1.5\n\n\n\n\nUse the regenerated Character B reference exactly. No sunglasses, no eyeglasses, no eyewear, no tinted lenses; eyes and mouth fully visible. High-end Alo/Vuori-inspired athleisure, no visible logos. Relaxed, confident, warm delivery with a natural smile. Calm head nod, genuine and trustworthy energy, like sharing a secret with a close friend. Locked camera, no camera movement.\nRun\n\n\nOmniHuman 1.5\n\n720p\n\n\n\n",
+      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nCreatify Aurora\n\n0:03\n\nUse locked Camera B reference exactly: Character B, blonde beach waves, teal-accent high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera B composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p",
       "media": [
+        {
+          "tag": "VIDEO",
+          "src": "",
+          "poster": "",
+          "alt": "S2 CAM B Creatify Aurora low-res lip sync proof, locked Camera B over-the-shoulder angle.",
+          "w": 512,
+          "h": 768,
+          "local": "s2-cam-b-creatify-lipsync-proof-20260616-2352-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "source": "elevenlabs-flow-api",
+            "generation_id": "F8ODBy2lys2huCmbdGo6",
+            "model_id": "creatify-aurora"
+          }
+        },
         {
           "tag": "IMG",
           "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e2ff54e5c86b18a37a519c915aba20721f3736b683ac58bf20b779491f0b7fcd7b182220ee778a885e6cf68ea601c8deb0bafd289535ccbefb1cd6d98f8985f7c314b93d9829e38ad8166ca613e65d01b803527d2c3305d99e491022d83aa2ce41d063fd19d8786297638abbd7e5baafc345dbf9c201705f0b42e901028c3a0cab968fa9d905b3760723da71cddee1ea6fdb459900e78dbb247e7044604ed44f10800b0d832942b44971de9079f6fd4896f7200a9e187c8968e1da35f7586cc1a3d641f104bc5c83eded1b3c24a66b0a638e35d903a7a329e1697e358a777b860b12fad1d7582f6fffb8d692af1ddd62ecf0eb1e658e48eaf854f8f3ceddf4d",
@@ -449,21 +464,6 @@
           "downloadStatus": {
             "ok": true
           }
-        },
-        {
-          "tag": "VIDEO",
-          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/6Eb7BS4KGaO7XZm38ONd/howoxHZjXMtwBlR1awgw/preview_content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T212539Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4e44863fabf6bcd54b45afab2e3f68ef0657409e8827ec09ea742a7c21455aed244417a26d6aee6ec0a9c153f58cbc228d438476e2609363d79c255daba7414ee4a7b2d842744e1f13908e8fd5ff55dd08e1d174680d118c42db8cae9723d3f1a6ce4110e7446036c1f7fa75decf8bd7a659c2b7c4baa6b44fca33ce5ec708aa5919e39a1dc5f7e7a305bb83a5ee663c74d9188a9b5159364e83947fcd1f463c369c34a6a3929a6ec211e3704f8a275f64e6953f6b342c91dcf18802d17f92472e410ac14a824b69df9bf8fc45f1dd45d10fe50fec34b496e6a012a4f693c8fecac129b26740df55f5b6d903b52c134886302883fd9661f6ed6602550f22d132",
-          "poster": "",
-          "alt": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
-          "w": 480,
-          "h": 850,
-          "local": "s2-cam-b-honestly-meal-prep-revolution-cleanpass-20260616-1455-video.mp4",
-          "downloadStatus": {
-            "ok": true,
-            "bytes": 217255
-          },
-          "duration": 2.52,
-          "res": "720p"
         },
         {
           "tag": "IMG",

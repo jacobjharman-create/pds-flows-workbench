@@ -1,0 +1,37 @@
+{
+  "downloaded_at": "2026-06-17T06:52:55.297Z",
+  "assets": [
+    {
+      "node_id": "2DYRui2go6dhHCzNE5AI",
+      "file": "s1-cam-a-creatify-lipsync-proof-20260616-2352-video.mp4",
+      "generation_id": "v9uPlZYCSc2qMc5srdb4",
+      "model_id": "creatify-aurora",
+      "status": "completed",
+      "created_at_unix": 1781678759,
+      "finished_at_unix": 1781678866,
+      "properties": {
+        "width": 512,
+        "height": 768,
+        "duration_secs": 4.16,
+        "size_bytes": 408924
+      },
+      "downloaded_from": "elevenlabs-flow"
+    },
+    {
+      "node_id": "2qqnFaHsUM33Z5g2ByAH",
+      "file": "s2-cam-b-creatify-lipsync-proof-20260616-2352-video.mp4",
+      "generation_id": "F8ODBy2lys2huCmbdGo6",
+      "model_id": "creatify-aurora",
+      "status": "completed",
+      "created_at_unix": 1781678944,
+      "finished_at_unix": 1781679139,
+      "properties": {
+        "width": 512,
+        "height": 768,
+        "duration_secs": 2.6,
+        "size_bytes": 232724
+      },
+      "downloaded_from": "elevenlabs-flow"
+    }
+  ]
+}
