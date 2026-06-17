@@ -71,6 +71,19 @@ Stage-first rule:
 - Older videos, stills, or audio can remain below as reference, but Jacob should not have to scroll past stale media to find the newest output.
 - Do not leave `review-stage.json` pointing at an older stage after producing new media.
 
+## Absolute Continuity Lock
+
+For the Meal Prep Revolution recumbent-bike shoot, the approved locked references are:
+
+- Character A: `final-character-a-dark-taupe-20260616-220447.webp`
+- Character B: `final-character-b-teal-accent-20260616-220447.webp`
+- Camera A: `final-camera-a-color-lock-20260616-220447.webp`
+- Camera B: `final-camera-b-color-lock-20260616-220447.webp`
+
+The whole shoot has only these two characters. Every scene must keep the same faces, hair, makeup, body type, age read, ethnicity, outfits, wardrobe colors, accessories, bike model, gym layout, and lighting. Do not allow scene-to-scene redesign, wardrobe drift, face drift, hair drift, color drift, new characters, background pedestrians, or direct-to-camera presenter energy.
+
+Allowed variation is limited to the actual conversation: lip movement, natural eye contact between the two women, gentle pedaling, subtle shoulder/body rhythm, relaxed breath shifts, and tiny crop differences inside the locked Camera A and Camera B templates.
+
 ## Music Bed Rule
 
 When Jacob asks for music beds, background music, ad beds, or soundtrack options:

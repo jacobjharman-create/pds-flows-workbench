@@ -8,7 +8,7 @@
     },
     "currentVisualReview": {
       "stage": "photo",
-      "purpose": "Confirm the parallel recumbent-bike over-the-shoulder reverse-angle template plus the rerendered no-sunglasses character locks before producing video shots.",
+      "purpose": "Absolute production continuity lock for the parallel recumbent-bike over-the-shoulder reverse-angle template before producing video shots.",
       "cameraFiles": [
         "final-camera-a-color-lock-20260616-220447.webp",
         "final-camera-b-color-lock-20260616-220447.webp"
@@ -19,6 +19,16 @@
       ],
       "renderedAt": "2026-06-16 22:04 PT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
+      "absoluteContinuityLock": [
+        "Only two characters exist in the whole shoot: Character A and Character B.",
+        "Character A must keep the exact face, brunette ponytail, age read, body type, makeup, skin tone, and darker mocha/taupe outfit from final-character-a-dark-taupe-20260616-220447.webp.",
+        "Character B must keep the exact face, blonde beach-wave hair, blue-eye read, age read, body type, makeup, skin tone, and sand/taupe outfit with muted teal accent from final-character-b-teal-accent-20260616-220447.webp.",
+        "Every Character A speaking shot must derive from final-camera-a-color-lock-20260616-220447.webp with only minor crop differences.",
+        "Every Character B speaking shot must derive from final-camera-b-color-lock-20260616-220447.webp with only minor crop differences.",
+        "Do not redesign either character scene to scene. Do not change faces, hair, makeup, outfits, wardrobe colors, body type, ethnicity, age, accessories, bike model, lighting, or gym layout.",
+        "Allowed variation only: dialogue lip movement, natural eye contact with the other woman, gentle pedaling, subtle shoulder/body rhythm, relaxed breath shifts, and very small crop adjustments.",
+        "No new characters, no background pedestrians, no wardrobe alternates, no camera-to-camera presenter energy, and no direct-to-lens CTA delivery."
+      ],
       "cameraTemplate": [
         "Both recumbent bikes stay side-by-side, parallel, and facing the same direction.",
         "Camera A looks over Character B's blurred blonde shoulder/hair toward Character A speaking.",
