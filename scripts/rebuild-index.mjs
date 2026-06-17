@@ -105,6 +105,7 @@ const renderAudioBed = (bed) => `
   <div>
     <strong>${escapeHtml(bed.title)}</strong>
     <p>${escapeHtml(bed.note)}</p>
+    ${bed.source ? `<a href="${attr(bed.source)}" rel="noreferrer">Source</a>` : ""}
   </div>
   <audio controls preload="metadata" src="${attr(bed.file)}"></audio>
 </section>`;
@@ -178,6 +179,7 @@ const html = `<!doctype html>
     .audio-bed{max-width:880px;margin:0 auto 12px;padding:14px;background:#111827;border:1px solid #263244;border-radius:8px}
     .audio-bed strong{display:block;font-size:14px;line-height:1.2}
     .audio-bed p{margin:5px 0 12px;color:#cbd5e1;font-size:12px;line-height:1.35}
+    .audio-bed a{display:inline-block;margin:-4px 0 12px;color:#8dd7ff;font-size:12px}
     .audio-bed audio{display:block;width:100%}
     .shot-review{padding:28px 16px 40px;background:#05070a;border-top:1px solid #1f2937}
     .shot-review h1{margin:0 auto 16px;max-width:880px;font-size:18px;font-weight:700;line-height:1.15}

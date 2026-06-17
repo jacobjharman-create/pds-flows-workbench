@@ -1,19 +1,33 @@
 {
   "beds": [
     {
-      "title": "Music Bed — Euphoric Newport Dance-House Draft",
-      "file": "newport-upscale-nightclub-bed-preview-0-audio.mp3",
-      "note": "v4 direction: original upbeat 124 BPM dance-house bed with four-on-the-floor pulse, bright piano/synth stabs, offbeat bass, and an upscale Equinox Newport Beach feel. Inspired by classic euphoric dance energy, not a copy of any song."
+      "title": "Music Candidate 1 — Euphoric Heights",
+      "file": "music-candidate-euphoric-heights.mp3",
+      "note": "Real downloaded ElevenLabs dance track candidate. Progressive house / trance direction: fast, four-on-the-floor, piano, synth bass, uplifting, euphoric, instrumental. Strongest first listen for the Equinox-style dance bed.",
+      "source": "https://elevenlabs.io/music/dance"
     },
     {
-      "title": "Foley Bed — Deep Magnetic Recumbent Bike Whir",
+      "title": "Music Candidate 2 — Sunrise Vibe",
+      "file": "music-candidate-sunrise-vibe.mp3",
+      "note": "Real downloaded ElevenLabs dance track candidate. Dance-pop / tropical house direction: instrumental, upbeat, feel-good, rhythmic piano, four-on-the-floor. Brighter and more commercial.",
+      "source": "https://elevenlabs.io/music/dance"
+    },
+    {
+      "title": "Music Candidate 3 — Festival Euphoria",
+      "file": "music-candidate-festival-euphoria.mp3",
+      "note": "Real downloaded ElevenLabs dance track candidate. Progressive house / uplifting trance direction: energetic, euphoric, melodic, driving, four-on-the-floor. Bigger festival lift.",
+      "source": "https://elevenlabs.io/music/dance"
+    },
+    {
+      "title": "Music Candidate 4 — Corporate Groove",
+      "file": "music-candidate-corporate-groove.mp3",
+      "note": "Real downloaded ElevenLabs dance track candidate. Uplifting house / dance-pop / funky commercial direction. More brand-safe and less nightclub-heavy.",
+      "source": "https://elevenlabs.io/music/dance"
+    },
+    {
+      "title": "Foley Reference — Deep Magnetic Recumbent Bike Whir",
       "file": "recumbent-bike-machinery-bed-preview-0-audio.mp3",
-      "note": "Phone-audible v3 preview: deeper smooth electronic resistance whir with no percussive click. This is louder than final mix level so it can be judged on a phone."
-    },
-    {
-      "title": "Combined Bed — Music Plus Recumbent Bike Foley",
-      "file": "music-plus-recumbent-bike-bed-preview-0-audio.mp3",
-      "note": "v4 preview mix of the new euphoric dance-house music with the deep magnetic bike whir tucked underneath, before dialogue ducking or final polish."
+      "note": "Existing bike layer only: deeper smooth electronic resistance whir with no percussive click. This should be tucked under the approved music in final mix."
     }
   ]
 }
