@@ -1,0 +1,15 @@
+Photorealistic premium commercial camera reference still for Meal Prep Revolution.
+
+Camera B reverse-angle shot: Character B is the active speaker. Character B is the blonde Caucasian Newport Beach mom age 28-29, wealthy, organized, polished, long blonde beach-wave hair, blue eyes, no sunglasses, no eyewear.
+
+Wardrobe correction: Character B wears premium high-end athleisure inspired by Alo Yoga and Vuori, with no logos and no visible brand marks. Use a refined warm sand / mineral taupe / light mushroom color palette with a subtle muted sage-blue undertone that complements her blue eyes and the warm wood/stone environment. The top should be a structured longline athletic crop or fitted tank with thicker straps and premium fabric, not underwear, not lingerie, not a bra-only look, not see-through, not stark white, not cream. Matching high-waisted leggings in the same sand/taupe family. Elegant smartwatch and delicate gold jewelry.
+
+Composition: vertical 9:16, candid over-the-shoulder reverse angle from behind / beside Character A. Character A appears only as a softly blurred brunette shoulder, ponytail, and upper arm in the lower-right or lower-left foreground. Character A's face and mouth are not visible. The camera looks past Character A toward Character B.
+
+Character B is sharp and speaking naturally to Character A, not to camera. Character B is seated on a sleek premium recumbent bike, turned slightly toward Character A with a calm friendly conversational expression. Character B's face is three-quarter visible, mouth fully visible, eyes fully visible, hair away from lips. Active speaker fills about 60-70% of the frame.
+
+Critical spatial rule: both women are seated side-by-side on separate recumbent bikes that are parallel and facing the same direction, like two people exercising next to each other. Do not make the bikes face each other. Do not stage it like an interview. The scene should look like two busy wealthy Newport Beach moms casually talking while pedaling.
+
+Setting: luxury Newport Beach fitness club inspired by Equinox, warm California morning light, floor-to-ceiling windows, architectural wood details, natural stone finishes, premium equipment, affluent coastal wellness atmosphere.
+
+Negative prompt: no sunglasses, no eyewear, no logos, no text, no brand marks, no white outfit, no stark white top, no underwear look, no lingerie look, no bra-only look, no see-through fabric, no direct-to-camera address, no two people facing each other, no bikes facing each other, no visible listener mouth, no listener speaking, no background pedestrians, no distorted faces, no warped hands, no plastic skin, no fake influencer posing, no generic gym.
