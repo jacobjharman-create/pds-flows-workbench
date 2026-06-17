@@ -18,22 +18,22 @@
       "stage": "photo",
       "purpose": "Production continuity lock for fresh Camera A/B stills generated from approved characters plus the 2027 bike prop plate before rerunning S1/S2 low-res lip-sync video.",
       "cameraFiles": [
-        "camera-a-bike-plate-source-still-20260617-022201.png",
-        "camera-b-bike-plate-source-still-20260617-022512.png",
+        "camera-a-bike-plate-source-still-20260617-031702.png",
+        "camera-b-bike-plate-source-still-20260617-031702.png",
         "recumbent-bike-3d-prop-plate-20260617-0207.png"
       ],
       "characterFiles": [
         "final-character-a-dark-taupe-20260616-220447.webp",
         "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "06/17/2026 2:29 AM PDT",
+      "renderedAt": "06/17/2026 3:17 AM PDT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "absoluteContinuityLock": [
         "Only two characters exist in the whole shoot: Character A and Character B.",
         "Character A must keep the exact face, brunette ponytail, age read, body type, makeup, skin tone, and darker mocha/taupe outfit from final-character-a-dark-taupe-20260616-220447.webp.",
         "Character B must keep the exact face, blonde beach-wave hair, blue-eye read, age read, body type, makeup, skin tone, and sand/taupe outfit with muted teal accent from final-character-b-teal-accent-20260616-220447.webp.",
-        "Every Character A speaking shot must derive from camera-a-bike-plate-source-still-20260617-022201.png with only minor crop differences.",
-        "Every Character B speaking shot must derive from camera-b-bike-plate-source-still-20260617-022512.png with only minor crop differences.",
+        "Every Character A speaking shot must derive from camera-a-bike-plate-source-still-20260617-031702.png with only minor crop differences.",
+        "Every Character B speaking shot must derive from camera-b-bike-plate-source-still-20260617-031702.png with only minor crop differences.",
         "Seat and bike assignment is locked: Character A is always Character A on Bike A in the same assigned seat/side for every scene, and Character B is always Character B on Bike B in the same assigned seat/side for every scene.",
         "Bike A and Bike B are the same exact sleek 2027 premium open-cockpit recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
         "The front cockpit stays open with room for natural hand movement; do not add large upright-style handlebars or a bulky handlebar tower in front of the riders.",
