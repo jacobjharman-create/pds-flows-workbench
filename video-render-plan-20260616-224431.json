@@ -13,7 +13,7 @@
   "globalLocks": [
     "Only Character A and Character B appear in the dialogue scenes.",
     "Character A uses final-character-a-dark-taupe-20260616-220447.webp and fixed-world-open-recumbent-camera-a-lock-20260617-005258.png.",
-    "Character B uses final-character-b-teal-accent-20260616-220447.webp and fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png.",
+    "Character B uses final-character-b-teal-accent-20260616-220447.webp and fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png.",
     "Fixed-world map: Character B is always on Bike B, the left/near bike; Character A is always on Bike A, the right/far bike.",
     "Bike A and Bike B are the same exact sleek 2026 premium recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
     "The front cockpit stays open with room for natural hand movement; do not add large upright-style handlebars or a bulky handlebar tower in front of the riders.",
@@ -40,10 +40,10 @@
       "scene": 2,
       "nodeTitle": "S2 - CAM B - Honestly? Meal Prep Revolution.",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png",
+      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
       "audioFile": "s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3",
       "dialogue": "Honestly? Meal Prep Revolution.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority."
     },
     {
       "scene": 3,
@@ -58,19 +58,19 @@
       "scene": 4,
       "nodeTitle": "S4 - CAM B - Yep. I pick my meals...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png",
+      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
       "audioFile": "s4-tts-char-b-yep-i-pick-my-meals-0-audio.mp3",
       "dialogue": "Yep. I pick my meals in a couple taps.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Continuous visible pedaling by both women, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Continuous visible pedaling by both women, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 5,
       "nodeTitle": "S5 - CAM B - They cook everything...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png",
+      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
       "audioFile": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
       "dialogue": "They cook everything, and I choose pickup or delivery.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 6,
@@ -85,10 +85,10 @@
       "scene": 7,
       "nodeTitle": "S7 - CAM B - It is. My family loves it...",
       "speaker": "Character B",
-      "cameraFile": "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png",
+      "cameraFile": "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png",
       "audioFile": "s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3",
       "dialogue": "It is. My family loves it, and I got my weekends back.",
-      "prompt": "Use the locked Camera B reference exactly: fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 8,

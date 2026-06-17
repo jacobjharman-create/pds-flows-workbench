@@ -19,20 +19,20 @@
       "purpose": "Absolute production continuity lock for the fixed-world, pedal-visible parallel recumbent-bike over-the-shoulder reverse-angle template before producing video shots.",
       "cameraFiles": [
         "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
-        "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png"
+        "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png"
       ],
       "characterFiles": [
         "final-character-a-dark-taupe-20260616-220447.webp",
         "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "2026-06-17 01:05 PT",
+      "renderedAt": "2026-06-17 01:40 PT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "absoluteContinuityLock": [
         "Only two characters exist in the whole shoot: Character A and Character B.",
         "Character A must keep the exact face, brunette ponytail, age read, body type, makeup, skin tone, and darker mocha/taupe outfit from final-character-a-dark-taupe-20260616-220447.webp.",
         "Character B must keep the exact face, blonde beach-wave hair, blue-eye read, age read, body type, makeup, skin tone, and sand/taupe outfit with muted teal accent from final-character-b-teal-accent-20260616-220447.webp.",
         "Every Character A speaking shot must derive from fixed-world-open-recumbent-camera-a-lock-20260617-005258.png with only minor crop differences.",
-        "Every Character B speaking shot must derive from fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png with only minor crop differences.",
+        "Every Character B speaking shot must derive from fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png with only minor crop differences.",
         "Seat and bike assignment is locked: Character A is always Character A on Bike A in the same assigned seat/side for every scene, and Character B is always Character B on Bike B in the same assigned seat/side for every scene.",
         "Bike A and Bike B are the same exact sleek 2026 premium recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
         "The front cockpit stays open with room for natural hand movement; do not add large upright-style handlebars or a bulky handlebar tower in front of the riders.",
