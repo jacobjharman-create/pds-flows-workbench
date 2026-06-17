@@ -18,14 +18,13 @@
       "stage": "photo",
       "purpose": "Absolute production continuity lock for the fixed-world, pedal-visible parallel recumbent-bike over-the-shoulder reverse-angle template before producing video shots.",
       "cameraFiles": [
-        "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
-        "fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png"
+        "recumbent-bike-3d-prop-plate-20260617-0207.png"
       ],
       "characterFiles": [
         "final-character-a-dark-taupe-20260616-220447.webp",
         "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "2026-06-17 01:40 PT",
+      "renderedAt": "2026-06-17 02:07 PT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "absoluteContinuityLock": [
         "Only two characters exist in the whole shoot: Character A and Character B.",

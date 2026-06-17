@@ -77,8 +77,7 @@ For the Meal Prep Revolution recumbent-bike shoot, the approved locked reference
 
 - Character A: `final-character-a-dark-taupe-20260616-220447.webp`
 - Character B: `final-character-b-teal-accent-20260616-220447.webp`
-- Camera A: `fixed-world-open-recumbent-camera-a-lock-20260617-005258.png`
-- Camera B: `fixed-world-camera-b-cloned-bike-from-a-20260617-013716.png`
+- Bike prop plate: `recumbent-bike-3d-prop-plate-20260617-0207.png`
 
 The whole shoot has only these two characters. Every scene must keep the same faces, hair, makeup, body type, age read, ethnicity, outfits, wardrobe colors, accessories, bike model, gym layout, lighting, seat assignments, and bike assignments. Character A is always fixed as Character A on Bike A in the same assigned seat/side. Character B is always fixed as Character B on Bike B in the same assigned seat/side. Do not allow scene-to-scene redesign, wardrobe drift, face drift, hair drift, color drift, seat swaps, bike swaps, side swaps, trading places, repositioning, new characters, background pedestrians, or direct-to-camera presenter energy.
 
