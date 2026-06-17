@@ -1,7 +1,7 @@
 {
   "project": "Meal Prep Revolution male photo character sandbox",
   "created": "2026-06-17",
-  "status": "foundation-review",
+  "status": "script-storyboard-ready-low-res-first-pass-only",
   "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
   "liveUrl": "https://prometheusdesignstudios.com/pds-flows-workbench/mpr-male-photo/",
   "sourceOfTruth": "GitHub repo jacobjharman-create/pds-flows-workbench, folder mpr-male-photo/",
@@ -24,7 +24,15 @@
   ],
   "sourceAssets": {
     "twoPersonReference": "assets/two-male-gym-reference.jpg",
-    "flowInstruction": "data/flow-character-locks.md"
+    "flowInstruction": "data/flow-character-locks.md",
+    "scriptStoryboard": "data/squat-rack-25s-script-storyboard.md",
+    "scriptStoryboardJson": "data/squat-rack-25s-script-storyboard.json"
+  },
+  "firstGenerationRules": {
+    "mode": "low-resolution wiring and lip-sync proof only",
+    "resolution": "lowest practical setting, preferably 720p or lower",
+    "generationUnit": "one TTS line to one lip-sync/video node",
+    "premiumGate": "no upscale, final grade, or premium professional render until low-res assembly is approved"
   },
   "notes": [
     "This sandbox publishes the durable local photo references, character cards, voice picks, and Flow link.",

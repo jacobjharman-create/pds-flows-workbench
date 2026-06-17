@@ -238,6 +238,51 @@
         gap: 12px;
       }
 
+      .line-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .line {
+        display: grid;
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 14px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .line meta {
+        display: block;
+      }
+
+      .line-time {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 760;
+      }
+
+      .line-speaker {
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .line-copy {
+        margin: 0 0 6px;
+        font-size: 17px;
+        font-weight: 680;
+      }
+
+      .line-shot {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
       .record {
         padding: 14px;
         border: 1px solid var(--line);
@@ -281,6 +326,7 @@
         .topbar,
         .hero,
         .grid,
+        .line,
         .records {
           grid-template-columns: 1fr;
         }
@@ -316,12 +362,13 @@
             <a class="button primary" href="https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D">Open ElevenLabs Flow</a>
             <a class="button" href="manifest.json">View manifest</a>
             <a class="button" href="data/flow-character-locks.md">Flow instruction</a>
+            <a class="button" href="data/squat-rack-25s-script-storyboard.md">25s script</a>
           </div>
         </div>
         <aside class="summary" aria-label="Sandbox summary">
           <div>
             <strong>Status</strong>
-            <span>Foundation review. Full ad frames not generated yet.</span>
+            <span>Script and storyboard ready. First generation is low-res wiring only.</span>
           </div>
           <div>
             <strong>Character A voice</strong>
@@ -382,6 +429,120 @@
         </div>
         <div class="warning">
           ElevenLabs generated reference nodes and voice samples were created in the Flow session. The generated image URLs from ElevenLabs were temporary signed links and were not portable during sandbox packaging, so this live review page uses the durable local source references and links back to the Flow for the generated nodes.
+        </div>
+      </section>
+
+      <section aria-labelledby="script-title">
+        <div class="section-head">
+          <h2 id="script-title">25-Second TTS Script</h2>
+          <p class="note">One line per TTS and lip-sync node. No premium render until this wiring pass is approved.</p>
+        </div>
+        <div class="line-list">
+          <article class="line">
+            <div>
+              <div class="line-time">0.0-3.7</div>
+              <div class="line-speaker">Character B</div>
+            </div>
+            <div>
+              <p class="line-copy">Work is nonstop. Budget cuts, boss on me... I'm barely keeping up.</p>
+              <p class="line-shot">Medium close-up at squat rack. Plate stays low; mouth fully visible.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">3.7-6.7</div>
+              <div class="line-speaker">Character B</div>
+            </div>
+            <div>
+              <p class="line-copy">How do you stay this consistent? You're busier than me.</p>
+              <p class="line-shot">Tighter stressed-but-grounded shot looking from bar back to Character A.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">6.7-9.0</div>
+              <div class="line-speaker">Character A</div>
+            </div>
+            <div>
+              <p class="line-copy">Meal Prep Revolution. Best switch I've made.</p>
+              <p class="line-shot">Reverse shot. Calm answer while setting up the next set.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">9.0-13.4</div>
+              <div class="line-speaker">Character A</div>
+            </div>
+            <div>
+              <p class="line-copy">I pick the week's meals online, check out, and they show up at my door.</p>
+              <p class="line-shot">Close-up. Plate movement below chest; subtle nod on delivery.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">13.4-17.5</div>
+              <div class="line-speaker">Character A</div>
+            </div>
+            <div>
+              <p class="line-copy">No shopping, cooking, or cleanup. I heat one up and get back to work.</p>
+              <p class="line-shot">Rack-depth reverse angle. Practical relief, no salesy delivery.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">17.5-20.2</div>
+              <div class="line-speaker">Character A</div>
+            </div>
+            <div>
+              <p class="line-copy">Clean ingredients, macro-friendly, keeps me on track.</p>
+              <p class="line-shot">Clean hero headshot. This is the proof line.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">20.2-21.8</div>
+              <div class="line-speaker">Character B</div>
+            </div>
+            <div>
+              <p class="line-copy">Send me that link.</p>
+              <p class="line-shot">Reaction shot. Impressed, practical, ready to act.</p>
+            </div>
+          </article>
+          <article class="line">
+            <div>
+              <div class="line-time">21.8-25.0</div>
+              <div class="line-speaker">Character A VO</div>
+            </div>
+            <div>
+              <p class="line-copy">MealPrepRevolution.com. Pick your meals. Own your week.</p>
+              <p class="line-shot">Fade from gym into uploaded website screenshot. CTA overlay.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="draft-title">
+        <div class="section-head">
+          <h2 id="draft-title">Low-Res First Pass Gate</h2>
+          <p class="note">The first generation exists only to prove timing, identity, and lip sync.</p>
+        </div>
+        <div class="records">
+          <div class="record">
+            <strong>Resolution</strong>
+            <code>lowest practical setting, preferably 720p or lower</code>
+          </div>
+          <div class="record">
+            <strong>Model spend</strong>
+            <code>cheapest acceptable lip-sync/wiring proof before model upgrade</code>
+          </div>
+          <div class="record">
+            <strong>Generation unit</strong>
+            <code>one TTS line -> one lip-sync/video node -> one replaceable clip</code>
+          </div>
+          <div class="record">
+            <strong>Blocked until approval</strong>
+            <code>no upscale, no final grade, no premium professional render</code>
+          </div>
         </div>
       </section>
 

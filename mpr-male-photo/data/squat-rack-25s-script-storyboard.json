@@ -1,0 +1,121 @@
+{
+  "id": "meal-prep-revolution-male-squat-rack-25s",
+  "date": "2026-06-17",
+  "client": "Meal Prep Revolution",
+  "flow_url": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
+  "status": "script_storyboard_ready",
+  "target_runtime_seconds": 25,
+  "first_generation_mode": "low_resolution_wiring_and_lip_sync_proof_only",
+  "final_generation_gate": "premium_final_render_after_low_res_lip_sync_and_wiring_approval",
+  "scene": "Premium dark gym squat rack, between sets, loading plates.",
+  "voices": {
+    "character_a": "Will - Relaxed Optimist",
+    "character_b": "Chris - Charming, Down-to-Earth"
+  },
+  "characters": {
+    "character_a": {
+      "name": "Dark-Haired Fit Gym Friend",
+      "role": "disciplined friend with the simple system",
+      "lock_file": "character-cards/meal-prep-revolution-photo-character-a-left-dark-haired.json"
+    },
+    "character_b": {
+      "name": "Blond Strength Gym Friend",
+      "role": "relatable stressed friend looking for a way to stay consistent",
+      "lock_file": "character-cards/meal-prep-revolution-photo-character-b-right-blond.json"
+    }
+  },
+  "lines": [
+    {
+      "line_id": "01",
+      "timecode": "0.0-3.7",
+      "speaker": "character_b",
+      "tts_node": "TTS-01-B-work-is-nonstop",
+      "video_node": "VID-01-B-work-stress-rack",
+      "text": "Work is nonstop. Budget cuts, boss on me... I'm barely keeping up.",
+      "shot": "Character B medium close-up at squat rack, plate low in frame, mouth clear."
+    },
+    {
+      "line_id": "02",
+      "timecode": "3.7-6.7",
+      "speaker": "character_b",
+      "tts_node": "TTS-02-B-how-do-you-stay-consistent",
+      "video_node": "VID-02-B-asks-how",
+      "text": "How do you stay this consistent? You're busier than me.",
+      "shot": "Character B tighter shot, looks from bar back to Character A, stressed but grounded."
+    },
+    {
+      "line_id": "03",
+      "timecode": "6.7-9.0",
+      "speaker": "character_a",
+      "tts_node": "TTS-03-A-best-switch",
+      "video_node": "VID-03-A-meal-prep-answer",
+      "text": "Meal Prep Revolution. Best switch I've made.",
+      "shot": "Character A reverse shot, calm answer while setting up for next set."
+    },
+    {
+      "line_id": "04",
+      "timecode": "9.0-13.4",
+      "speaker": "character_a",
+      "tts_node": "TTS-04-A-pick-meals-online",
+      "video_node": "VID-04-A-online-checkout",
+      "text": "I pick the week's meals online, check out, and they show up at my door.",
+      "shot": "Character A close-up, plate movement stays below chest, slight nod on delivery."
+    },
+    {
+      "line_id": "05",
+      "timecode": "13.4-17.5",
+      "speaker": "character_a",
+      "tts_node": "TTS-05-A-no-shopping",
+      "video_node": "VID-05-A-no-shopping-cleanup",
+      "text": "No shopping, cooking, or cleanup. I heat one up and get back to work.",
+      "shot": "Character A reverse angle with rack depth, relaxed practical delivery."
+    },
+    {
+      "line_id": "06",
+      "timecode": "17.5-20.2",
+      "speaker": "character_a",
+      "tts_node": "TTS-06-A-clean-ingredients",
+      "video_node": "VID-06-A-macros-track",
+      "text": "Clean ingredients, macro-friendly, keeps me on track.",
+      "shot": "Character A clean hero headshot, mouth visible, confident not salesy."
+    },
+    {
+      "line_id": "07",
+      "timecode": "20.2-21.8",
+      "speaker": "character_b",
+      "tts_node": "TTS-07-B-send-link",
+      "video_node": "VID-07-B-link-reaction",
+      "text": "Send me that link.",
+      "shot": "Character B reaction shot, impressed and practical, hand moving toward phone optional."
+    },
+    {
+      "line_id": "08",
+      "timecode": "21.8-25.0",
+      "speaker": "character_a_vo",
+      "tts_node": "TTS-08-A-cta-vo",
+      "video_node": "VID-08-CTA-site-fade",
+      "text": "MealPrepRevolution.com. Pick your meals. Own your week.",
+      "shot": "Fade from gym into uploaded Meal Prep Revolution website screenshot; overlay CTA."
+    }
+  ],
+  "lip_sync_rules": [
+    "Create one TTS node per line before video generation.",
+    "Pass the exact TTS audio into the matching lip-sync/video node.",
+    "Only one visible speaking mouth per shot.",
+    "Keep hands, plates, bars, and rack uprights away from the mouth.",
+    "Use close-up or medium close-up headshots for all spoken lines.",
+    "Leave 150-250 ms edit handles between lines.",
+    "If lip sync drifts, reduce body motion and regenerate as a calmer headshot."
+  ],
+  "draft_efficiency_rules": [
+    "Use the lowest practical resolution available, preferably 720p or lower.",
+    "Use the cheapest acceptable lip-sync/video model for the first wiring proof.",
+    "Generate one line at a time so failed lines can be replaced without rerendering the full ad.",
+    "Do not upscale, extend, interpolate, color-grade, or final-master draft shots.",
+    "Keep movement simple: mouth visible, head stable, plate/rack motion below the mouth line.",
+    "Use shared character locks and prompt bases instead of restating full identity details in every node.",
+    "Do not run premium/professional final generation until the low-res assembly is approved."
+  ],
+  "cta_asset_needed": "Meal Prep Revolution website screenshot",
+  "compliance_note": "Do not use a precise 20-hours-per-week savings claim unless substantiated."
+}
