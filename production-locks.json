@@ -8,13 +8,25 @@
     },
     "currentVisualReview": {
       "stage": "photo",
-      "purpose": "Confirm rerendered Character A and Character B headshot identity locks before producing video shots. These replace the failed sunglasses references.",
+      "purpose": "Confirm the parallel recumbent-bike over-the-shoulder reverse-angle template plus the rerendered no-sunglasses character locks before producing video shots.",
+      "cameraFiles": [
+        "camera-a-parallel-bike-ots-20260616-182358.webp",
+        "camera-b-parallel-bike-ots-20260616-182358.webp"
+      ],
       "characterFiles": [
         "ref-character-a-brunette-nosunglasses-20260616-175846.webp",
         "ref-character-b-blonde-nosunglasses-20260616-175847.webp"
       ],
-      "renderedAt": "2026-06-16 17:58 PT",
+      "renderedAt": "2026-06-16 18:23 PT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
+      "cameraTemplate": [
+        "Both recumbent bikes stay side-by-side, parallel, and facing the same direction.",
+        "Camera A looks over Character B's blurred blonde shoulder/hair toward Character A speaking.",
+        "Camera B looks over Character A's blurred brunette shoulder/ponytail toward Character B speaking.",
+        "The active speaker turns toward the other woman, not toward the camera.",
+        "The foreground listener's face and mouth are not visible.",
+        "Repeat the same two camera angles across all dialogue scenes with only minor crop differences."
+      ],
       "requirements": [
         "No sunglasses or eyewear.",
         "Caucasian Newport Beach moms age 28-29.",

@@ -64,6 +64,8 @@ Stage-first rule:
 - Current-stage review assets must use immutable timestamped filenames, not overwritten stable filenames, so mobile/Hostinger caches cannot show old renders.
 - The rendered page should visibly identify latest renders with date/time when there is any risk of confusion.
 - If the latest update produced photos/stills, the photo/still board goes first.
+- For two-person recumbent-bike dialogue, use the parallel-bike over-the-shoulder reverse-angle template: Camera A over Character B's blurred shoulder toward Character A, Camera B over Character A's blurred shoulder toward Character B, both bikes parallel and facing the same direction.
+- In reverse-angle shots, the foreground listener may appear only as blurred shoulder/hair/upper arm/back-of-head; the listener's mouth must not be visible.
 - If the latest update produced videos, the video strip goes first.
 - If the latest update produced audio beds, include the audio section near the relevant current stage.
 - Older videos, stills, or audio can remain below as reference, but Jacob should not have to scroll past stale media to find the newest output.

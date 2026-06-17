@@ -1,0 +1,15 @@
+Photorealistic premium commercial camera reference still for Meal Prep Revolution.
+
+Camera A reverse-angle shot: Character A is the active speaker. She is the same brunette Caucasian Newport Beach mom age 28-29 from the approved no-sunglasses character lock: wealthy, organized, polished, high brunette ponytail, high-end logo-free Alo/Vuori-inspired athleisure in refined coastal neutrals, no sunglasses, no eyewear.
+
+Composition: vertical 9:16, candid over-the-shoulder reverse angle from behind / beside Character B. Character B appears only as a softly blurred blonde shoulder, side hair, and upper arm in the lower-left foreground. Character B's face and mouth are not visible. The camera looks past Character B toward Character A.
+
+Character A is sharp and speaking naturally to Character B, not to camera. Character A is seated on a sleek premium recumbent bike, turned slightly toward Character B with a casual conversational expression. Character A's face is three-quarter visible, mouth fully visible, eyes fully visible, hair away from lips. Active speaker fills about 60-70% of the frame.
+
+Critical spatial rule: both women are seated side-by-side on separate recumbent bikes that are parallel and facing the same direction, like two people exercising next to each other. Do not make the bikes face each other. Do not stage it like an interview. The scene should look like two busy wealthy Newport Beach moms casually talking while pedaling.
+
+Setting: luxury Newport Beach fitness club inspired by Equinox, warm California morning light, floor-to-ceiling windows, architectural wood details, natural stone finishes, premium equipment, affluent coastal wellness atmosphere.
+
+Motion feel: subtle natural pedaling posture and relaxed shoulder movement, but the camera is locked and stable.
+
+Negative prompt: no sunglasses, no eyewear, no logos, no text, no brand marks, no direct-to-camera address, no two people facing each other, no bikes facing each other, no visible listener mouth, no listener speaking, no background pedestrians, no distorted faces, no warped hands, no plastic skin, no fake influencer posing, no over-glamour, no generic gym.
