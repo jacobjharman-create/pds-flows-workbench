@@ -32,6 +32,15 @@
     "audioIndex": 0
   },
   {
+    "title": "S4 TTS — Char B — \"Yep. I pick my meals...\"",
+    "file": "s4-tts-char-b-yep-i-pick-my-meals-0-audio.mp3",
+    "mime": "audio/mpeg",
+    "bytes": 38078,
+    "source": "elevenlabs-api",
+    "voice": "Anya - Casual and friendly",
+    "voiceId": "d3MFdIuCfbAIwiu7jC4a"
+  },
+  {
     "title": "S5 TTS — Char B — \"They cook everything...\"",
     "file": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
     "mime": "audio/mpeg",
