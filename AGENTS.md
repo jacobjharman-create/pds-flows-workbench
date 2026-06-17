@@ -77,14 +77,18 @@ For the Meal Prep Revolution recumbent-bike shoot, the approved locked reference
 
 - Character A: `final-character-a-dark-taupe-20260616-220447.webp`
 - Character B: `final-character-b-teal-accent-20260616-220447.webp`
-- Camera A: `fixed-world-camera-a-bike-lock-20260617-004128.png`
-- Camera B: `fixed-world-camera-b-bike-lock-20260617-004128.png`
+- Camera A: `fixed-world-open-recumbent-camera-a-lock-20260617-005258.png`
+- Camera B: `fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png`
 
 The whole shoot has only these two characters. Every scene must keep the same faces, hair, makeup, body type, age read, ethnicity, outfits, wardrobe colors, accessories, bike model, gym layout, lighting, seat assignments, and bike assignments. Character A is always fixed as Character A on Bike A in the same assigned seat/side. Character B is always fixed as Character B on Bike B in the same assigned seat/side. Do not allow scene-to-scene redesign, wardrobe drift, face drift, hair drift, color drift, seat swaps, bike swaps, side swaps, trading places, repositioning, new characters, background pedestrians, or direct-to-camera presenter energy.
 
 Allowed variation is limited to the actual conversation: lip movement, natural eye contact between the two women, continuous visible pedaling by both women unless the shot explicitly shows a dismount, subtle shoulder/body rhythm, relaxed breath shifts, tiny natural hand gestures below the face line, and tiny crop differences inside the locked Camera A and Camera B templates. Small expressive body language is allowed only when it never blocks the mouth, never crosses the face, never disrupts face tracking, and never causes lip-sync drift. Perfect lip sync is the priority over acting.
 
 Bike-motion continuity is mandatory. In every recumbent-bike shot, both women must keep pedaling on their assigned bikes unless the scene direction explicitly says one or both women are dismounting. Do not accept a shot where one woman pedals and the other freezes, poses, or sits still.
+
+## Recumbent Bike Prop Lock
+
+Bike A and Bike B are locked hero props. They must be the same exact sleek 2026 premium recumbent bike model in every frame: identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions. The front cockpit should feel open with room for natural hand movement; do not place large upright-style handlebars or a bulky handlebar tower in front of the riders. The bikes must make logical mechanical sense, face the same direction, stay parallel, stay fixed in place, and never change style from scene to scene or camera angle to camera angle. Each rider's left foot and right foot must stay on the correct left/right pedals of her own assigned bike with no crossed legs, no foot crossing the bike centerline, no foot on the opposite-side pedal, and no left/right pedal confusion. Do not accept old-looking 1990s equipment, mismatched bikes, disconnected pedals, impossible crank paths, crossed feet, reversed feet, broken flywheel geometry, changing consoles, changing handle shapes, changing seat shapes, bulky front handlebars, or any bike design drift.
 
 ## Video Model Ladder
 

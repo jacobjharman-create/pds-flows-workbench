@@ -1,14 +1,14 @@
 {
   "shots": [
     {
-      "title": "FIXED-WORLD Camera A — Over Bike B Toward Character A on Bike A — 2026-06-17 00:44 PT",
-      "file": "fixed-world-camera-a-bike-lock-20260617-004128.png",
-      "note": "CURRENT REVIEW LOCK CANDIDATE. Fixed-world map: Character B stays on Bike B, the left/near bike; Character A stays on Bike A, the right/far bike. Camera A is over Character B's blurred blonde shoulder/hair toward Character A. The women do not switch bikes, seats, sides, or places; only the camera angle changes. Same brunette face, ponytail, dark mocha/taupe luxury athleisure, same blonde foreground wardrobe accent, same gym layout. Wider framing shows lower legs and bike mechanics so both riders can visibly pedal in video while the active speaker's mouth remains clear for lip sync."
+      "title": "OPEN-RECUMBENT Camera A — Over Bike B Toward Character A on Bike A — 2026-06-17 00:55 PT",
+      "file": "fixed-world-open-recumbent-camera-a-lock-20260617-005258.png",
+      "note": "CURRENT REVIEW LOCK CANDIDATE. Fixed-world map: Character B stays on Bike B, the left/near bike; Character A stays on Bike A, the right/far bike. Camera A is over Character B's blurred blonde shoulder/hair toward Character A. The women do not switch bikes, seats, sides, or places; only the camera angle changes. Bike A and Bike B should read as the same sleek 2026 premium recumbent model: open front cockpit, compact rider-facing touchscreen, side/base handles beside the seat, reclined black seat/backrest, black satin aerodynamic frame, vented flywheel housing, logical crank/pedal placement, and no bulky upright-style front handlebars."
     },
     {
-      "title": "FIXED-WORLD Camera B — Over Bike A Toward Character B on Bike B — 2026-06-17 00:44 PT",
-      "file": "fixed-world-camera-b-bike-lock-20260617-004128.png",
-      "note": "CURRENT REVIEW LOCK CANDIDATE. Fixed-world map: Character B stays on Bike B, the left/near bike; Character A stays on Bike A, the right/far bike. Camera B moves to the opposite conversation angle over Character A's blurred brunette shoulder/ponytail from Bike A, looking toward Character B on Bike B. The women do not switch bikes, seats, sides, or places; only the camera angle changes. Same blonde face, beach-wave hair, sand/taupe luxury athleisure with muted teal accent, same brunette foreground wardrobe, same gym layout. Wider framing shows lower legs and bike mechanics so both riders can visibly pedal in video while the active speaker's mouth remains clear for lip sync."
+      "title": "MATCHED-BIKE Camera B — Over Bike A Toward Character B on Bike B — 2026-06-17 01:05 PT",
+      "file": "fixed-world-open-recumbent-camera-b-matched-bike-lock-20260617-010220.png",
+      "note": "CURRENT REVIEW LOCK CANDIDATE. Fixed-world map: Character B stays on Bike B, the left/near bike; Character A stays on Bike A, the right/far bike. Camera B moves to the opposite conversation angle over Character A's blurred brunette shoulder/ponytail from Bike A, looking toward Character B on Bike B. The women do not switch bikes, seats, sides, or places; only the camera angle changes. Bike A and Bike B should read as the same sleek 2026 premium recumbent make/model as Camera A: open front cockpit, compact rider-facing touchscreen, side/base handles beside the seat, reclined black seat/backrest, black satin aerodynamic frame, vented flywheel housing, logical crank/pedal placement, and no bulky upright-style front handlebars. Feet must stay on the correct left/right pedals of each woman's own bike with no crossed-foot or opposite-pedal geometry."
     }
   ]
 }
