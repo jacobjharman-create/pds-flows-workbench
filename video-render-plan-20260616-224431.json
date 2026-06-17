@@ -29,7 +29,7 @@
       "cameraFile": "final-camera-a-color-lock-20260616-220447.webp",
       "audioFile": "s1-tts-char-a-okay-seriously-0-audio.mp3",
       "dialogue": "Okay, seriously... you look amazing. What's your secret?",
-      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker. Character A keeps the exact same face, brunette ponytail, darker mocha/taupe high-end logo-free athleisure, makeup, body type, and assigned bike/seat/side. Character B appears only as a blurred blonde shoulder/hair foreground shape; Character B's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character A turns naturally toward Character B, not toward the camera. Dialogue: \"Okay, seriously... you look amazing. What's your secret?\" Natural curious friend energy. Gentle pedaling, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. No direct-to-camera presenter energy. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker. Character A keeps the exact same face, brunette ponytail, darker mocha/taupe high-end logo-free athleisure, makeup, body type, and assigned bike/seat/side. Character B appears only as a blurred blonde shoulder/hair foreground shape; Character B's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character A turns naturally toward Character B, not toward the camera. Dialogue: \"Okay, seriously... you look amazing. What's your secret?\" Natural curious friend energy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. No direct-to-camera presenter energy. Perfect lip sync is the priority."
     },
     {
       "scene": 2,
@@ -38,7 +38,7 @@
       "cameraFile": "final-camera-b-color-lock-20260616-220447.webp",
       "audioFile": "s2-tts-char-b-honestly-meal-prep-revolution-0-audio.mp3",
       "dialogue": "Honestly? Meal Prep Revolution.",
-      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Gentle pedaling, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker. Character B keeps the exact same face, blonde beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, makeup, body type, and assigned bike/seat/side. Character A appears only as a blurred brunette shoulder/ponytail foreground shape; Character A's face and mouth are not visible. Both recumbent bikes remain side-by-side, parallel, facing the same direction. Character B turns naturally toward Character A, not toward the camera. Dialogue: \"Honestly? Meal Prep Revolution.\" Relaxed warm secret-sharing delivery. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face, eyes, and mouth fully visible. Hands never cover mouth, chin, cheeks, jawline, or face tracking area. Locked camera. No zoom. No pan. Perfect lip sync is the priority."
     },
     {
       "scene": 3,
@@ -47,7 +47,7 @@
       "cameraFile": "final-camera-a-color-lock-20260616-220447.webp",
       "audioFile": "s3-tts-char-a-wait-really-0-audio.mp3",
       "dialogue": "Wait, really?",
-      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Wait, really?\" Cute surprised reaction, natural half-smile, eyes on Character B, not the camera. Gentle pedaling and subtle shoulder movement only. Tiny below-face hand movement is allowed only if it stays away from the mouth and jawline. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Wait, really?\" Cute surprised reaction, natural half-smile, eyes on Character B, not the camera. Continuous visible pedaling by both women and subtle shoulder movement only. Tiny below-face hand movement is allowed only if it stays away from the mouth and jawline. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 4,
@@ -56,7 +56,7 @@
       "cameraFile": "final-camera-b-color-lock-20260616-220447.webp",
       "audioFile": "s4-tts-char-b-yep-i-pick-my-meals-0-audio.mp3",
       "dialogue": "Yep. I pick my meals in a couple taps.",
-      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Gentle pedaling, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"Yep. I pick my meals in a couple taps.\" Calm organized friend-to-friend delivery, not an ad read. Continuous visible pedaling by both women, slight natural nod, tiny below-face hand gesture if needed. Face and mouth fully visible. Hands never cross the face. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 5,
@@ -65,7 +65,7 @@
       "cameraFile": "final-camera-b-color-lock-20260616-220447.webp",
       "audioFile": "s5-tts-char-b-they-cook-everything-0-audio.mp3",
       "dialogue": "They cook everything, and I choose pickup or delivery.",
-      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Gentle pedaling, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"They cook everything, and I choose pickup or delivery.\" Clear helpful explanation, relaxed and conversational. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture only if it does not affect face tracking. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 6,
@@ -74,7 +74,7 @@
       "cameraFile": "final-camera-a-color-lock-20260616-220447.webp",
       "audioFile": "s6-tts-char-a-that-sounds-way-too-easy-0-audio.mp3",
       "dialogue": "That sounds way too easy.",
-      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"That sounds way too easy.\" Playful impressed reaction, natural smile, eyes toward Character B. Gentle pedaling and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"That sounds way too easy.\" Playful impressed reaction, natural smile, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 7,
@@ -83,7 +83,7 @@
       "cameraFile": "final-camera-b-color-lock-20260616-220447.webp",
       "audioFile": "s7-tts-char-b-it-is-my-family-loves-it-0-audio.mp3",
       "dialogue": "It is. My family loves it, and I got my weekends back.",
-      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Gentle pedaling, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera B reference exactly: final-camera-b-color-lock-20260616-220447.webp. Character B is the only active speaker and remains on the same assigned bike/seat/side. Character A is only blurred foreground shoulder/ponytail with no visible mouth. Dialogue: \"It is. My family loves it, and I got my weekends back.\" Warm genuine mom energy, softly proud and relatable, not salesy. Continuous visible pedaling by both women, subtle shoulder rhythm, tiny below-face hand gesture if needed. Face and mouth fully visible. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 8,
@@ -92,7 +92,7 @@
       "cameraFile": "final-camera-a-color-lock-20260616-220447.webp",
       "audioFile": "s8-tts-char-a-okay-i-need-that-today-0-audio.mp3",
       "dialogue": "Okay, I need that today.",
-      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains seated on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Okay, I need that today.\" Bright convinced reaction, still natural and conversational, eyes toward Character B. Gentle pedaling and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
+      "prompt": "Use the locked Camera A reference exactly: final-camera-a-color-lock-20260616-220447.webp. Character A is the only active speaker and remains seated on the same assigned bike/seat/side. Character B is only blurred foreground shoulder/hair with no visible mouth. Dialogue: \"Okay, I need that today.\" Bright convinced reaction, still natural and conversational, eyes toward Character B. Continuous visible pedaling by both women and subtle shoulder movement only. Face and mouth fully visible. Hands stay below face line. Locked camera. Perfect lip sync is the priority."
     },
     {
       "scene": 9,

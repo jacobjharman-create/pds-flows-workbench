@@ -36,7 +36,7 @@
         "Seat and bike assignment is locked: Character A stays on the same assigned recumbent bike in the same seat/side for every scene, and Character B stays on the same assigned recumbent bike in the same seat/side for every scene.",
         "Do not switch seats, do not switch bikes, do not swap sides, and do not reposition either woman between scenes.",
         "Do not redesign either character scene to scene. Do not change faces, hair, makeup, outfits, wardrobe colors, body type, ethnicity, age, accessories, bike model, lighting, or gym layout.",
-        "Allowed variation only: dialogue lip movement, natural eye contact with the other woman, gentle pedaling, subtle shoulder/body rhythm, relaxed breath shifts, tiny natural hand gestures below the face line, and very small crop adjustments.",
+        "Allowed variation only: dialogue lip movement, natural eye contact with the other woman, continuous visible pedaling by both women unless the scene explicitly shows a dismount, plus subtle shoulder/body rhythm, relaxed breath shifts, tiny natural hand gestures below the face line, and very small crop adjustments.",
         "Small expressive body language and hand movement is allowed only when it never blocks the mouth, never crosses the face, never distracts from the active speaker's lip track, and never causes lip-sync drift. Perfect lip sync is the priority over acting.",
         "No new characters, no background pedestrians, no wardrobe alternates, no camera-to-camera presenter energy, and no direct-to-lens CTA delivery."
       ],
@@ -48,7 +48,7 @@
         "Camera B looks over Character A's blurred brunette shoulder/ponytail toward Character B speaking.",
         "The active speaker turns toward the other woman, not toward the camera.",
         "The foreground listener's face and mouth are not visible.",
-        "Natural gestures are allowed only below the face line and away from the mouth; hands must not cover lips, chin, cheeks, jawline, or face-tracking area.",
+        "Continuous visible pedaling by both women is required in every bike shot unless the shot explicitly shows a dismount. Natural gestures are allowed only below the face line and away from the mouth; hands must not cover lips, chin, cheeks, jawline, or face-tracking area.",
         "Repeat the same two camera angles across all dialogue scenes with only minor crop differences."
       ],
       "requirements": [
