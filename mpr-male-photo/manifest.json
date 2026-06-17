@@ -11,14 +11,14 @@
       "id": "character-a",
       "name": "Dark-Haired Fit Gym Friend",
       "referenceImage": "assets/character-a-left-dark-haired-reference.jpg",
-      "voice": "Will - Relaxed Optimist",
+      "voice": "Roger - Laid-Back, Casual, Resonant",
       "data": "data/character-a-left-dark-haired.json"
     },
     {
       "id": "character-b",
       "name": "Blond Strength Gym Friend",
       "referenceImage": "assets/character-b-right-blond-reference.jpg",
-      "voice": "Chris - Charming, Down-to-Earth",
+      "voice": "Callum - Husky Trickster",
       "data": "data/character-b-right-blond.json"
     }
   ],

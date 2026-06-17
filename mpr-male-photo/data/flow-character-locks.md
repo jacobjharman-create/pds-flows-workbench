@@ -55,9 +55,9 @@ Create two short Text to Speech sample nodes. Use this exact sample line for bot
 `Honestly, Meal Prep Revolution just makes eating clean way easier.`
 
 Character A voice direction:
-Warm low-to-mid male voice, confident but not announcer-like, Southern California casual, relaxed gym-friend delivery. Look for a voice that feels fit, calm, and aspirational without sounding fake.
+Warm low-to-mid male voice, natural gym-buddy delivery, casual and practical, no announcer polish.
 
 Character B voice direction:
-Medium-deep male voice, relaxed and grounded, slightly textured, friendly and believable rather than polished. Look for a voice that feels practical, sturdy, and relatable.
+Medium-deep male voice, grounded gym-mate energy with a slightly raw natural texture, not overly produced.
 
 Use available ElevenLabs male voices that best match those directions. Keep samples short. Do not generate full scene dialogue yet.

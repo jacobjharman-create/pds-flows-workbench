@@ -110,8 +110,8 @@ TTS node naming:
 - `TTS-08-A-cta-vo`
 
 Voice assignments:
-- Character A: `Will - Relaxed Optimist`
-- Character B: `Chris - Charming, Down-to-Earth`
+- Character A: `Roger - Laid-Back, Casual, Resonant`
+- Character B: `Callum - Husky Trickster`
 
 Lip-sync priority:
 1. Generate or select the TTS for a single line.
