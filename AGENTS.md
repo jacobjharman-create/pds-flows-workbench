@@ -80,7 +80,7 @@ For the Meal Prep Revolution recumbent-bike shoot, the approved locked reference
 - Camera A: `final-camera-a-color-lock-20260616-220447.webp`
 - Camera B: `final-camera-b-color-lock-20260616-220447.webp`
 
-The whole shoot has only these two characters. Every scene must keep the same faces, hair, makeup, body type, age read, ethnicity, outfits, wardrobe colors, accessories, bike model, gym layout, and lighting. Do not allow scene-to-scene redesign, wardrobe drift, face drift, hair drift, color drift, new characters, background pedestrians, or direct-to-camera presenter energy.
+The whole shoot has only these two characters. Every scene must keep the same faces, hair, makeup, body type, age read, ethnicity, outfits, wardrobe colors, accessories, bike model, gym layout, lighting, seat assignments, and bike assignments. Character A stays on Character A's assigned recumbent bike and same seat/side in every scene. Character B stays on Character B's assigned recumbent bike and same seat/side in every scene. Do not allow scene-to-scene redesign, wardrobe drift, face drift, hair drift, color drift, seat swaps, bike swaps, side swaps, repositioning, new characters, background pedestrians, or direct-to-camera presenter energy.
 
 Allowed variation is limited to the actual conversation: lip movement, natural eye contact between the two women, gentle pedaling, subtle shoulder/body rhythm, relaxed breath shifts, and tiny crop differences inside the locked Camera A and Camera B templates.
 

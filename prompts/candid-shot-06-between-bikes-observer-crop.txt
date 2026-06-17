@@ -2,7 +2,7 @@ Photorealistic vertical commercial still, 9:16 phone ad frame.
 
 Absolute continuity lock: use the exact same two approved women from the locked references. Character A keeps the exact face, brunette ponytail, darker mocha/taupe high-end logo-free athleisure, age read, makeup, skin tone, and body type from final-character-a-dark-taupe-20260616-220447.webp. Character B keeps the exact face, long blonde soft beach-wave hair, sand/taupe high-end logo-free athleisure with muted teal accent, blue-eye read, age read, makeup, skin tone, and body type from final-character-b-teal-accent-20260616-220447.webp. Do not change faces, hair, wardrobe, wardrobe colors, makeup, age, body type, ethnicity, or personality between crop options.
 
-Scene: luxury Newport Beach fitness club inspired by Equinox, premium side-by-side recumbent bikes, both bikes parallel and facing the same direction, floor-to-ceiling windows, warm morning light, wood and stone finishes.
+Scene: luxury Newport Beach fitness club inspired by Equinox, premium side-by-side recumbent bikes, both bikes parallel and facing the same direction, floor-to-ceiling windows, warm morning light, wood and stone finishes. Character A stays on Character A's assigned bike and seat. Character B stays on Character B's assigned bike and seat. No seat swaps, bike swaps, side swaps, or repositioning.
 
 Composition: medium candid crop from slightly behind and between the two bikes, as if the cameraman is quietly overhearing. Both women are visible but not squared to the camera. The bikes remain parallel and forward-facing. Character B is slightly sharper while Character A's shoulder and bike handle create soft foreground depth; both women appear to be casually pedaling and chatting. This is a natural observer angle for scene setup or silent transition, not a lip-sync shot unless one mouth is clearly dominant.
 
@@ -10,4 +10,4 @@ Natural movement direction: both women are actively but gently pedaling througho
 
 Mood: relaxed, real, premium Newport Beach wellness culture, two girls gossiping on bikes about a meal-prep cheat code and getting weekends back.
 
-Avoid: bikes facing each other, direct-to-camera gaze, outfit changes, hair changes, sunglasses, visible logos, staged ad energy, both people speaking clearly at once, extra people, warped bike geometry, face changes, wardrobe color drift, makeup changes, body-type changes, age drift, ethnicity drift, different bike model, different gym layout.
+Avoid: bikes facing each other, direct-to-camera gaze, outfit changes, hair changes, sunglasses, visible logos, staged ad energy, both people speaking clearly at once, extra people, warped bike geometry, face changes, wardrobe color drift, makeup changes, body-type changes, age drift, ethnicity drift, seat swaps, bike swaps, side swaps, repositioning, different bike model, different gym layout.
