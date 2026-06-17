@@ -5,6 +5,12 @@
   "scripts": {
     "build": "node scripts/rebuild-index.mjs",
     "start": "python3 -m http.server 8787",
-    "verify": "node scripts/verify-assets.mjs"
+    "verify": "node scripts/verify-assets.mjs",
+    "el:status": "node scripts/elevenlabs-components.mjs status",
+    "el:cli": "npx -y @elevenlabs/cli",
+    "el:voices": "node scripts/elevenlabs-components.mjs voices",
+    "el:tts": "node scripts/elevenlabs-components.mjs tts",
+    "el:music": "node scripts/elevenlabs-components.mjs music",
+    "flow:packet": "node scripts/write-flow-import-packet.mjs"
   }
 }

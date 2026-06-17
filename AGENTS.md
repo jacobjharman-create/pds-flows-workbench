@@ -105,3 +105,15 @@ When Jacob asks for music beds, background music, ad beds, or soundtrack options
 - Keep the current audio review page narrow: anchor track, new candidates, and any relevant foley reference only.
 - Cite each candidate source in `audio-beds.json` so licensing/source context stays visible.
 - Only generate custom music after the reference direction is clear enough to prompt tightly.
+
+## CLI/API Component Build Rule
+
+When Jacob asks to use the ElevenLabs CLI, API, agents, TTS, music, or any token-efficient prebuild path for PDS Flows:
+
+- Treat `component-build-manifest.json`, `production-locks.json`, and the latest `video-render-plan-*.json` as the source of truth before touching the Flows canvas.
+- Use the official `@elevenlabs/cli` only for supported ElevenAgents-as-code, tools, tests, and UI component work.
+- Use `scripts/elevenlabs-components.mjs` for API-supported voice discovery, TTS generation, and music candidate generation.
+- Use `npm run flow:packet` to create a compact import packet before wiring or rendering in Flows.
+- Keep Flows as the final assembly and lip-sync rendering surface; do not use it as the primary place to experiment with character design, wardrobe, music taste, or script structure.
+- Never store ElevenLabs API keys in this repo. Use environment variables, Keychain, or the approved secret path.
+- Before spending video credits, confirm the locked Camera A/B stills, selected TTS files, selected music bed, source-image wiring, low-res model, and two-shot proof plan.
