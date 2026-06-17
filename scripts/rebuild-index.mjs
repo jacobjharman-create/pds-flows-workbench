@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 
 const root = process.cwd();
 const nodesPath = path.join(root, "nodes.json");
@@ -29,6 +30,40 @@ const escapeHtml = (value = "") =>
     .replaceAll("'", "&#39;");
 
 const attr = (value = "") => escapeHtml(value);
+
+const assetPath = (file) => path.join(root, file);
+const assetMeta = (file) => {
+  if (!file || !fs.existsSync(assetPath(file))) {
+    return {
+      src: file,
+      stamp: "",
+      created: "",
+      size: "",
+      hash: "",
+    };
+  }
+  const stat = fs.statSync(assetPath(file));
+  const bytes = fs.readFileSync(assetPath(file));
+  const hash = createHash("sha256").update(bytes).digest("hex").slice(0, 12);
+  const stamp = `${Math.floor(stat.mtimeMs)}-${stat.size}-${hash}`;
+  return {
+    src: `${file}?asset=${stamp}`,
+    stamp,
+    created: new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Los_Angeles",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+      timeZoneName: "short",
+    }).format(stat.mtime),
+    size: `${Math.round(stat.size / 1024)} KB`,
+    hash,
+  };
+};
 
 const sceneNodes = new Map(
   nodes
@@ -101,30 +136,44 @@ const waiting = timeline.filter((item) => !item.video);
 
 const renderVideo = (item) => {
   const poster = posterFor(item.video);
+  const videoMeta = assetMeta(item.video.local);
+  const posterMeta = poster ? assetMeta(poster) : null;
   return `
 <section class="stage-item" id="${attr(item.key)}">
-  <video controls playsinline preload="metadata"${poster ? ` poster="${attr(poster)}"` : ""} src="${attr(item.video.local)}"></video>
+  <video controls playsinline preload="metadata"${posterMeta ? ` poster="${attr(posterMeta.src)}"` : ""} src="${attr(videoMeta.src)}"></video>
 </section>`;
 };
 
-const renderAudioBed = (bed) => `
+const renderAudioBed = (bed) => {
+  const meta = assetMeta(bed.file);
+  return `
 <section class="audio-bed">
   <div>
     <strong>${escapeHtml(bed.title)}</strong>
     <p>${escapeHtml(bed.note)}</p>
     ${bed.source ? `<a href="${attr(bed.source)}" rel="noreferrer">Source</a>` : ""}
   </div>
-  <audio controls preload="metadata" src="${attr(bed.file)}"></audio>
+  <audio controls preload="metadata" src="${attr(meta.src)}"></audio>
 </section>`;
+};
 
-const renderShot = (shot) => `
+const renderShot = (shot) => {
+  const meta = assetMeta(shot.file);
+  return `
 <section class="shot-card">
-  ${shot.file ? `<img src="${attr(shot.file)}" alt="${attr(shot.title)}" loading="lazy">` : ""}
+  ${shot.file ? `<img src="${attr(meta.src)}" alt="${attr(shot.title)}" loading="lazy">` : ""}
   <div>
     <strong>${escapeHtml(shot.title)}</strong>
+    ${shot.file ? `<dl class="asset-meta">
+      <div><dt>File</dt><dd>${escapeHtml(shot.file)}</dd></div>
+      <div><dt>Created</dt><dd>${escapeHtml(meta.created)}</dd></div>
+      <div><dt>Hash</dt><dd>${escapeHtml(meta.hash)}</dd></div>
+      <div><dt>Size</dt><dd>${escapeHtml(meta.size)}</dd></div>
+    </dl>` : ""}
     <p>${escapeHtml(shot.note)}</p>
   </div>
 </section>`;
+};
 
 const waitingMarkup = waiting.length
   ? `<section class="waiting">
@@ -205,6 +254,10 @@ const html = `<!doctype html>
     .shot-card img{display:block;width:100%;height:auto;background:#000}
     .shot-card div{padding:14px}
     .shot-card strong{display:block;font-size:14px;line-height:1.2}
+    .asset-meta{display:grid;grid-template-columns:1fr;gap:6px;margin:10px 0 0;padding:10px;background:#111827;border:1px solid #243044;border-radius:6px;color:#cbd5e1;font-size:11px;line-height:1.25}
+    .asset-meta div{display:grid;grid-template-columns:64px minmax(0,1fr);gap:8px;padding:0}
+    .asset-meta dt{margin:0;color:#94a3b8;text-transform:uppercase;letter-spacing:.08em}
+    .asset-meta dd{margin:0;overflow-wrap:anywhere}
     .shot-card p{margin:5px 0 0;color:#cbd5e1;font-size:12px;line-height:1.35}
   </style>
 </head>

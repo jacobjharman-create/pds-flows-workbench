@@ -49,7 +49,9 @@ if (indexHtml.includes("blob:")) {
   process.exit(1);
 }
 
-const imageSrcs = [...indexHtml.matchAll(/<img[^>]+src="([^"]+)"/g)].map((match) => match[1]);
+const stripQuery = (src) => src.split("?")[0];
+
+const imageSrcs = [...indexHtml.matchAll(/<img[^>]+src="([^"]+)"/g)].map((match) => stripQuery(match[1]));
 const allowedImages = new Set(shotBoard.map((shot) => shot.file));
 const unexpectedImages = imageSrcs.filter((src) => !allowedImages.has(src));
 if (unexpectedImages.length) {
@@ -58,7 +60,7 @@ if (unexpectedImages.length) {
   process.exit(1);
 }
 
-const audioSrcs = [...indexHtml.matchAll(/<audio[^>]+src="([^"]+)"/g)].map((match) => match[1]);
+const audioSrcs = [...indexHtml.matchAll(/<audio[^>]+src="([^"]+)"/g)].map((match) => stripQuery(match[1]));
 const allowedAudio = new Set(audioBeds.map((bed) => bed.file));
 const unexpectedAudio = audioSrcs.filter((src) => !allowedAudio.has(src));
 if (unexpectedAudio.length) {
@@ -69,7 +71,7 @@ if (unexpectedAudio.length) {
 
 const videoTags = [...indexHtml.matchAll(/<video\b[^>]*>/g)].map((match) => match[0]);
 const videoPosters = videoTags
-  .map((tag) => tag.match(/\bposter="([^"]+)"/)?.[1])
+  .map((tag) => stripQuery(tag.match(/\bposter="([^"]+)"/)?.[1] ?? ""))
   .filter(Boolean);
 if (videoPosters.length !== videoTags.length) {
   console.error(`Expected every video to have a poster; found ${videoPosters.length}/${videoTags.length}.`);
