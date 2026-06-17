@@ -61,6 +61,8 @@ Stage-first rule:
 
 - The sandbox must lead with the newest media type from the current update.
 - Set `review-stage.json` to the current stage (`audio`, `photo`, or `video`) before rebuilding.
+- Current-stage review assets must use immutable timestamped filenames, not overwritten stable filenames, so mobile/Hostinger caches cannot show old renders.
+- The rendered page should visibly identify latest renders with date/time when there is any risk of confusion.
 - If the latest update produced photos/stills, the photo/still board goes first.
 - If the latest update produced videos, the video strip goes first.
 - If the latest update produced audio beds, include the audio section near the relevant current stage.
