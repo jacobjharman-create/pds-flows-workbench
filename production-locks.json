@@ -8,10 +8,16 @@
     },
     "currentVisualReview": {
       "stage": "photo",
-      "purpose": "Confirm latest Character A and Character B headshot identity locks before producing video shots.",
+      "purpose": "Confirm rerendered Character A and Character B headshot identity locks before producing video shots. These replace the failed sunglasses references.",
       "characterFiles": [
         "ref-character-a-brunette-0-img.webp",
         "ref-character-b-blonde-0-img.webp"
+      ],
+      "requirements": [
+        "No sunglasses or eyewear.",
+        "Caucasian Newport Beach moms age 28-29.",
+        "High-end Alo/Vuori-inspired logo-free athleisure.",
+        "Wealthy, organized, well put together, believable busy moms training at an Equinox-inspired Newport Beach fitness club."
       ]
     }
   }
