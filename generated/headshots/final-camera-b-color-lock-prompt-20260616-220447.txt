@@ -1,0 +1,15 @@
+Photorealistic premium commercial camera reference still for Meal Prep Revolution.
+
+Camera B reverse-angle lock: Character B is the active speaker. Character B is the blonde Caucasian Newport Beach mom age 28-29, wealthy, organized, polished, long blonde beach-wave hair, blue eyes, no sunglasses, no eyewear. Her final wardrobe is high-end Newport Beach leisure athleisure with a refined sand / mineral taupe / light mushroom base and a subtle but clearly visible muted teal or coastal blue-green accent that complements her blue eyes. No logos, no brand marks, no white outfit, no underwear look.
+
+Character A is the foreground listener. She is the brunette mom in darker neutral high-end athleisure: dark sand, mocha taupe, warm cacao, deep mushroom, darker tan. No logos, no brand marks.
+
+Composition: vertical 9:16, candid over-the-shoulder reverse angle from behind / beside Character A. Character A appears only as a softly blurred brunette shoulder, ponytail, upper arm, or partial back-of-head in the foreground. Character A's face and mouth are not visible. The camera looks past Character A toward Character B.
+
+Character B is sharp and speaking naturally to Character A, not to camera. Character B is seated on a sleek premium recumbent bike, turned slightly toward Character A with a calm friendly conversational expression. Character B's face is three-quarter visible, mouth fully visible, eyes fully visible, hair away from lips. Active speaker fills about 60-70% of the frame.
+
+Critical geometry lock: both women are seated side-by-side on the exact same model of sleek premium recumbent bike. The bikes are parallel, mirror-opposite in camera coverage, and facing the same direction. Do not make the bikes face each other. Do not stage it like an interview. It should look like two wealthy Newport Beach moms casually talking while pedaling.
+
+Setting: luxury Newport Beach fitness club inspired by Equinox, warm California morning light, floor-to-ceiling windows, architectural wood details, natural stone finishes, premium equipment, affluent coastal wellness atmosphere.
+
+Negative prompt: no sunglasses, no eyewear, no logos, no text, no brand marks, no visible listener mouth, no listener speaking, no direct-to-camera address, no two people facing each other, no bikes facing each other, no mismatched bike brands, no different bike models, no white Character B outfit, no underwear look, no background pedestrians, no distorted faces, no warped hands, no plastic skin, no fake influencer posing, no generic gym.

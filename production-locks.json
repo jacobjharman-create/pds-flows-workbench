@@ -10,14 +10,14 @@
       "stage": "photo",
       "purpose": "Confirm the parallel recumbent-bike over-the-shoulder reverse-angle template plus the rerendered no-sunglasses character locks before producing video shots.",
       "cameraFiles": [
-        "camera-a-sand-athleisure-parallel-bike-ots-20260616-183218.webp",
-        "camera-b-sand-athleisure-parallel-bike-ots-20260616-183218.webp"
+        "final-camera-a-color-lock-20260616-220447.webp",
+        "final-camera-b-color-lock-20260616-220447.webp"
       ],
       "characterFiles": [
-        "ref-character-a-brunette-nosunglasses-20260616-175846.webp",
-        "ref-character-b-sand-athleisure-20260616-183218.webp"
+        "final-character-a-dark-taupe-20260616-220447.webp",
+        "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "2026-06-16 18:32 PT",
+      "renderedAt": "2026-06-16 22:04 PT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "cameraTemplate": [
         "Both recumbent bikes stay side-by-side, parallel, and facing the same direction.",
@@ -30,8 +30,10 @@
       "requirements": [
         "No sunglasses or eyewear.",
         "Caucasian Newport Beach moms age 28-29.",
-        "Character B wears warm sand/mineral taupe high-end Alo/Vuori-inspired logo-free athleisure that complements blonde hair and blue eyes.",
+        "Character A wears darker mocha/taupe high-end logo-free athleisure.",
+        "Character B wears sand/taupe high-end logo-free athleisure with muted teal accent to complement blonde hair and blue eyes.",
         "Character B wardrobe must not be stark white, cream, underwear-like, lingerie-like, bra-only, or see-through.",
+        "Both recumbent bikes must be the same premium black model with matching black upholstery and matching frame design.",
         "Wealthy, organized, well put together, believable busy moms training at an Equinox-inspired Newport Beach fitness club."
       ]
     }
