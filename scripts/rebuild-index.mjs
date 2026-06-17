@@ -111,7 +111,7 @@ const renderAudioBed = (bed) => `
 
 const renderShot = (shot) => `
 <section class="shot-card">
-  <img src="${attr(shot.file)}" alt="${attr(shot.title)}" loading="lazy">
+  ${shot.file ? `<img src="${attr(shot.file)}" alt="${attr(shot.title)}" loading="lazy">` : ""}
   <div>
     <strong>${escapeHtml(shot.title)}</strong>
     <p>${escapeHtml(shot.note)}</p>

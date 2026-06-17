@@ -1,39 +1,27 @@
 {
   "shots": [
     {
-      "title": "Option 1 — Character B Speaks To Friend",
-      "file": "direction-board/candid-shot-01-b-speaks-over-a-shoulder.jpg",
-      "note": "Camera B alternative: both bikes face the same direction; brunette listener shoulder sits blurred on the right edge while blonde speaker turns sideways toward her friend."
+      "title": "Character A Lock — Curious Mom",
+      "file": "ref-character-a-brunette-0-img.webp",
+      "note": "Use this exact brunette character identity across every Character A shot: same face, brunette ponytail, same body type, same age range, same upscale activewear direction, no sunglasses, no eyewear, no wardrobe changes."
     },
     {
-      "title": "Option 2 — Character A Reacts To Friend",
-      "file": "direction-board/candid-shot-02-a-reacts-over-b-shoulder.jpg",
-      "note": "Camera A alternative: both bikes face the same direction; brunette speaker is framed on the right while blonde listener shoulder sits blurred in the bottom-left foreground."
+      "title": "Character B Lock — Meal Prep Revolution Mom",
+      "file": "ref-character-b-blonde-0-img.webp",
+      "note": "Use this exact blonde character identity across every Character B shot: same face, blonde beach-wave hair, same body type, same age range, same upscale activewear direction, no sunglasses, no eyewear, no wardrobe changes."
     },
     {
-      "title": "Option 3 — Candid Side Observer",
-      "file": "direction-board/candid-shot-03-side-observer-two-bikes.jpg",
-      "note": "A wider observer-style angle with both bikes parallel and facing forward. Best for establishing or silent transition coverage."
+      "title": "Camera A Lock — Repeat For Every Character A Line",
+      "note": "One repeatable angle only. Character A is sharp and speaking, framed on the right side of the vertical frame. Character B's blonde shoulder/hair is softly blurred in the bottom-left foreground. Both recumbent bikes are side-by-side, parallel, and facing the same direction. Character A turns her head toward Character B, not toward the camera. Use only tiny crop adjustments if needed; do not redesign the shot."
     },
     {
-      "title": "Option 4 — Tight Character B Crop",
-      "file": "direction-board/candid-shot-04-tight-b-speaks-crop.jpg",
-      "note": "Tighter Camera B crop: brunette shoulder blurred on the right, blonde speaker close enough for lip sync, still facing her friend."
+      "title": "Camera B Lock — Repeat For Every Character B Line",
+      "note": "One repeatable angle only. Character B is sharp and speaking, framed slightly left of center. Character A's brunette shoulder/pony tail is softly blurred on the right edge or lower-right foreground. Both recumbent bikes are side-by-side, parallel, and facing the same direction. Character B turns her head toward Character A, not toward the camera. Use only tiny crop adjustments if needed; do not redesign the shot."
     },
     {
-      "title": "Option 5 — Tight Character A Crop",
-      "file": "direction-board/candid-shot-05-tight-a-reacts-crop.jpg",
-      "note": "Tighter Camera A crop: blonde shoulder blurred bottom-left, brunette framed on the right, still talking sideways to her friend."
-    },
-    {
-      "title": "Option 6 — Between-Bikes Observer Crop",
-      "file": "direction-board/candid-shot-06-between-bikes-observer-crop.jpg",
-      "note": "Soft observer crop from between the bikes. Best as a candid setup or non-dialogue transition because both women are visible."
-    },
-    {
-      "title": "CTA Direction — Website Screenshot With Voiceover",
+      "title": "CTA Lock — Website Screenshot With Voiceover",
       "file": "meal-prep-revolution-final-cta-screenshot-20260616-img.jpg",
-      "note": "Recommended CTA treatment: keep the real screenshot as the visual and place Character B's CTA audio over it, instead of showing her performing the CTA to camera."
+      "note": "Do not show Character B performing the CTA on the bike. Put the CTA audio over this actual website screenshot. Preserve the screenshot graphics exactly."
     }
   ]
 }

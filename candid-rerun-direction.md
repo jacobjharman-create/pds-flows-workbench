@@ -11,6 +11,9 @@ This should feel like two busy Newport Beach moms quietly sharing a useful life 
 - Character A: brunette ponytail, same face, same dark green or neutral upscale Alo/Vuori-inspired activewear, no visible logos, no sunglasses, no eyewear.
 - Character B: blonde beach-wave hair, same face, same taupe/white upscale Alo/Vuori-inspired activewear, no visible logos, no sunglasses, no eyewear.
 - Keep the same gym, same bikes, same bike positions, same lighting, same wardrobe, same hairstyles, same age range, and same body types across every scene.
+- Do not use fresh character designs scene by scene.
+- Do not use the exploratory direction-board generations as character references if their face, outfit, hair, or bike geometry differs.
+- Character reference continuity beats camera variety. It is better to repeat the same shot twice than to introduce a new-looking person.
 
 ## Bike And Body Movement
 
@@ -23,9 +26,12 @@ This should feel like two busy Newport Beach moms quietly sharing a useful life 
 
 ## Camera Direction
 
-- Use candid over-the-shoulder shot-reverse-shot coverage.
-- Camera B: Character B is sharp and speaking; Character A's brunette shoulder/pony tail is blurred on the right edge or lower-right foreground.
-- Camera A: Character A is sharp and speaking; Character B's blonde shoulder/hair is blurred in the bottom-left foreground.
+- Use only two repeatable candid over-the-shoulder shot-reverse-shot setups.
+- Camera B: Character B is sharp and speaking; Character A's brunette shoulder/pony tail is blurred on the right edge or lower-right foreground. Repeat this same setup for every Character B line.
+- Camera A: Character A is sharp and speaking; Character B's blonde shoulder/hair is blurred in the bottom-left foreground. Repeat this same setup for every Character A line.
+- Small crop differences are allowed, but only if the characters, outfits, hair, bikes, and environment remain identical.
+- No back-of-head dominant shots.
+- No extra wide dialogue shots.
 - The camera feels like it is quietly overhearing the conversation, not acting as a person being spoken to.
 - The active speaker looks toward her friend, not into the lens.
 - Keep the active speaker's face, eyes, and mouth fully visible.
@@ -43,6 +49,8 @@ This should feel like two busy Newport Beach moms quietly sharing a useful life 
 - Bikes facing each other.
 - Direct-to-camera delivery.
 - Third-person presenter energy.
+- Too many angle variations.
+- Any shot where the women look like different people.
 - Two people visibly speaking in the same shot.
 - Listener mouth movement while speaker talks.
 - Outfit or hair changes.
