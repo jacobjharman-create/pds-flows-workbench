@@ -16,17 +16,31 @@
     },
     "currentVisualReview": {
       "stage": "photo",
-      "purpose": "Production continuity lock for fresh Camera A/B stills generated from approved characters plus the 2027 bike prop plate before rerunning S1/S2 low-res lip-sync video.",
+      "purpose": "Production continuity lock for fresh open-frame Camera A/B still set and progressively tighter scene crop progression for S2-S8, before continuing full ad rendering.",
       "cameraFiles": [
         "camera-a-bike-plate-source-still-20260617-031702.png",
         "camera-b-bike-plate-source-still-20260617-031702.png",
+        "camera-a-bike-plate-tight-s2-20260617-041300.png",
+        "camera-a-bike-plate-tight-s3-20260617-041300.png",
+        "camera-a-bike-plate-tight-s4-20260617-041300.png",
+        "camera-a-bike-plate-tight-s5-20260617-041300.png",
+        "camera-a-bike-plate-tight-s6-20260617-041300.png",
+        "camera-a-bike-plate-tight-s7-20260617-041300.png",
+        "camera-a-bike-plate-tight-s8-20260617-041300.png",
+        "camera-b-bike-plate-tight-s2-20260617-041300.png",
+        "camera-b-bike-plate-tight-s3-20260617-041300.png",
+        "camera-b-bike-plate-tight-s4-20260617-041300.png",
+        "camera-b-bike-plate-tight-s5-20260617-041300.png",
+        "camera-b-bike-plate-tight-s6-20260617-041300.png",
+        "camera-b-bike-plate-tight-s7-20260617-041300.png",
+        "camera-b-bike-plate-tight-s8-20260617-041300.png",
         "recumbent-bike-3d-prop-plate-20260617-0207.png"
       ],
       "characterFiles": [
         "final-character-a-dark-taupe-20260616-220447.webp",
         "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "06/17/2026 3:17 AM PDT",
+      "renderedAt": "06/17/2026 4:13 AM PDT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "absoluteContinuityLock": [
         "Only two characters exist in the whole shoot: Character A and Character B.",
@@ -56,7 +70,8 @@
         "The active speaker turns toward the other woman, not toward the camera.",
         "The foreground listener's face and mouth are not visible.",
         "Continuous visible pedaling by both women is required in every bike shot unless the shot explicitly shows a dismount. Natural gestures are allowed only below the face line and away from the mouth; hands must not cover lips, chin, cheeks, jawline, or face-tracking area.",
-        "Repeat the same two camera angles across all dialogue scenes with only minor crop differences."
+        "Repeat the same two camera angles across all dialogue scenes with only minor crop differences.",
+        "Progressive shot progression for this sequence is locked to one tighter frame set across all later scenes."
       ],
       "requirements": [
         "No sunglasses or eyewear.",
