@@ -1,0 +1,165 @@
+{
+  "createdAt": "2026-06-17T09:35:19.990Z",
+  "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
+  "stage": "low_res_tts_still_to_lipsync_wiring_packet_opposite_side_b",
+  "targetRuntimeSeconds": 25,
+  "totalSelectedAudioSeconds": 24.195,
+  "referenceNodes": [
+    {
+      "node": "REF-CHAR-A-continuity-plate",
+      "asset": "assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png"
+    },
+    {
+      "node": "REF-CHAR-B-continuity-plate",
+      "asset": "assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png"
+    },
+    {
+      "node": "REF-SQUAT-RACK-world-plate",
+      "asset": "assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png"
+    },
+    {
+      "node": "REF-TWO-SIDED-RACK-topmap",
+      "asset": "assets/continuity-plates/two-sided-rack-blocking-plate-topmap-lowres-20260617-0218.png"
+    }
+  ],
+  "globalRules": [
+    "No premium render yet.",
+    "One TTS node per line.",
+    "One matching low-res lip-sync/video node per line.",
+    "Use exact generated TTS MP3 as the video/lip-sync audio input.",
+    "Use continuity plates as visual references.",
+    "Keep mouth visible and unobstructed.",
+    "Regenerate failed lines only.",
+    "Character B stays on the opposite/right side of the squat rack, facing left across the bar toward Character A."
+  ],
+  "chains": [
+    {
+      "scene": "S1",
+      "ttsNode": "TTS-01-B-work-is-nonstop",
+      "videoNode": "VID-01-B-work-stress-rack",
+      "speaker": "character_b",
+      "prompt": "Low-res lip-sync proof. Character B is on the opposite/right side of the squat rack, facing left across the bar toward Character A. Medium close-up through/across the rack, gray shirt, olive shorts, black smartwatch, dirty-blond hair, mouth fully visible, plate low in frame. Use corrected two-sided rack top-map. No bar, plate, hand, or post crossing mouth.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s1-b-work-is-nonstop-20260617-021433.mp3",
+      "audioDurationSeconds": 3.715,
+      "connection": "TTS-01-B-work-is-nonstop.audio -> VID-01-B-work-stress-rack.speech_audio; VID-01-B-work-stress-rack.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s1-b-opposite-side-work-stress-rack-still-lowres-20260617-0218.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S2",
+      "ttsNode": "TTS-02-B-how-do-you-stay-consistent",
+      "videoNode": "VID-02-B-asks-how",
+      "speaker": "character_b",
+      "prompt": "Low-res lip-sync proof. Character B remains on the opposite/right side of the squat rack, facing left across the rack toward Character A. Tight head-and-shoulders shot, mouth clear, stressed but practical. Use corrected two-sided rack top-map. No same-side blocking.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s2-b-how-do-you-stay-consistent-20260617-021346.mp3",
+      "audioDurationSeconds": 2.415,
+      "connection": "TTS-02-B-how-do-you-stay-consistent.audio -> VID-02-B-asks-how.speech_audio; VID-02-B-asks-how.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s2-b-opposite-side-asks-how-still-lowres-20260617-0218.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S3",
+      "ttsNode": "TTS-03-A-best-switch",
+      "videoNode": "VID-03-A-meal-prep-answer",
+      "speaker": "character_a",
+      "prompt": "Low-res lip-sync proof. Character A reverse shot at fixed squat rack, calm friend answer while setting up next set, mouth fully visible, plate movement below chest. Reference Character A plate and squat-rack world plate.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s3-a-meal-prep-answer-20260617-021433.mp3",
+      "audioDurationSeconds": 2.647,
+      "connection": "TTS-03-A-best-switch.audio -> VID-03-A-meal-prep-answer.speech_audio; VID-03-A-meal-prep-answer.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s3-a-meal-prep-answer-still-lowres-20260617.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S4",
+      "ttsNode": "TTS-04-A-pick-meals-online",
+      "videoNode": "VID-04-A-online-checkout",
+      "speaker": "character_a",
+      "prompt": "Low-res lip-sync proof. Character A close-up, relaxed delivery, subtle nod on 'show up at my door', black tank and hair unchanged, mouth unobstructed. Reference Character A plate and squat-rack world plate.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s4-a-pick-meals-online-20260617-021346.mp3",
+      "audioDurationSeconds": 3.483,
+      "connection": "TTS-04-A-pick-meals-online.audio -> VID-04-A-online-checkout.speech_audio; VID-04-A-online-checkout.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s4-a-online-checkout-still-lowres-20260617.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S5",
+      "ttsNode": "TTS-05-A-no-shopping",
+      "videoNode": "VID-05-A-no-shopping-cleanup",
+      "speaker": "character_a",
+      "prompt": "Low-res lip-sync proof. Character A rack-depth reverse angle, practical relief line, hands and plate remain below mouth line, no salesy posture. Reference Character A plate, squat-rack world plate, and two-shot blocking plate.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s5-a-no-shopping-cleanup-20260617-021246.mp3",
+      "audioDurationSeconds": 4.272,
+      "connection": "TTS-05-A-no-shopping.audio -> VID-05-A-no-shopping-cleanup.speech_audio; VID-05-A-no-shopping-cleanup.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s5-a-no-shopping-cleanup-still-lowres-20260617.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S6",
+      "ttsNode": "TTS-06-A-clean-ingredients",
+      "videoNode": "VID-06-A-macros-track",
+      "speaker": "character_a",
+      "prompt": "Low-res lip-sync proof. Character A clean hero headshot, confident but natural, mouth fully visible, minimal movement for accurate lip sync. Reference Character A plate and squat-rack world plate.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s6-a-clean-ingredients-20260617-021246.mp3",
+      "audioDurationSeconds": 3.251,
+      "connection": "TTS-06-A-clean-ingredients.audio -> VID-06-A-macros-track.speech_audio; VID-06-A-macros-track.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s6-a-macros-track-still-lowres-20260617.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S7",
+      "ttsNode": "TTS-07-B-send-link",
+      "videoNode": "VID-07-B-link-reaction",
+      "speaker": "character_b",
+      "prompt": "Low-res lip-sync proof. Character B remains on the opposite/right side of the squat rack, facing left across the rack toward Character A. Reaction shot, mouth clear, optional hand below chin. Use corrected two-sided rack top-map. No same-side blocking.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s7-b-send-link-20260617-021246.mp3",
+      "audioDurationSeconds": 1.068,
+      "connection": "TTS-07-B-send-link.audio -> VID-07-B-link-reaction.speech_audio; VID-07-B-link-reaction.source_image -> mpr-male-photo/assets/scene-stills/lowres-wiring/s7-b-opposite-side-link-reaction-still-lowres-20260617-0218.png",
+      "draftSettings": {
+        "lipSync": true,
+        "resolution": "720p or lower",
+        "renderModel": "lowest-cost available still-image-to-lip-sync model first"
+      }
+    },
+    {
+      "scene": "S8",
+      "ttsNode": "TTS-08-A-cta-vo",
+      "videoNode": "VID-08-CTA-site-fade",
+      "speaker": "character_a_vo",
+      "prompt": "Low-res CTA proof. Character A voiceover over blurred dark squat-rack freeze frame until website screenshot is uploaded. Overlay MealPrepRevolution.com and subline Pick your meals. Own your week. No lip-sync required for this node.",
+      "stillInput": "mpr-male-photo/assets/scene-stills/lowres-wiring/s8-cta-placeholder-still-lowres-20260617.png",
+      "audioInput": "mpr-male-photo/assets/audio/lowres-wiring/s8-a-cta-vo-20260617-021346.mp3",
+      "audioDurationSeconds": 3.344,
+      "connection": "TTS-08-A-cta-vo.audio -> VID-08-CTA-site-fade.voiceover_audio; VID-08-CTA-site-fade.visual -> CTA placeholder until website screenshot is uploaded",
+      "draftSettings": {
+        "lipSync": false,
+        "resolution": "720p or lower",
+        "renderMode": "placeholder CTA proof"
+      }
+    }
+  ]
+}

@@ -31,7 +31,7 @@
       "speaker": "character_b",
       "tts_node": "TTS-01-B-work-is-nonstop",
       "video_node": "VID-01-B-work-stress-rack",
-      "text": "Work is nonstop. Budget cuts, boss on me... I'm barely keeping up.",
+      "text": "Work's nonstop. Budget cuts, boss on me... I'm barely keeping up.",
       "shot": "Character B medium close-up at squat rack, plate low in frame, mouth clear."
     },
     {
@@ -40,7 +40,7 @@
       "speaker": "character_b",
       "tts_node": "TTS-02-B-how-do-you-stay-consistent",
       "video_node": "VID-02-B-asks-how",
-      "text": "How do you stay this consistent? You're busier than me.",
+      "text": "How do you stay consistent? You're busier than me.",
       "shot": "Character B tighter shot, looks from bar back to Character A, stressed but grounded."
     },
     {
@@ -49,7 +49,7 @@
       "speaker": "character_a",
       "tts_node": "TTS-03-A-best-switch",
       "video_node": "VID-03-A-meal-prep-answer",
-      "text": "Meal Prep Revolution. Best switch I've made.",
+      "text": "Meal Prep Revolution. Best switch I made.",
       "shot": "Character A reverse shot, calm answer while setting up for next set."
     },
     {
@@ -58,7 +58,7 @@
       "speaker": "character_a",
       "tts_node": "TTS-04-A-pick-meals-online",
       "video_node": "VID-04-A-online-checkout",
-      "text": "I pick the week's meals online, check out, and they show up at my door.",
+      "text": "I pick meals online, check out, and they show up at my door.",
       "shot": "Character A close-up, plate movement stays below chest, slight nod on delivery."
     },
     {
@@ -94,7 +94,7 @@
       "speaker": "character_a_vo",
       "tts_node": "TTS-08-A-cta-vo",
       "video_node": "VID-08-CTA-site-fade",
-      "text": "MealPrepRevolution.com. Pick your meals. Own your week.",
+      "text": "MealPrepRevolution.com. Own your week.",
       "shot": "Fade from gym into uploaded Meal Prep Revolution website screenshot; overlay CTA."
     }
   ],

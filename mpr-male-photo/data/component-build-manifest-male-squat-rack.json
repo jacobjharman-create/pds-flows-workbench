@@ -1,0 +1,114 @@
+{
+  "schema": "pds-flows.component-build.v1",
+  "client": "Meal Prep Revolution",
+  "campaign": "Male squat-rack low-res lip-sync wiring commercial",
+  "createdAt": "2026-06-17",
+  "purpose": "Build reusable low-cost audio and Flow wiring components outside ElevenLabs Flows, then import only approved components into the canvas for low-res lip-sync proof.",
+  "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
+  "assetPolicy": {
+    "draftResolution": "Use the lowest practical review resolution, preferably 720p or lower.",
+    "filenameRule": "Generated review assets must use immutable timestamped filenames.",
+    "sourceOfTruth": "This manifest, the continuity plates, and the script storyboard JSON are the durable source before the Flow canvas.",
+    "noSecrets": "Do not store ElevenLabs API keys or signed temporary URLs in this repo.",
+    "finalGate": "No upscale, final grade, premium video model, or professional final render until low-res wiring is approved."
+  },
+  "characters": [
+    {
+      "id": "character_a",
+      "label": "Character A - Dark-Haired Fit Gym Friend",
+      "role": "Disciplined friend with the simple meal-prep system.",
+      "lockedReference": "mpr-male-photo/assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png",
+      "lockedWorldReference": "mpr-male-photo/assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png",
+      "lookLock": "Dark wavy hair, tan skin, clean jawline, lean muscular build, black tank, black shorts, white socks and trainers, thin chain.",
+      "voice": {
+        "label": "Will - Relaxed Optimist",
+        "voiceId": "bIHbv24MWmeRgasZH58o",
+        "direction": "Warm low-to-mid male voice, confident but not announcer-like, relaxed gym-friend delivery."
+      }
+    },
+    {
+      "id": "character_b",
+      "label": "Character B - Dirty-Blond Strength Gym Friend",
+      "role": "Relatable stressed friend trying to stay consistent.",
+      "lockedReference": "mpr-male-photo/assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png",
+      "lockedWorldReference": "mpr-male-photo/assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png",
+      "lookLock": "Short curly dirty-blond hair, light stubble, sturdy athletic build, gray shirt, olive shorts, black smartwatch, white socks and trainers.",
+      "voice": {
+        "label": "Chris - Charming, Down-to-Earth",
+        "voiceId": "iP95p4xoKVk53GoZ742B",
+        "direction": "Medium-deep male voice, relaxed and grounded, slightly textured, friendly and believable."
+      }
+    }
+  ],
+  "tts": {
+    "modelId": "eleven_flash_v2_5",
+    "outputFormat": "mp3_44100_128",
+    "voiceSettings": {
+      "stability": 0.6,
+      "similarity_boost": 0.78,
+      "style": 0.22,
+      "use_speaker_boost": true
+    },
+    "lines": [
+      {
+        "scene": "S1",
+        "characterId": "character_b",
+        "text": "Work's nonstop. Budget cuts, boss on me... I'm barely keeping up.",
+        "slug": "s1-b-work-is-nonstop"
+      },
+      {
+        "scene": "S2",
+        "characterId": "character_b",
+        "text": "How do you stay consistent? You're busier than me.",
+        "slug": "s2-b-how-do-you-stay-consistent"
+      },
+      {
+        "scene": "S3",
+        "characterId": "character_a",
+        "text": "Meal Prep Revolution. Best switch I made.",
+        "slug": "s3-a-meal-prep-answer"
+      },
+      {
+        "scene": "S4",
+        "characterId": "character_a",
+        "text": "I pick meals online, check out, and they show up at my door.",
+        "slug": "s4-a-pick-meals-online"
+      },
+      {
+        "scene": "S5",
+        "characterId": "character_a",
+        "text": "No shopping, cooking, or cleanup. I heat one up and get back to work.",
+        "slug": "s5-a-no-shopping-cleanup"
+      },
+      {
+        "scene": "S6",
+        "characterId": "character_a",
+        "text": "Clean ingredients, macro-friendly, keeps me on track.",
+        "slug": "s6-a-clean-ingredients"
+      },
+      {
+        "scene": "S7",
+        "characterId": "character_b",
+        "text": "Send me that link.",
+        "slug": "s7-b-send-link"
+      },
+      {
+        "scene": "S8",
+        "characterId": "character_a",
+        "text": "MealPrepRevolution.com. Own your week.",
+        "slug": "s8-a-cta-vo"
+      }
+    ]
+  },
+  "flowsImport": {
+    "proofModel": "lowest-cost lip-sync/video model available in Flow",
+    "targetResolution": "720p or lower",
+    "visualReferences": [
+      "mpr-male-photo/assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png",
+      "mpr-male-photo/assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png",
+      "mpr-male-photo/assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png",
+      "mpr-male-photo/assets/continuity-plates/two-shot-blocking-plate-lowres-20260617.png"
+    ],
+    "rule": "Create one TTS node per line, wire that exact audio into one matching low-res lip-sync/video node, and regenerate failed lines individually."
+  }
+}

@@ -3,9 +3,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 
+function argValue(name, fallback = undefined) {
+  const prefix = `${name}=`;
+  const hit = process.argv.slice(2).find((arg) => arg === name || arg.startsWith(prefix));
+  if (!hit) return fallback;
+  if (hit === name) return true;
+  return hit.slice(prefix.length);
+}
+
 const root = process.cwd();
-const manifestPath = path.join(root, "component-build-manifest.json");
-const outDir = path.join(root, "generated", "audio");
+const manifestPath = path.resolve(root, argValue("--manifest", "component-build-manifest.json"));
+const outDir = path.resolve(root, argValue("--out-dir", path.join("generated", "audio")));
 const apiBase = process.env.ELEVENLABS_API_BASE || "https://api.elevenlabs.io";
 const keychainServices = ["elevenlabs-api", "elevenlabs-api-key", "elevenlabs"];
 
@@ -35,6 +43,10 @@ Usage:
   node scripts/elevenlabs-components.mjs tts [--only S1,S2]
   node scripts/elevenlabs-components.mjs music [--count 3]
   node scripts/elevenlabs-components.mjs cli-help
+
+Options:
+  --manifest=path/to/component-build-manifest.json
+  --out-dir=path/to/generated/audio
 
 Required for API actions:
   ELEVENLABS_API_KEY must be set in the shell or process environment.

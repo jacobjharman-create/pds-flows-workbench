@@ -28,13 +28,22 @@
     "scriptStoryboard": "data/squat-rack-25s-script-storyboard.md",
     "scriptStoryboardJson": "data/squat-rack-25s-script-storyboard.json",
     "continuityStagePlan": "data/continuity-plates/continuity-stage-plan.md",
-    "flowContinuityHandoff": "data/continuity-plates/flow-continuity-plate-handoff.md"
+    "flowContinuityHandoff": "data/continuity-plates/flow-continuity-plate-handoff.md",
+    "componentManifest": "data/component-build-manifest-male-squat-rack.json",
+    "nodeBuildMap": "data/flow-node-build-map-male-squat-rack.json",
+    "wiringPacket": "data/flow-wiring-packet-male-squat-rack-lowres-20260617-0218-opposite-side-b.md"
   },
   "continuityPlates": {
     "characterA": "assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png",
     "characterB": "assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png",
     "squatRackWorld": "assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png",
-    "twoShotBlocking": "assets/continuity-plates/two-shot-blocking-plate-lowres-20260617.png"
+    "twoShotBlocking": "assets/continuity-plates/two-shot-blocking-plate-lowres-20260617.png",
+    "twoSidedRackTopMap": "assets/continuity-plates/two-sided-rack-blocking-plate-topmap-lowres-20260617-0218.png"
+  },
+  "lowResWiring": {
+    "selectedAudioManifest": "assets/audio/lowres-wiring/selected-tts-audio-manifest-20260617-021433.json",
+    "totalSelectedAudioSeconds": 24.195,
+    "geographyLock": "Character A left/near side facing right; Character B right/opposite side facing left across the squat rack."
   },
   "firstGenerationRules": {
     "mode": "low-resolution wiring and lip-sync proof only",

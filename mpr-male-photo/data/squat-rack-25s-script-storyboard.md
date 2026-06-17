@@ -26,14 +26,14 @@ Estimated spoken words: 79.
 
 | Time | Speaker | Exact TTS Line |
 |---|---|---|
-| 0.0-3.7 | Character B | Work is nonstop. Budget cuts, boss on me... I'm barely keeping up. |
-| 3.7-6.7 | Character B | How do you stay this consistent? You're busier than me. |
-| 6.7-9.0 | Character A | Meal Prep Revolution. Best switch I've made. |
-| 9.0-13.4 | Character A | I pick the week's meals online, check out, and they show up at my door. |
+| 0.0-3.7 | Character B | Work's nonstop. Budget cuts, boss on me... I'm barely keeping up. |
+| 3.7-6.7 | Character B | How do you stay consistent? You're busier than me. |
+| 6.7-9.0 | Character A | Meal Prep Revolution. Best switch I made. |
+| 9.0-13.4 | Character A | I pick meals online, check out, and they show up at my door. |
 | 13.4-17.5 | Character A | No shopping, cooking, or cleanup. I heat one up and get back to work. |
 | 17.5-20.2 | Character A | Clean ingredients, macro-friendly, keeps me on track. |
 | 20.2-21.8 | Character B | Send me that link. |
-| 21.8-25.0 | Character A VO / CTA | MealPrepRevolution.com. Pick your meals. Own your week. |
+| 21.8-25.0 | Character A VO / CTA | MealPrepRevolution.com. Own your week. |
 
 ## Storyboard
 
