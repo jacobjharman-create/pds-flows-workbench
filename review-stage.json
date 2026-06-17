@@ -1,5 +1,9 @@
 {
-  "currentStage": "photo",
-  "label": "Current review stage · fresh Camera A/B stills from 2027 bike prop plate · 06/17/2026 2:29 AM PDT",
-  "onlyCurrentStage": true
+  "currentStage": "video",
+  "label": "Current review stage · S1/S2 low-res lip-sync rerun from fresh bike-plate stills · 06/17/2026 2:53 AM PDT",
+  "onlyCurrentStage": true,
+  "videoKeys": [
+    "S1",
+    "S2"
+  ]
 }

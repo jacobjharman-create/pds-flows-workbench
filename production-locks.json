@@ -69,6 +69,25 @@
         "Wealthy, organized, well put together, believable busy moms training at an Equinox-inspired Newport Beach fitness club."
       ],
       "videoRenderPlan": "video-render-plan-20260616-224431.json"
+    },
+    "currentVideoReview": {
+      "stage": "video",
+      "renderedAt": "06/17/2026 2:53 AM PDT",
+      "videoFiles": [
+        "s1-cam-a-bike-plate-creatify-lowres-20260617-0251-Ud7ZTcBygW4XN4h1dre5-video.mp4",
+        "s2-cam-b-bike-plate-creatify-lowres-20260617-0251-rNoMOTs4xRfoZuUOrXtn-video.mp4"
+      ],
+      "generationIds": {
+        "S1": "Ud7ZTcBygW4XN4h1dre5",
+        "S2": "rNoMOTs4xRfoZuUOrXtn"
+      },
+      "model": "creatify-aurora",
+      "resolution": "512x768 low-res proof",
+      "notes": [
+        "Video-only sandbox update for the fresh bike-plate Camera A/B rerun.",
+        "S1 and S2 generated from uploaded ElevenLabs content assets JQBi7nIKBxwV6DFFExLC and EPOIgug3WpDFhB9jHWn1.",
+        "Use this pass to inspect lip sync, pedaling continuity, bike geometry, and character continuity before generating S3-S8."
+      ]
     }
   }
 }

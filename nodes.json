@@ -390,23 +390,8 @@
     {
       "title": "S1 — CAM A — \"Okay, seriously...\"",
       "id": "2DYRui2go6dhHCzNE5AI",
-      "text": "S1 — CAM A — \"Okay, seriously...\"\nCreatify Aurora\n\n0:04\n\nUse locked Camera A reference exactly: Character A, brunette ponytail, dark taupe high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera A composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p",
+      "text": "S1 — CAM A — \"Okay, seriously...\"\nCreatify Aurora\n\nUse locked Camera A reference exactly: Character A, brunette ponytail, dark taupe high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera A composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p\n\nLATEST LOW-RES RERUN 06/17/2026 2:53 AM PDT\nGeneration: Ud7ZTcBygW4XN4h1dre5\nLocal file: s1-cam-a-bike-plate-creatify-lowres-20260617-0251-Ud7ZTcBygW4XN4h1dre5-video.mp4\nHash: 3c2f0f8c5367",
       "media": [
-        {
-          "tag": "VIDEO",
-          "src": "",
-          "poster": "",
-          "alt": "S1 CAM A Creatify Aurora low-res lip sync proof, locked Camera A over-the-shoulder angle.",
-          "w": 512,
-          "h": 768,
-          "local": "s1-cam-a-creatify-lipsync-proof-20260616-2352-video.mp4",
-          "downloadStatus": {
-            "ok": true,
-            "source": "elevenlabs-flow-api",
-            "generation_id": "v9uPlZYCSc2qMc5srdb4",
-            "model_id": "creatify-aurora"
-          }
-        },
         {
           "tag": "IMG",
           "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/tBVqe8cSWMZO2RmbkE18/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e9efa408c025c0da15f223306ec49dcc2f6419acda9ae631ac9266655809de3916a29c9f75ae093ed23e8d14510947b5837e0a958a1dce72d7715ccad7f91d8f08de758416184343773247c54d289a6dac72a6f9f160bbbb7b59c5398fe18f5ac199c6a7a968c8beaea12fdc740572e08c4a14de45f3aeb87db70ac4e21742bbe1dd84f312994521092512797d923db55fca287354a9bcbf2838c207528c52a87cc2802f9ad7cee0a404d0885d803018eeb97a02665635763273c2730d26cec737e94d43276b26fd053d6a462f4929bdee6a26257fd4c7a9cd6f0b7b6bdce6ebc3430cbb8555a392b4f37ae7ca075d1a62158ec14faec328aa4b72db775a617",
@@ -430,29 +415,32 @@
           "downloadStatus": {
             "ok": true
           }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/8J5hM1aDtcyi0nIE4dPD/Ud7ZTcBygW4XN4h1dre5/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260617%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260617T094830Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=138dbb87735f8c5cf3693e84c52be5f2b6213e9b9d16d3f54a2a0c4ec1e7a370ef7efcfd767dda68fc1420caf73e6518eefbbc0419d269bd80c31a913a01d9bdf6da5dfc0036285a688dbe6f09098f9d9fc057f133fcd8ab5f65804f90f7ed2b249608ef40f1eb7cf021576ed3520bd58b600ddd7b3034de82b27fc27fbb2ec06c4684883c156e5d34b2c9fc057812393ec1f1664700244b442cc900adb483ed9982ac6ed0732549cce48ab0c91c386949169b6104efd5d4175c363ba10734d4c6a508b544d82df0da5c87b926fbd1963c3564fa4b876440997936b1f67add037ec3c427c7f35ccadab7cfc694f983548cdcb50e0fec751f825db3acc96513f2",
+          "poster": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/8J5hM1aDtcyi0nIE4dPD/Ud7ZTcBygW4XN4h1dre5/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260617%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260617T094830Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8673a446c918f86002a38e970d34d135d6a49ac396f6848613b834f73c313bfaff5c8fd77248f72e01dd27ea34d7b683c24d90a5d5aae643a0232deb7b2b92e06c9d4feb96487cf56ca70d3d296c419888fe0b8fab981d08cdec35aaf535c43a65c91fa3cc34904ded093b25daa01ad6d168e912f09e7247efc780d45c69292bd8c206ac595c73d400d6ade88ada079008275b4db8a993a500c117d252129382b2e85cfcfa6cbf4dfc6caddc4d7147be5ea1dcf57b93674a4ea53e095edc0055c5eeb5bd7cc14c8ef1ff1019c24ffe6bb97d56c32741ee5b49f695b5c84c16860864a5c13568c403a0b8cc833bc78813ecf60de2d4abda884b4d070aa41e937f",
+          "alt": "S1 CAM A low-res Creatify lip sync rerun from fresh bike-plate Camera A still.",
+          "w": 512,
+          "h": 768,
+          "local": "s1-cam-a-bike-plate-creatify-lowres-20260617-0251-Ud7ZTcBygW4XN4h1dre5-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "source": "elevenlabs-flow-api",
+            "generationId": "Ud7ZTcBygW4XN4h1dre5",
+            "modelId": "creatify-aurora",
+            "createdAtUnix": 1781689362,
+            "hash": "3c2f0f8c5367",
+            "bytes": 525585
+          }
         }
       ]
     },
     {
       "title": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"",
       "id": "2qqnFaHsUM33Z5g2ByAH",
-      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nCreatify Aurora\n\n0:03\n\nUse locked Camera B reference exactly: Character B, blonde beach waves, teal-accent high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera B composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p",
+      "text": "S2 — CAM B — \"Honestly? Meal Prep Revolution.\"\nCreatify Aurora\n\nUse locked Camera B reference exactly: Character B, blonde beach waves, teal-accent high-end Alo/Vuori-style athleisure, no sunglasses, no glasses, mouth fully visible, eyes fully visible. Same recumbent bike, same seat, same locked over-the-shoulder Camera B composition. Perfect lip sync priority.\nRun\n\nCreatify Aurora\n\n480p\n\nLATEST LOW-RES RERUN 06/17/2026 2:53 AM PDT\nGeneration: rNoMOTs4xRfoZuUOrXtn\nLocal file: s2-cam-b-bike-plate-creatify-lowres-20260617-0251-rNoMOTs4xRfoZuUOrXtn-video.mp4\nHash: 70ee83c67526",
       "media": [
-        {
-          "tag": "VIDEO",
-          "src": "",
-          "poster": "",
-          "alt": "S2 CAM B Creatify Aurora low-res lip sync proof, locked Camera B over-the-shoulder angle.",
-          "w": 512,
-          "h": 768,
-          "local": "s2-cam-b-creatify-lipsync-proof-20260616-2352-video.mp4",
-          "downloadStatus": {
-            "ok": true,
-            "source": "elevenlabs-flow-api",
-            "generation_id": "F8ODBy2lys2huCmbdGo6",
-            "model_id": "creatify-aurora"
-          }
-        },
         {
           "tag": "IMG",
           "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/IwtF7oAaKwBPEATfZIJD/ckaBP2EH1nPye8otIahS/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260616%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260616T193145Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=9e2ff54e5c86b18a37a519c915aba20721f3736b683ac58bf20b779491f0b7fcd7b182220ee778a885e6cf68ea601c8deb0bafd289535ccbefb1cd6d98f8985f7c314b93d9829e38ad8166ca613e65d01b803527d2c3305d99e491022d83aa2ce41d063fd19d8786297638abbd7e5baafc345dbf9c201705f0b42e901028c3a0cab968fa9d905b3760723da71cddee1ea6fdb459900e78dbb247e7044604ed44f10800b0d832942b44971de9079f6fd4896f7200a9e187c8968e1da35f7586cc1a3d641f104bc5c83eded1b3c24a66b0a638e35d903a7a329e1697e358a777b860b12fad1d7582f6fffb8d692af1ddd62ecf0eb1e658e48eaf854f8f3ceddf4d",
@@ -475,6 +463,24 @@
           "local": "s2-cam-b-honestly-meal-prep-revolution-2-img.webp",
           "downloadStatus": {
             "ok": true
+          }
+        },
+        {
+          "tag": "VIDEO",
+          "src": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/nMbIGY3hPt5JvFNeefpE/rNoMOTs4xRfoZuUOrXtn/content.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260617%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260617T095100Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=51e08e456e37d3163d7e1cdefad41db922db07277e346a2955a1e1f2511a2a496fee6250a3ad59f850da1b38dcd624ae20d44dcd5f13795a2a198c338d8c0daeb6dcb7d209e124efdf73c972ef1edc1eb270563931460c31dfd8f7963890dc79f793f4114dfb21c72dc74882cc8896322f8b667fa356730d6f8328113599cb2a8f0697f2561e722fed382dce53b3c1ee982b4fc8928efd1f655748f65ed78221d3554350523734f2f591b19c0d14e43860a66c846f3bd9db2603082163475cd025468b5fc9527ecc4f5606ae8628e85c6ab7cf932db7353135c4421d5f5a29010a933901be05b59f487524737201f898f029fe6079a6eea2ed71346c9d252aaf",
+          "poster": "https://storage.googleapis.com/xi-backend/database/workspace/964f795dd6c049f1b9b7a173ad3d410b/content_generation/nMbIGY3hPt5JvFNeefpE/rNoMOTs4xRfoZuUOrXtn/thumbnail.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20260617%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260617T095100Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=2cbc44469b969c8e23530df8ab72bd891d39f94ad57d1629d87cdcb7d318f3861ec771a516ed1758ffc2ca91fe8dc69808be18d2160905e8669a89b00730db874b1ad200f9f18465487374f5a0e3c692bc4215ca3bf68eff3ef7c7d8ead7979586e947bde541211888939dd465fa04832a7f95451b74b30e62ac6ac555e8a074ccaedfd2ecf6e6ce6b7606c1dbc9479384c53511317d4f82ebab31d86dc79de947993363e32828ad95f5ec0b65195684c9af3d160e58763b4297d689ec2dc0317d9b4f38bbf684e6ced54a9fc0000785a020d67a4aed7ae46a71535d12c8b15a75531aca4216fdcd14c58fd6d42e0973d880780b2fb4dba9294bea0f6cff5f10",
+          "alt": "S2 CAM B low-res Creatify lip sync rerun from fresh bike-plate Camera B still.",
+          "w": 512,
+          "h": 768,
+          "local": "s2-cam-b-bike-plate-creatify-lowres-20260617-0251-rNoMOTs4xRfoZuUOrXtn-video.mp4",
+          "downloadStatus": {
+            "ok": true,
+            "source": "elevenlabs-flow-api",
+            "generationId": "rNoMOTs4xRfoZuUOrXtn",
+            "modelId": "creatify-aurora",
+            "createdAtUnix": 1781689386,
+            "hash": "70ee83c67526",
+            "bytes": 214206
           }
         }
       ]
