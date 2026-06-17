@@ -210,4 +210,7 @@ const html = `<!doctype html>
 `;
 
 fs.writeFileSync(indexPath, html);
-console.log(`Rebuilt ${indexPath} with ${available.length} video-stage clips.`);
+const renderedStage = reviewStage.onlyCurrentStage
+  ? `${reviewStage.currentStage}-only`
+  : `${reviewStage.currentStage}-first`;
+console.log(`Rebuilt ${indexPath} with ${renderedStage} review sections.`);

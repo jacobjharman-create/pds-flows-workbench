@@ -66,3 +66,14 @@ Stage-first rule:
 - If the latest update produced audio beds, include the audio section near the relevant current stage.
 - Older videos, stills, or audio can remain below as reference, but Jacob should not have to scroll past stale media to find the newest output.
 - Do not leave `review-stage.json` pointing at an older stage after producing new media.
+
+## Music Bed Rule
+
+When Jacob asks for music beds, background music, ad beds, or soundtrack options:
+
+- Start with real downloadable/referenceable music candidates from reputable libraries before generating custom music.
+- Use the best approved prior candidate as the taste anchor and compare new options against it.
+- Publish a small focused batch to the sandbox as phone-safe MP3 files, not expiring player URLs or local blobs.
+- Keep the current audio review page narrow: anchor track, new candidates, and any relevant foley reference only.
+- Cite each candidate source in `audio-beds.json` so licensing/source context stays visible.
+- Only generate custom music after the reference direction is clear enough to prompt tightly.

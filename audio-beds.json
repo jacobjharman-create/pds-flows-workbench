@@ -1,28 +1,40 @@
 {
   "beds": [
     {
-      "title": "Music Candidate 1 — Euphoric Heights",
-      "file": "music-candidate-euphoric-heights.mp3",
-      "note": "Real downloaded ElevenLabs dance track candidate. Progressive house / trance direction: fast, four-on-the-floor, piano, synth bass, uplifting, euphoric, instrumental. Strongest first listen for the Equinox-style dance bed.",
-      "source": "https://elevenlabs.io/music/dance"
-    },
-    {
-      "title": "Music Candidate 2 — Sunrise Vibe",
-      "file": "music-candidate-sunrise-vibe.mp3",
-      "note": "Real downloaded ElevenLabs dance track candidate. Dance-pop / tropical house direction: instrumental, upbeat, feel-good, rhythmic piano, four-on-the-floor. Brighter and more commercial.",
-      "source": "https://elevenlabs.io/music/dance"
-    },
-    {
-      "title": "Music Candidate 3 — Festival Euphoria",
+      "title": "Anchor Reference — Candidate 3 — Festival Euphoria",
       "file": "music-candidate-festival-euphoria.mp3",
-      "note": "Real downloaded ElevenLabs dance track candidate. Progressive house / uplifting trance direction: energetic, euphoric, melodic, driving, four-on-the-floor. Bigger festival lift.",
+      "note": "Keep this as the taste anchor from the previous batch: polished, driving, four-on-the-floor, euphoric club energy. The new options should be judged against this one.",
       "source": "https://elevenlabs.io/music/dance"
     },
     {
-      "title": "Music Candidate 4 — Corporate Groove",
-      "file": "music-candidate-corporate-groove.mp3",
-      "note": "Real downloaded ElevenLabs dance track candidate. Uplifting house / dance-pop / funky commercial direction. More brand-safe and less nightclub-heavy.",
-      "source": "https://elevenlabs.io/music/dance"
+      "title": "Latin Club Candidate 1 — Ritmo de la Noche",
+      "file": "music-candidate-ritmo-de-la-noche.mp3",
+      "note": "Real downloaded ElevenLabs Latin track candidate. More Latin nightlife movement while staying polished enough for a Newport Beach fitness-club bed.",
+      "source": "https://elevenlabs.io/music/latin"
+    },
+    {
+      "title": "Latin Club Candidate 2 — Afrobeat Celebration",
+      "file": "music-candidate-afrobeat-celebration.mp3",
+      "note": "Real downloaded ElevenLabs Latin track candidate. Latin/reggaeton-adjacent background energy with more world rhythm and less generic commercial polish.",
+      "source": "https://elevenlabs.io/music/latin"
+    },
+    {
+      "title": "Afro House Candidate 3 — Afro Soul Chant",
+      "file": "music-candidate-afro-soul-chant.mp3",
+      "note": "Real downloaded ElevenLabs house track candidate. Afro-house direction with a deeper club pulse and more cultural texture. Potentially closest to premium fitness lounge if it stays clean under dialogue.",
+      "source": "https://elevenlabs.io/music/house"
+    },
+    {
+      "title": "Fitness Club Candidate 4 — Ritmo Sintetico",
+      "file": "music-candidate-ritmo-sintetico.mp3",
+      "note": "Real downloaded ElevenLabs aerobics track candidate. More four-on-the-floor workout drive with a Latin-coded title and higher fitness energy. Check that it does not feel too class-instructor.",
+      "source": "https://elevenlabs.io/music/aerobics"
+    },
+    {
+      "title": "World Club Candidate 5 — Cyber Souk",
+      "file": "music-candidate-cyber-souk.mp3",
+      "note": "Real downloaded ElevenLabs aerobics track candidate. World/electronic club color with a compact runtime. Useful if we want a more ethnic edge without going full salsa or resort music.",
+      "source": "https://elevenlabs.io/music/aerobics"
     },
     {
       "title": "Foley Reference — Deep Magnetic Recumbent Bike Whir",
