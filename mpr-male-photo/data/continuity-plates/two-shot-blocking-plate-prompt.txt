@@ -1,0 +1,18 @@
+Create a LOW-RES DRAFT two-character blocking plate from the reference image.
+
+Preserve both character identities and outfits:
+- Character A: dark wavy hair, tan skin, lean muscular build, black sleeveless tank, black shorts, white crew socks, white trainers, thin chain
+- Character B: short curly dirty-blond hair, light skin, sturdy athletic build, loose charcoal gray T-shirt, olive shorts, black smartwatch, white crew socks, white trainers
+
+Scene:
+- both men are at the same premium dark squat rack from the source reference
+- they are between sets, loading or unloading plates
+- Character B is near the bar and looks toward Character A with stressed practical energy
+- Character A is calm and confident, responding as a friend
+- mouths should be visible, hands and plates should stay below the mouth line
+- keep the rack, barbell, J-hooks, black plates, mirror depth, and rubber flooring consistent
+- no text labels inside the image
+
+Output should be a practical shot-blocking reference, not a final ad frame. Keep it low-res and useful for future shot/reverse-shot generation.
+
+Negative: no swapped outfits, no changed faces, no new people, no direct-to-camera spokesperson pose, no bar crossing lips, no hands or plates blocking mouths, no impossible plate geometry, no changed rack style, no final polished campaign styling.

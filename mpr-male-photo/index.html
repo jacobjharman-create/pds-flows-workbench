@@ -181,6 +181,12 @@
         gap: 18px;
       }
 
+      .plate-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
       .card {
         overflow: hidden;
         border: 1px solid var(--line);
@@ -195,6 +201,26 @@
         object-fit: contain;
         background: #050505;
         border-bottom: 1px solid var(--line);
+      }
+
+      .plate {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .plate img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        display: block;
+        object-fit: contain;
+        background: #050505;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .plate.tall img {
+        aspect-ratio: 2 / 3;
       }
 
       .content {
@@ -326,6 +352,7 @@
         .topbar,
         .hero,
         .grid,
+        .plate-grid,
         .line,
         .records {
           grid-template-columns: 1fr;
@@ -368,7 +395,7 @@
         <aside class="summary" aria-label="Sandbox summary">
           <div>
             <strong>Status</strong>
-            <span>Script and storyboard ready. First generation is low-res wiring only.</span>
+            <span>Continuity plates ready. First generation remains low-res wiring only.</span>
           </div>
           <div>
             <strong>Character A voice</strong>
@@ -429,6 +456,50 @@
         </div>
         <div class="warning">
           ElevenLabs generated reference nodes and voice samples were created in the Flow session. The generated image URLs from ElevenLabs were temporary signed links and were not portable during sandbox packaging, so this live review page uses the durable local source references and links back to the Flow for the generated nodes.
+        </div>
+      </section>
+
+      <section aria-labelledby="plates-title">
+        <div class="section-head">
+          <h2 id="plates-title">Continuity Plates</h2>
+          <p class="note">Low-res draft references for identity, wardrobe, rack geometry, and shot blocking.</p>
+        </div>
+        <div class="plate-grid">
+          <article class="plate tall">
+            <img src="assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png" alt="Low-resolution continuity plate for Character A, the dark-haired fit gym friend.">
+            <div class="content">
+              <p class="eyebrow">Character A Plate</p>
+              <h3>Dark-Haired Fit Friend</h3>
+              <p class="note">Use for face, hair volume, black tank/shorts wardrobe, chain, body type, and calm confident expression.</p>
+            </div>
+          </article>
+          <article class="plate tall">
+            <img src="assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png" alt="Low-resolution continuity plate for Character B, the dirty-blond strength gym friend.">
+            <div class="content">
+              <p class="eyebrow">Character B Plate</p>
+              <h3>Dirty-Blond Strength Friend</h3>
+              <p class="note">Use for face, curly hair, gray shirt, olive shorts, smartwatch, sturdy build, and grounded stressed expression.</p>
+            </div>
+          </article>
+          <article class="plate">
+            <img src="assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png" alt="Low-resolution squat-rack world plate showing the fixed rack, barbell, plates, mirrors, and dark gym lighting.">
+            <div class="content">
+              <p class="eyebrow">Prop / World Plate</p>
+              <h3>Fixed Squat Rack</h3>
+              <p class="note">Use for rack uprights, J-hooks, safety arms, barbell, plate storage, black plates, mirrors, floor, and warm strip lighting.</p>
+            </div>
+          </article>
+          <article class="plate tall">
+            <img src="assets/continuity-plates/two-shot-blocking-plate-lowres-20260617.png" alt="Low-resolution two-shot blocking plate with both men at the squat rack loading plates.">
+            <div class="content">
+              <p class="eyebrow">Blocking Plate</p>
+              <h3>Between-Set Conversation</h3>
+              <p class="note">Use for shared standing positions, plate handling below the mouth line, and shot/reverse-shot geography.</p>
+            </div>
+          </article>
+        </div>
+        <div class="warning">
+          These are draft continuity references only. They are approved for low-res TTS/lip-sync wiring and not approved as final premium ad imagery.
         </div>
       </section>
 

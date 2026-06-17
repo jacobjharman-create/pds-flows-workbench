@@ -1,0 +1,14 @@
+Create a LOW-RES DRAFT continuity plate from the reference image for Character B only.
+
+Preserve identity from the reference: strong athletic light-skinned man, late 20s to early 30s, short curly dirty-blond hair with natural texture, light stubble, sturdy approachable build, focused grounded expression.
+
+Wardrobe lock: loose charcoal gray athletic T-shirt, olive green training shorts, black smartwatch, white crew socks, white trainers. Do not change colors or outfit.
+
+Output should be a practical production reference plate, not a final ad frame:
+- three simple views of the same man in one image: front close-up head/shoulders, 3/4 head/shoulders, and full-body standing pose
+- neutral premium dark squat-rack gym background
+- mouth visible, eyes visible, no sunglasses, no hat, no other people
+- simple even commercial lighting, natural skin texture, editorial fitness realism
+- no text labels inside the image
+
+Negative: no changed face, no changed hair color, no clean-shaven redesign, no beard, no tattoos added, no outfit change, no watch removal, no fitted tank replacing the gray shirt, no logo emphasis, no second person, no distorted hands, no direct-to-camera influencer pose, no final polished campaign styling.

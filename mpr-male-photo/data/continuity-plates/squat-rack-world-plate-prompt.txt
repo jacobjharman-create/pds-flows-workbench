@@ -1,0 +1,15 @@
+Create a LOW-RES DRAFT squat-rack world continuity plate from the reference image.
+
+Use the gym environment and rack geometry from the source as the anchor. Build a clean production reference plate for the ad's fixed location:
+- premium dark commercial gym
+- black steel squat rack with two vertical uprights, numbered holes, J-hooks, safety arms, plate storage pegs, loaded Olympic barbell, black plates
+- warm overhead strip lighting, mirrored background depth, rubber flooring
+- stable camera geography for shot/reverse-shot conversation between two men loading plates
+- leave the rack and bar area clear enough for close-up lip-sync shots
+- no people in the frame
+- no text labels inside the image
+- realistic gym proportions, no floating plates, no impossible bar geometry
+
+Output should look like a practical environment/prop reference plate, not a final ad frame. Keep it simple, low-res, and useful for matching future camera angles.
+
+Negative: no new characters, no crowds, no different gym, no bright daylight, no colorful boutique gym, no changed rack style between sides, no warped plates, no impossible barbell, no clutter blocking faces, no final polished campaign styling.

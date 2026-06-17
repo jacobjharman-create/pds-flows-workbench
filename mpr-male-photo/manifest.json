@@ -1,7 +1,7 @@
 {
   "project": "Meal Prep Revolution male photo character sandbox",
   "created": "2026-06-17",
-  "status": "script-storyboard-ready-low-res-first-pass-only",
+  "status": "continuity-plates-ready-low-res-first-pass-only",
   "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
   "liveUrl": "https://prometheusdesignstudios.com/pds-flows-workbench/mpr-male-photo/",
   "sourceOfTruth": "GitHub repo jacobjharman-create/pds-flows-workbench, folder mpr-male-photo/",
@@ -26,7 +26,15 @@
     "twoPersonReference": "assets/two-male-gym-reference.jpg",
     "flowInstruction": "data/flow-character-locks.md",
     "scriptStoryboard": "data/squat-rack-25s-script-storyboard.md",
-    "scriptStoryboardJson": "data/squat-rack-25s-script-storyboard.json"
+    "scriptStoryboardJson": "data/squat-rack-25s-script-storyboard.json",
+    "continuityStagePlan": "data/continuity-plates/continuity-stage-plan.md",
+    "flowContinuityHandoff": "data/continuity-plates/flow-continuity-plate-handoff.md"
+  },
+  "continuityPlates": {
+    "characterA": "assets/continuity-plates/character-a-continuity-plate-lowres-20260617.png",
+    "characterB": "assets/continuity-plates/character-b-continuity-plate-lowres-20260617.png",
+    "squatRackWorld": "assets/continuity-plates/squat-rack-world-plate-lowres-20260617.png",
+    "twoShotBlocking": "assets/continuity-plates/two-shot-blocking-plate-lowres-20260617.png"
   },
   "firstGenerationRules": {
     "mode": "low-resolution wiring and lip-sync proof only",
