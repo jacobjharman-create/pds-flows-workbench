@@ -1,4 +1,5 @@
 {
   "currentStage": "audio",
-  "label": "Current review stage · newest generated media"
+  "label": "Current review stage · newest generated media",
+  "onlyCurrentStage": true
 }
