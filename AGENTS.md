@@ -47,13 +47,17 @@ Required behavior:
 
 1. Rebuild the local sandbox from this source repo.
 2. Verify the generated page and assets.
-3. Sync the workbench into `/Users/CoachHarman/Documents/Codex/prometheus-design-studios-ai-studio/pds-flows-workbench/`.
+3. Copy the lean current-stage review package into the real Hostinger app route at `/Users/CoachHarman/Documents/General Computer Work/GitHub/prometheus-design-studios-ai-studio/public/pds-flows-workbench/`.
 4. Commit and push this source repo when files changed.
-5. Commit and push the `hostinger-live` sink when files changed.
-6. Verify the public page at `https://prometheusdesignstudios.com/pds-flows-workbench/?v=<live_commit>`.
-7. Confirm public MP4 files return `206 video/mp4` for phone playback.
-8. Confirm public poster/still images and audio beds return valid phone-safe responses when present.
-9. Always send Jacob the updated sandbox link after verification.
+5. Run `npm run build` in the Hostinger app repo.
+6. Commit and push the Hostinger app `main` branch so `.github/workflows/publish-hostinger-live.yml` publishes `dist/` to `hostinger-live`.
+7. Watch the GitHub Actions publish workflow until it succeeds.
+8. Verify the public page at `https://prometheusdesignstudios.com/pds-flows-workbench/?v=<live_commit>`.
+9. Confirm public MP4 files return `206 video/mp4` for phone playback.
+10. Confirm public poster/still images and audio beds return valid phone-safe responses when present.
+11. Always send Jacob the updated sandbox link after verification.
+
+Do not treat `/Users/CoachHarman/Documents/Codex/prometheus-design-studios-ai-studio/pds-flows-workbench/` as the real live publish path unless the public URL verifies. It is only a legacy mirror/local record.
 
 Default output should remain videos-only unless Jacob explicitly asks for a different review stage.
 
