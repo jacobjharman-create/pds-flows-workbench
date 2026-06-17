@@ -16,7 +16,7 @@
     },
     "currentVisualReview": {
       "stage": "photo",
-      "purpose": "Production continuity lock for fresh open-frame Camera A/B still set and progressively tighter scene crop progression for S2-S8, before continuing full ad rendering.",
+      "purpose": "Production continuity lock for fresh open-frame Camera A/B still set: S1 wide, S2-S8 tighter shots, before continuing full ad rendering.",
       "cameraFiles": [
         "camera-a-bike-plate-source-still-20260617-031702.png",
         "camera-b-bike-plate-source-still-20260617-031702.png",
@@ -40,14 +40,14 @@
         "final-character-a-dark-taupe-20260616-220447.webp",
         "final-character-b-teal-accent-20260616-220447.webp"
       ],
-      "renderedAt": "06/17/2026 4:13 AM PDT",
+      "renderedAt": "06/17/2026 5:17 AM PDT",
       "cacheRule": "Use immutable timestamped filenames for review renders. Do not point the public sandbox at overwritten stable filenames for current-stage media.",
       "absoluteContinuityLock": [
         "Only two characters exist in the whole shoot: Character A and Character B.",
         "Character A must keep the exact face, brunette ponytail, age read, body type, makeup, skin tone, and darker mocha/taupe outfit from final-character-a-dark-taupe-20260616-220447.webp.",
         "Character B must keep the exact face, blonde beach-wave hair, blue-eye read, age read, body type, makeup, skin tone, and sand/taupe outfit with muted teal accent from final-character-b-teal-accent-20260616-220447.webp.",
-        "Every Character A speaking shot must derive from camera-a-bike-plate-source-still-20260617-031702.png with only minor crop differences.",
-        "Every Character B speaking shot must derive from camera-b-bike-plate-source-still-20260617-031702.png with only minor crop differences.",
+        "Every Character A speaking shot must derive from camera-a-bike-plate-source-still-20260617-031702.png with only minor crop differences (tightened framing from S2 onward).",
+        "Every Character B speaking shot must derive from camera-b-bike-plate-source-still-20260617-031702.png with only minor crop differences (tightened framing from S2 onward).",
         "Seat and bike assignment is locked: Character A is always Character A on Bike A in the same assigned seat/side for every scene, and Character B is always Character B on Bike B in the same assigned seat/side for every scene.",
         "Bike A and Bike B are the same exact sleek 2027 premium open-cockpit recumbent bike model with identical black satin aerodynamic frame, reclined black seat/backrest, compact rider-facing touchscreen console, small stabilizing bar under or near the console only if mechanically plausible, side/base handles beside the seat, vented flywheel housing, crank/pedal placement, foot straps, rail/base construction, and mechanical proportions.",
         "The front cockpit stays open with room for natural hand movement; do not add large upright-style handlebars or a bulky handlebar tower in front of the riders.",
@@ -71,7 +71,7 @@
         "The foreground listener's face and mouth are not visible.",
         "Continuous visible pedaling by both women is required in every bike shot unless the shot explicitly shows a dismount. Natural gestures are allowed only below the face line and away from the mouth; hands must not cover lips, chin, cheeks, jawline, or face-tracking area.",
         "Repeat the same two camera angles across all dialogue scenes with only minor crop differences.",
-        "Progressive shot progression for this sequence is locked to one tighter frame set across all later scenes."
+        "Repeat the same two camera angles across all dialogue scenes with only minor crop differences. Tight framing may be applied in any dialogue scene from S2 onward."
       ],
       "requirements": [
         "No sunglasses or eyewear.",
