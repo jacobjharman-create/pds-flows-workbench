@@ -1,0 +1,27 @@
+{
+  "id": "meal-prep-revolution-photo-character-a-left-dark-haired",
+  "character_name": "Character A",
+  "display_name": "Dark-Haired Fit Gym Friend",
+  "source_reference": "source-assets/meal-prep-revolution-male-2026-06-17/character-a-left-dark-haired-reference.jpg",
+  "role": "The confident, already-in-shape friend in the ad conversation.",
+  "age_range": "mid-to-late 20s",
+  "look": "Fit athletic man with tan skin, dark wavy voluminous hair, defined jawline, clean-shaven or very light stubble, lean muscular build, broad shoulders, defined arms and legs.",
+  "skin_tone": "warm tan gym lighting",
+  "hair": "dark brown wavy hair with volume, styled upward and back",
+  "build": "lean muscular athletic build",
+  "wardrobe": "Black sleeveless athletic tank, black short training shorts, white crew socks, white trainers, thin chain necklace, minimal wrist jewelry. No logos emphasized.",
+  "personality": [
+    "confident",
+    "calm",
+    "dryly funny",
+    "disciplined",
+    "observant",
+    "approachable"
+  ],
+  "voice_direction": "Warm low-to-mid male voice, confident but not announcer-like, Southern California casual, relaxed gym-friend delivery.",
+  "performance": "Sounds like a fit friend giving practical advice, not a hard-sales fitness influencer.",
+  "facial_expression_range": "calm confidence, slight knowing smile, focused listening, relaxed amusement",
+  "brand_role": "aspirational problem-aware customer or friend who asks the setup question",
+  "continuity_lock": "Keep the same dark wavy hair volume, tan skin, clean jawline, black sleeveless tank, black shorts, white crew socks, white trainers, lean muscular build, and premium dark gym lighting across every frame.",
+  "negative_prompt": "Do not change hair color, hairstyle volume, face shape, jawline, body type, outfit color, shoes, skin tone, age range, or calm confident personality. No sunglasses, no hat, no beard, no tattoos added, no jewelry changes, no oversized clothing."
+}

@@ -1,0 +1,34 @@
+{
+  "project": "Meal Prep Revolution male photo character sandbox",
+  "created": "2026-06-17",
+  "status": "foundation-review",
+  "flowUrl": "https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D",
+  "liveUrl": "https://prometheusdesignstudios.com/pds-flows-workbench/mpr-male-photo/",
+  "sourceOfTruth": "GitHub repo jacobjharman-create/pds-flows-workbench, folder mpr-male-photo/",
+  "hostingSink": "GitHub repo jacobjharman-create/prometheus-design-studios-ai-studio, branch hostinger-live, folder pds-flows-workbench/mpr-male-photo/",
+  "characters": [
+    {
+      "id": "character-a",
+      "name": "Dark-Haired Fit Gym Friend",
+      "referenceImage": "assets/character-a-left-dark-haired-reference.jpg",
+      "voice": "Will - Relaxed Optimist",
+      "data": "data/character-a-left-dark-haired.json"
+    },
+    {
+      "id": "character-b",
+      "name": "Blond Strength Gym Friend",
+      "referenceImage": "assets/character-b-right-blond-reference.jpg",
+      "voice": "Chris - Charming, Down-to-Earth",
+      "data": "data/character-b-right-blond.json"
+    }
+  ],
+  "sourceAssets": {
+    "twoPersonReference": "assets/two-male-gym-reference.jpg",
+    "flowInstruction": "data/flow-character-locks.md"
+  },
+  "notes": [
+    "This sandbox publishes the durable local photo references, character cards, voice picks, and Flow link.",
+    "Generated ElevenLabs reference images were created in Flow but the temporary signed URLs were not portable when building the live sandbox.",
+    "Audio samples were played in the ElevenLabs Flow session; stable downloadable audio files are not included yet."
+  ]
+}

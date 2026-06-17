@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meal Prep Revolution Male Photo Sandbox</title>
+    <meta name="description" content="External review sandbox for Meal Prep Revolution male photo character references, voice picks, and continuity locks.">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d0e0f;
+        --panel: #17191b;
+        --panel-soft: #202327;
+        --text: #f3f1ec;
+        --muted: #b8b1a5;
+        --line: #34383d;
+        --accent: #d4a84f;
+        --accent-2: #78a89a;
+        --danger: #c48267;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 48px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 28px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--text);
+        white-space: nowrap;
+      }
+
+      .status::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent-2);
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+        gap: 28px;
+        align-items: end;
+        padding-bottom: 28px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 780px;
+        font-size: clamp(34px, 6vw, 74px);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .lede {
+        margin: 18px 0 0;
+        max-width: 720px;
+        color: var(--muted);
+        font-size: 18px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 22px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0 14px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--panel-soft);
+        color: var(--text);
+        font-size: 14px;
+        font-weight: 650;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #181410;
+      }
+
+      .summary {
+        display: grid;
+        gap: 10px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        font-size: 14px;
+      }
+
+      .summary div {
+        display: grid;
+        gap: 2px;
+      }
+
+      .summary strong {
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .source {
+        margin: 34px 0;
+      }
+
+      .source img {
+        width: 100%;
+        max-height: 760px;
+        object-fit: contain;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: #050505;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 42px 0 16px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 22px;
+        letter-spacing: 0;
+      }
+
+      .note {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .portrait {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        display: block;
+        object-fit: contain;
+        background: #050505;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .content {
+        padding: 18px;
+      }
+
+      .eyebrow {
+        margin: 0 0 6px;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 760;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+        letter-spacing: 0;
+      }
+
+      .voice {
+        margin: 0 0 14px;
+        color: var(--text);
+        font-weight: 680;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+      }
+
+      li + li {
+        margin-top: 7px;
+      }
+
+      .records {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .record {
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        min-width: 0;
+      }
+
+      .record strong {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      code {
+        overflow-wrap: anywhere;
+        color: var(--text);
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 13px;
+      }
+
+      .warning {
+        margin-top: 18px;
+        padding: 14px;
+        border: 1px solid color-mix(in srgb, var(--danger) 65%, var(--line));
+        border-radius: 8px;
+        background: color-mix(in srgb, var(--danger) 12%, var(--panel));
+        color: #f0c9ba;
+        font-size: 14px;
+      }
+
+      @media (max-width: 820px) {
+        .shell {
+          width: min(100% - 22px, 1180px);
+          padding-top: 20px;
+        }
+
+        .topbar,
+        .hero,
+        .grid,
+        .records {
+          grid-template-columns: 1fr;
+        }
+
+        .topbar,
+        .section-head {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .hero {
+          gap: 20px;
+        }
+
+        .lede {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <div class="topbar">
+        <div>Prometheus Design Studios / PDS Flows Workbench</div>
+        <div class="status">External review sandbox live path</div>
+      </div>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <h1 id="page-title">Meal Prep Revolution Male Photo Sandbox</h1>
+          <p class="lede">Photo-based character foundation for the male Meal Prep Revolution ad. This locks the two gym characters, voice direction, and continuity rules before scene frames are generated.</p>
+          <div class="actions">
+            <a class="button primary" href="https://elevenlabs.io/app/flows/eGW1Gh6iAgp8Nfw7VQ8D">Open ElevenLabs Flow</a>
+            <a class="button" href="manifest.json">View manifest</a>
+            <a class="button" href="data/flow-character-locks.md">Flow instruction</a>
+          </div>
+        </div>
+        <aside class="summary" aria-label="Sandbox summary">
+          <div>
+            <strong>Status</strong>
+            <span>Foundation review. Full ad frames not generated yet.</span>
+          </div>
+          <div>
+            <strong>Character A voice</strong>
+            <span>Will - Relaxed Optimist</span>
+          </div>
+          <div>
+            <strong>Character B voice</strong>
+            <span>Chris - Charming, Down-to-Earth</span>
+          </div>
+          <div>
+            <strong>Live subfolder</strong>
+            <code>/pds-flows-workbench/mpr-male-photo/</code>
+          </div>
+        </aside>
+      </section>
+
+      <section class="source" aria-labelledby="source-title">
+        <div class="section-head">
+          <h2 id="source-title">Original Reference</h2>
+          <p class="note">Uploaded two-character photo used as the identity source.</p>
+        </div>
+        <img src="assets/two-male-gym-reference.jpg" alt="Two men in a dark premium gym used as character references for the male Meal Prep Revolution ad.">
+      </section>
+
+      <section aria-labelledby="characters-title">
+        <div class="section-head">
+          <h2 id="characters-title">Character Locks</h2>
+          <p class="note">Use these as the stable references for upcoming frame updates.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <img class="portrait" src="assets/character-a-left-dark-haired-reference.jpg" alt="Character A dark-haired fit gym friend reference crop.">
+            <div class="content">
+              <p class="eyebrow">Character A</p>
+              <h3>Dark-Haired Fit Gym Friend</h3>
+              <p class="voice">Voice: Will - Relaxed Optimist</p>
+              <ul>
+                <li>Keep dark wavy volume, tan skin, defined jawline, and calm confident expression.</li>
+                <li>Wardrobe stays black sleeveless tank, black shorts, white crew socks, white trainers, thin chain.</li>
+                <li>No beard, hat, sunglasses, tattoos added, bulky redesign, or outfit color change.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="portrait" src="assets/character-b-right-blond-reference.jpg" alt="Character B blond strength gym friend reference crop.">
+            <div class="content">
+              <p class="eyebrow">Character B</p>
+              <h3>Blond Strength Gym Friend</h3>
+              <p class="voice">Voice: Chris - Charming, Down-to-Earth</p>
+              <ul>
+                <li>Keep short curly blond hair, light stubble, sturdy build, and grounded practical expression.</li>
+                <li>Wardrobe stays loose charcoal gray T-shirt, olive shorts, black smartwatch, white socks, white trainers.</li>
+                <li>No clean-shaven redesign, fitted tank replacement, beard, hat, sunglasses, tattoos added, or outfit color change.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <div class="warning">
+          ElevenLabs generated reference nodes and voice samples were created in the Flow session. The generated image URLs from ElevenLabs were temporary signed links and were not portable during sandbox packaging, so this live review page uses the durable local source references and links back to the Flow for the generated nodes.
+        </div>
+      </section>
+
+      <section aria-labelledby="record-title">
+        <div class="section-head">
+          <h2 id="record-title">Connection Record</h2>
+          <p class="note">Source and live hosting route for this review sandbox.</p>
+        </div>
+        <div class="records">
+          <div class="record">
+            <strong>Source of truth</strong>
+            <code>github.com/jacobjharman-create/pds-flows-workbench / mpr-male-photo/</code>
+          </div>
+          <div class="record">
+            <strong>Editable surface</strong>
+            <code>/Users/CoachHarman/Documents/Codex/pds-flows-workbench/mpr-male-photo/</code>
+          </div>
+          <div class="record">
+            <strong>Live destination</strong>
+            <code>https://prometheusdesignstudios.com/pds-flows-workbench/mpr-male-photo/</code>
+          </div>
+          <div class="record">
+            <strong>Hosting sink</strong>
+            <code>prometheus-design-studios-ai-studio / hostinger-live / pds-flows-workbench/mpr-male-photo/</code>
+          </div>
+          <div class="record">
+            <strong>Publish trigger</strong>
+            <code>commit source, sync folder to hostinger-live, push hosting branch</code>
+          </div>
+          <div class="record">
+            <strong>Rollback source</strong>
+            <code>previous Git commits in source and hostinger-live repos</code>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

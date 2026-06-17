@@ -1,0 +1,27 @@
+{
+  "id": "meal-prep-revolution-photo-character-b-right-blond",
+  "character_name": "Character B",
+  "display_name": "Blond Strength Gym Friend",
+  "source_reference": "source-assets/meal-prep-revolution-male-2026-06-17/character-b-right-blond-reference.jpg",
+  "role": "The practical friend who wants easier healthy meals and responds with grounded realism.",
+  "age_range": "late 20s to early 30s",
+  "look": "Strong athletic man with light skin, short curly blond hair, light stubble, sturdy approachable build, focused expression, wearing a loose gray training shirt.",
+  "skin_tone": "light skin in warm dark gym lighting",
+  "hair": "short curly blond hair with natural texture",
+  "build": "strong sturdy athletic build",
+  "wardrobe": "Loose charcoal gray athletic T-shirt, olive green training shorts, black smartwatch, white crew socks, white trainers. Keep the barbell/squat-rack gym context optional but visually consistent.",
+  "personality": [
+    "practical",
+    "grounded",
+    "slightly skeptical",
+    "warm",
+    "direct",
+    "relatable"
+  ],
+  "voice_direction": "Medium-deep male voice, relaxed and grounded, slightly textured, friendly and believable rather than polished.",
+  "performance": "Sounds like a real gym friend who wants convenience and clean food, not a spokesperson.",
+  "facial_expression_range": "focused concentration, small skeptical smile, practical curiosity, relaxed relief",
+  "brand_role": "relatable customer who needs convenience or product advocate depending on script",
+  "continuity_lock": "Keep the same short curly blond hair, light stubble, loose gray T-shirt, olive shorts, black smartwatch, white crew socks, white trainers, strong sturdy build, and premium dark gym lighting across every frame.",
+  "negative_prompt": "Do not change hair color, curly texture, stubble level, body type, outfit color, watch, shoes, skin tone, age range, or grounded practical personality. No sunglasses, no hat, no clean-shaven redesign, no beard, no tattoos added, no fitted tank replacing the gray shirt."
+}
