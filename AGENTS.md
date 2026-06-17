@@ -84,6 +84,17 @@ The whole shoot has only these two characters. Every scene must keep the same fa
 
 Allowed variation is limited to the actual conversation: lip movement, natural eye contact between the two women, gentle pedaling, subtle shoulder/body rhythm, relaxed breath shifts, tiny natural hand gestures below the face line, and tiny crop differences inside the locked Camera A and Camera B templates. Small expressive body language is allowed only when it never blocks the mouth, never crosses the face, never disrupts face tracking, and never causes lip-sync drift. Perfect lip sync is the priority over acting.
 
+## Video Model Ladder
+
+For the Meal Prep Revolution low-res video pass, use this model ladder unless Jacob overrides it:
+
+- `Veed Lipsync` at `41/s`: throwaway mouth-timing proof only.
+- `Sync Lipsync 2 Pro` at `661/s`: default low-res production pass.
+- `Creatify Aurora` at `848/s`: backup when more UGC-style expression is needed after lip sync is stable.
+- `OmniHuman 1.5` at `1,267/s`: only after continuity and lip sync are approved and body performance becomes worth the extra cost.
+
+Do not upscale or switch to a more expensive model until the 720p/lower-res pass proves mouth sync, fixed character identity, fixed outfits, fixed seat/bike assignment, and locked Camera A/B continuity.
+
 ## Music Bed Rule
 
 When Jacob asks for music beds, background music, ad beds, or soundtrack options:

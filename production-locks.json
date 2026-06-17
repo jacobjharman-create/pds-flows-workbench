@@ -1,5 +1,13 @@
 {
   "mealPrepRevolution": {
+    "selectedVideoModel": {
+      "default": "Sync Lipsync 2 Pro",
+      "rateShownInElevenLabs": "661/s",
+      "reason": "Best low-resolution production default for this pass because it is studio-grade lip sync at much lower rate than Creatify Aurora, Sync 3, Veed Fabric, HeyGen Avatar 4, and OmniHuman 1.5.",
+      "cheapProofOnly": "Veed Lipsync at 41/s is for throwaway mouth-timing proof only, not client-ready visual review.",
+      "fallbackForMoreUGCExpression": "Creatify Aurora at 848/s if Sync Lipsync 2 Pro is too stiff after the mouth sync is approved.",
+      "finalEscalation": "OmniHuman 1.5 at 1267/s only if body performance becomes more important after continuity and lip sync pass."
+    },
     "approvedMusicBed": {
       "title": "Afro House Candidate 3 — Afro Soul Chant",
       "file": "music-candidate-afro-soul-chant.mp3",
@@ -52,7 +60,8 @@
         "Both recumbent bikes must be the same premium black model with matching black upholstery and matching frame design.",
         "Each woman must stay on her own same assigned bike and seat across every scene.",
         "Wealthy, organized, well put together, believable busy moms training at an Equinox-inspired Newport Beach fitness club."
-      ]
+      ],
+      "videoRenderPlan": "video-render-plan-20260616-224431.json"
     }
   }
 }
